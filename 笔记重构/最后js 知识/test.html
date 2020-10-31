@@ -1,0 +1,1121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>System Error</title>
+    <meta name="robots" content="noindex,nofollow"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <style>
+        /* Base */
+        body {
+            color: #333;
+            font: 14px Verdana, "Helvetica Neue", helvetica, Arial, 'Microsoft YaHei', sans-serif;
+            margin: 0;
+            padding: 0 20px 20px;
+            word-break: break-word;
+        }
+
+        h1 {
+            margin: 10px 0 0;
+            font-size: 28px;
+            font-weight: 500;
+            line-height: 32px;
+        }
+
+        h2 {
+            color: #4288ce;
+            font-weight: 400;
+            padding: 6px 0;
+            margin: 6px 0 0;
+            font-size: 18px;
+            border-bottom: 1px solid #eee;
+        }
+
+        h3.subheading {
+            color: #4288ce;
+            margin: 6px 0 0;
+            font-weight: 400;
+        }
+
+        h3 {
+            margin: 12px;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        abbr {
+            cursor: help;
+            text-decoration: underline;
+            text-decoration-style: dotted;
+        }
+
+        a {
+            color: #868686;
+            cursor: pointer;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .line-error {
+            background: #f8cbcb;
+        }
+
+        .echo table {
+            width: 100%;
+        }
+
+        .echo pre {
+            padding: 16px;
+            overflow: auto;
+            font-size: 85%;
+            line-height: 1.45;
+            background-color: #f7f7f7;
+            border: 0;
+            border-radius: 3px;
+            font-family: Consolas, "Liberation Mono", Menlo, Courier, monospace;
+        }
+
+        .echo pre > pre {
+            padding: 0;
+            margin: 0;
+        }
+
+        /* Layout */
+        .col-md-3 {
+            width: 25%;
+        }
+
+        .col-md-9 {
+            width: 75%;
+        }
+
+        [class^="col-md-"] {
+            float: left;
+        }
+
+        .clearfix {
+            clear: both;
+        }
+
+        @media only screen
+        and (min-device-width: 375px)
+        and (max-device-width: 667px) {
+            .col-md-3,
+            .col-md-9 {
+                width: 100%;
+            }
+        }
+
+        /* Exception Info */
+        .exception {
+            margin-top: 20px;
+        }
+
+        .exception .message {
+            padding: 12px;
+            border: 1px solid #ddd;
+            border-bottom: 0 none;
+            line-height: 18px;
+            font-size: 16px;
+            border-top-left-radius: 4px;
+            border-top-right-radius: 4px;
+            font-family: Consolas, "Liberation Mono", Courier, Verdana, "寰蒋闆呴粦";
+        }
+
+        .exception .code {
+            float: left;
+            text-align: center;
+            color: #fff;
+            margin-right: 12px;
+            padding: 16px;
+            border-radius: 4px;
+            background: #999;
+        }
+
+        .exception .source-code {
+            padding: 6px;
+            border: 1px solid #ddd;
+
+            background: #f9f9f9;
+            overflow-x: auto;
+
+        }
+
+        .exception .source-code pre {
+            margin: 0;
+        }
+
+        .exception .source-code pre ol {
+            margin: 0;
+            color: #4288ce;
+            display: inline-block;
+            min-width: 100%;
+            box-sizing: border-box;
+            font-size: 14px;
+            font-family: "Century Gothic", Consolas, "Liberation Mono", Courier, Verdana;
+            padding-left: 56px;
+        }
+
+        .exception .source-code pre li {
+            border-left: 1px solid #ddd;
+            height: 18px;
+            line-height: 18px;
+        }
+
+        .exception .source-code pre code {
+            color: #333;
+            height: 100%;
+            display: inline-block;
+            border-left: 1px solid #fff;
+            font-size: 14px;
+            font-family: Consolas, "Liberation Mono", Courier, Verdana, "寰蒋闆呴粦";
+        }
+
+        .exception .trace {
+            padding: 6px;
+            border: 1px solid #ddd;
+            border-top: 0 none;
+            line-height: 16px;
+            font-size: 14px;
+            font-family: Consolas, "Liberation Mono", Courier, Verdana, "寰蒋闆呴粦";
+        }
+
+        .exception .trace ol {
+            margin: 12px;
+        }
+
+        .exception .trace ol li {
+            padding: 2px 4px;
+        }
+
+        .exception div:last-child {
+            border-bottom-left-radius: 4px;
+            border-bottom-right-radius: 4px;
+        }
+
+        /* Exception Variables */
+        .exception-var table {
+            width: 100%;
+            margin: 12px 0;
+            box-sizing: border-box;
+            table-layout: fixed;
+            word-wrap: break-word;
+        }
+
+        .exception-var table caption {
+            text-align: left;
+            font-size: 16px;
+            font-weight: bold;
+            padding: 6px 0;
+        }
+
+        .exception-var table caption small {
+            font-weight: 300;
+            display: inline-block;
+            margin-left: 10px;
+            color: #ccc;
+        }
+
+        .exception-var table tbody {
+            font-size: 13px;
+            font-family: Consolas, "Liberation Mono", Courier, "寰蒋闆呴粦";
+        }
+
+        .exception-var table td {
+            padding: 0 6px;
+            vertical-align: top;
+            word-break: break-all;
+        }
+
+        .exception-var table td:first-child {
+            width: 28%;
+            font-weight: bold;
+            white-space: nowrap;
+        }
+
+        .exception-var table td pre {
+            margin: 0;
+        }
+
+        /* Copyright Info */
+        .copyright {
+            margin-top: 24px;
+            padding: 12px 0;
+            border-top: 1px solid #eee;
+        }
+
+        /* SPAN elements with the classes below are added by prettyprint. */
+        pre.prettyprint .pln {
+            color: #000
+        }
+
+        /* plain text */
+        pre.prettyprint .str {
+            color: #080
+        }
+
+        /* string content */
+        pre.prettyprint .kwd {
+            color: #008
+        }
+
+        /* a keyword */
+        pre.prettyprint .com {
+            color: #800
+        }
+
+        /* a comment */
+        pre.prettyprint .typ {
+            color: #606
+        }
+
+        /* a type name */
+        pre.prettyprint .lit {
+            color: #066
+        }
+
+        /* a literal value */
+        /* punctuation, lisp open bracket, lisp close bracket */
+        pre.prettyprint .pun, pre.prettyprint .opn, pre.prettyprint .clo {
+            color: #660
+        }
+
+        pre.prettyprint .tag {
+            color: #008
+        }
+
+        /* a markup tag name */
+        pre.prettyprint .atn {
+            color: #606
+        }
+
+        /* a markup attribute name */
+        pre.prettyprint .atv {
+            color: #080
+        }
+
+        /* a markup attribute value */
+        pre.prettyprint .dec, pre.prettyprint .var {
+            color: #606
+        }
+
+        /* a declaration; a variable name */
+        pre.prettyprint .fun {
+            color: red
+        }
+
+        /* a function name */
+    </style>
+</head>
+<body>
+<div class="echo">
+</div>
+<div class="exception">
+    <div class="message">
+
+        <div class="info">
+            <div>
+                <h2>[2]&nbsp;<abbr title="think\exception\ErrorException">ErrorException</abbr> in <a class="toggle"
+                                                                                                      title="/opt/dianli/application/wxa/service/DianliService.php line 222">DianliService.php
+                    line 222</a></h2>
+            </div>
+            <div><h1>key_exists() expects parameter 2 to be array, null given</h1></div>
+        </div>
+
+    </div>
+    <div class="source-code">
+            <pre class="prettyprint lang-php"><ol start="213"><li class="line-213"><code>        $str = is_string($data) ? json_encode(json_decode($data, false)) : json_encode($data);
+</code></li><li class="line-214"><code>        $url = UrlBuilder::parse($this-&gt;dl_host)-&gt;path($url)-&gt;build();
+</code></li><li class="line-215"><code>        $response = HttpHelper::httpPost($url, json_decode($str, false), [], ['Content-Type' =&gt; 'application/json']);
+</code></li><li class="line-216"><code>        $r = json_decode($response, true);
+</code></li><li class="line-217"><code>        return $r;
+</code></li><li class="line-218"><code>    }
+</code></li><li class="line-219"><code>
+</code></li><li class="line-220"><code>    private static function issuccess($res): bool
+</code></li><li class="line-221"><code>    {
+</code></li><li class="line-222"><code>        if (key_exists(&quot;errorCode&quot;, $res) &amp;&amp; $res[&quot;errorCode&quot;] == 200) {
+</code></li><li class="line-223"><code>            if (key_exists(&quot;success&quot;, $res) &amp;&amp; $res[&quot;success&quot;] == true) {
+</code></li><li class="line-224"><code>                return true;
+</code></li><li class="line-225"><code>            }
+</code></li><li class="line-226"><code>        }
+</code></li><li class="line-227"><code>        return false;
+</code></li><li class="line-228"><code>    }
+</code></li><li class="line-229"><code>
+</code></li><li class="line-230"><code>    private static function getDataArray($res, $type)
+</code></li><li class="line-231"><code>    {
+</code></li></ol></pre>
+    </div>
+    <div class="trace">
+        <h2>Call Stack</h2>
+        <ol>
+            <li>in <a class="toggle" title="/opt/dianli/application/wxa/service/DianliService.php line 222">DianliService.php
+                line 222</a></li>
+            <li>
+                at <abbr title="think\Error">Error</abbr>::appError(2, '<a class="toggle"
+                                                                           title="key_exists() expects parameter 2 to be array, null given">key_exists()
+                expects...</a>', '<a class="toggle" title="/opt/dianli/application/wxa/service/DianliService.php">/opt/dianli/applicat...</a>',
+                222, ['res' => <em>null</em>])
+            </li>
+            <li>
+                at key_exists('errorCode', <em>null</em>) in <a class="toggle"
+                                                                title="/opt/dianli/application/wxa/service/DianliService.php line 222">DianliService.php
+                line 222</a></li>
+            <li>
+                at <abbr title="app\wxa\service\DianliService">DianliService</abbr>::issuccess(<em>null</em>) in <a
+                    class="toggle" title="/opt/dianli/application/wxa/service/DianliService.php line 99">DianliService.php
+                line 99</a></li>
+            <li>
+                at <abbr title="app\wxa\service\DianliService">DianliService</abbr>->order(9, ['uID' => 2, 'token' =>
+                'ba1595106e9b8705', 'giftsId' => '9020000007', ...])
+            </li>
+            <li>
+                at call_user_func_array([<em>object</em>(<abbr
+                    title="app\wxa\service\DianliService">DianliService</abbr>), 'order'], [9, ['uID' => 2, 'token' =>
+                'ba1595106e9b8705', 'giftsId' => '9020000007', ...]]) in <a class="toggle"
+                                                                            title="/opt/dianli/application/wxa/service/Services.php line 175">Services.php
+                line 175</a></li>
+            <li>
+                at <abbr title="app\wxa\service\Services">Services</abbr>->app\wxa\service\{closure}([9, ['uID' => 2,
+                'token' => 'ba1595106e9b8705', 'giftsId' => '9020000007', ...]]) in <a class="toggle"
+                                                                                       title="/opt/dianli/application/wxa/service/Services.php line 139">Services.php
+                line 139</a></li>
+            <li>
+                at <abbr title="app\wxa\service\Services">Services</abbr>->__call('order', [9, ['uID' => 2, 'token' =>
+                'ba1595106e9b8705', 'giftsId' => '9020000007', ...]]) in <a class="toggle"
+                                                                            title="/opt/dianli/application/wxa/controller/Dianli.php line 70">Dianli.php
+                line 70</a></li>
+            <li>
+                at <abbr title="app\wxa\controller\Dianli">Dianli</abbr>->order()
+            </li>
+            <li>
+                at <abbr title="ReflectionMethod">ReflectionMethod</abbr>->invokeArgs(<em>object</em>(<abbr
+                    title="app\wxa\controller\Dianli">Dianli</abbr>), []) in <a class="toggle"
+                                                                                title="/opt/dianli/thinkphp/library/think/App.php line 343">App.php
+                line 343</a></li>
+            <li>
+                at <abbr title="think\App">App</abbr>::invokeMethod([<em>object</em>(<abbr
+                    title="app\wxa\controller\Dianli">Dianli</abbr>), 'order'], []) in <a class="toggle"
+                                                                                          title="/opt/dianli/thinkphp/library/think/App.php line 602">App.php
+                line 602</a></li>
+            <li>
+                at <abbr title="think\App">App</abbr>::module(['wxa', 'dianli', 'order'], ['app_host' => '', 'app_debug'
+                => <em>true</em>, 'app_trace' => <em>false</em>, ...], <em>false</em>) in <a class="toggle"
+                                                                                             title="/opt/dianli/thinkphp/library/think/App.php line 456">App.php
+                line 456</a></li>
+            <li>
+                at <abbr title="think\App">App</abbr>::exec(['type' => 'module', 'module' => ['wxa', 'dianli', 'order'],
+                'convert' => <em>false</em>], ['app_host' => '', 'app_debug' => <em>true</em>, 'app_trace' =>
+                <em>false</em>, ...]) in <a class="toggle" title="/opt/dianli/thinkphp/library/think/App.php line 139">App.php
+                line 139</a></li>
+            <li>
+                at <abbr title="think\App">App</abbr>::run() in <a class="toggle"
+                                                                   title="/opt/dianli/thinkphp/start.php line 19">start.php
+                line 19</a></li>
+            <li>
+                at require('<a class="toggle" title="/opt/dianli/thinkphp/start.php">/opt/dianli/thinkphp...</a>') in <a
+                    class="toggle" title="/opt/dianli/public/index.php line 17">index.php line 17</a></li>
+        </ol>
+    </div>
+</div>
+
+
+<div class="exception-var">
+    <h2>Environment Variables</h2>
+    <div>
+        <h3 class="subheading">GET Data</h3>
+        <div>
+            <div class="clearfix">
+                <div class="col-md-3"><strong>access_token</strong></div>
+                <div class="col-md-9">
+                    <small>
+                        5c1bf7e4054f0fc7a79af29de649abb2
+                    </small>
+                </div>
+            </div>
+            <div class="clearfix">
+                <div class="col-md-3"><strong>form_id</strong></div>
+                <div class="col-md-9">
+                    <small>
+                        the formId is no longer available in develop or trial version of this mini program
+                    </small>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="clearfix">
+            <div class="col-md-3"><strong>POST Data</strong></div>
+            <div class="col-md-9">
+                <small>empty</small>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="clearfix">
+            <div class="col-md-3"><strong>Files</strong></div>
+            <div class="col-md-9">
+                <small>empty</small>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="clearfix">
+            <div class="col-md-3"><strong>Cookies</strong></div>
+            <div class="col-md-9">
+                <small>empty</small>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="clearfix">
+            <div class="col-md-3"><strong>Session</strong></div>
+            <div class="col-md-9">
+                <small>empty</small>
+            </div>
+        </div>
+    </div>
+    <div>
+        <h3 class="subheading">Server/Request Data</h3>
+        <div>
+            <div class="clearfix">
+                <div class="col-md-3"><strong>REDIRECT_STATUS</strong></div>
+                <div class="col-md-9">
+                    <small>
+                        200
+                    </small>
+                </div>
+            </div>
+            <div class="clearfix">
+                <div class="col-md-3"><strong>HTTP_HOST</strong></div>
+                <div class="col-md-9">
+                    <small>
+                        php:81
+                    </small>
+                </div>
+            </div>
+            <div class="clearfix">
+                <div class="col-md-3"><strong>HTTP_CONNECTION</strong></div>
+                <div class="col-md-9">
+                    <small>
+                        close
+                    </small>
+                </div>
+            </div>
+            <div class="clearfix">
+                <div class="col-md-3"><strong>CONTENT_LENGTH</strong></div>
+                <div class="col-md-9">
+                    <small>
+                        262
+                    </small>
+                </div>
+            </div>
+            <div class="clearfix">
+                <div class="col-md-3"><strong>HTTP_X_PAGE</strong></div>
+                <div class="col-md-9">
+                    <small>
+                        pages/about/exchange/order/order?pid=4460&amp;gid=9020000007
+                    </small>
+                </div>
+            </div>
+            <div class="clearfix">
+                <div class="col-md-3"><strong>HTTP_X_REFERRER</strong></div>
+                <div class="col-md-9">
+                    <small>
+                        pages/about/exchange/details/details
+                    </small>
+                </div>
+            </div>
+            <div class="clearfix">
+                <div class="col-md-3"><strong>CONTENT_TYPE</strong></div>
+                <div class="col-md-9">
+                    <small>
+                        application/json
+                    </small>
+                </div>
+            </div>
+            <div class="clearfix">
+                <div class="col-md-3"><strong>HTTP_ACCEPT</strong></div>
+                <div class="col-md-9">
+                    <small>
+                        application/json
+                    </small>
+                </div>
+            </div>
+            <div class="clearfix">
+                <div class="col-md-3"><strong>HTTP_ACCEPT_ENCODING</strong></div>
+                <div class="col-md-9">
+                    <small>
+                        gzip,compress,br,deflate
+                    </small>
+                </div>
+            </div>
+            <div class="clearfix">
+                <div class="col-md-3"><strong>HTTP_USER_AGENT</strong></div>
+                <div class="col-md-9">
+                    <small>
+                        Mozilla/5.0 (iPhone; CPU iPhone OS 13_5_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like
+                        Gecko) Mobile/15E148 MicroMessenger/7.0.13(0x17000d29) NetType/WIFI Language/zh_CN
+                    </small>
+                </div>
+            </div>
+            <div class="clearfix">
+                <div class="col-md-3"><strong>HTTP_REFERER</strong></div>
+                <div class="col-md-9">
+                    <small>
+                        https://servicewechat.com/wx4175126b5f2a68dc/0/page-frame.html
+                    </small>
+                </div>
+            </div>
+            <div class="clearfix">
+                <div class="col-md-3"><strong>HTTP_X_FORWARDED_FOR</strong></div>
+                <div class="col-md-9">
+                    <small>
+                        223.167.225.7
+                    </small>
+                </div>
+            </div>
+            <div class="clearfix">
+                <div class="col-md-3"><strong>HTTP_X_FORWARDED_HOST</strong></div>
+                <div class="col-md-9">
+                    <small>
+                        cs.dianlinet.cn
+                    </small>
+                </div>
+            </div>
+            <div class="clearfix">
+                <div class="col-md-3"><strong>HTTP_X_FORWARDED_SERVER</strong></div>
+                <div class="col-md-9">
+                    <small>
+                        cs.dianlinet.cn
+                    </small>
+                </div>
+            </div>
+            <div class="clearfix">
+                <div class="col-md-3"><strong>PATH</strong></div>
+                <div class="col-md-9">
+                    <small>
+                        /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+                    </small>
+                </div>
+            </div>
+            <div class="clearfix">
+                <div class="col-md-3"><strong>SERVER_SIGNATURE</strong></div>
+                <div class="col-md-9">
+                    <small>
+                        &lt;address&gt;Apache/2.4.29 (Ubuntu) Server at php Port 81&lt;/address&gt;
+                    </small>
+                </div>
+            </div>
+            <div class="clearfix">
+                <div class="col-md-3"><strong>SERVER_SOFTWARE</strong></div>
+                <div class="col-md-9">
+                    <small>
+                        Apache/2.4.29 (Ubuntu)
+                    </small>
+                </div>
+            </div>
+            <div class="clearfix">
+                <div class="col-md-3"><strong>SERVER_NAME</strong></div>
+                <div class="col-md-9">
+                    <small>
+                        php
+                    </small>
+                </div>
+            </div>
+            <div class="clearfix">
+                <div class="col-md-3"><strong>SERVER_ADDR</strong></div>
+                <div class="col-md-9">
+                    <small>
+                        172.18.0.4
+                    </small>
+                </div>
+            </div>
+            <div class="clearfix">
+                <div class="col-md-3"><strong>SERVER_PORT</strong></div>
+                <div class="col-md-9">
+                    <small>
+                        81
+                    </small>
+                </div>
+            </div>
+            <div class="clearfix">
+                <div class="col-md-3"><strong>REMOTE_ADDR</strong></div>
+                <div class="col-md-9">
+                    <small>
+                        172.18.0.7
+                    </small>
+                </div>
+            </div>
+            <div class="clearfix">
+                <div class="col-md-3"><strong>DOCUMENT_ROOT</strong></div>
+                <div class="col-md-9">
+                    <small>
+                        /opt/dianli/public
+                    </small>
+                </div>
+            </div>
+            <div class="clearfix">
+                <div class="col-md-3"><strong>REQUEST_SCHEME</strong></div>
+                <div class="col-md-9">
+                    <small>
+                        http
+                    </small>
+                </div>
+            </div>
+            <div class="clearfix">
+                <div class="col-md-3"><strong>CONTEXT_PREFIX</strong></div>
+                <div class="col-md-9">
+                    <small>
+                    </small>
+                </div>
+            </div>
+            <div class="clearfix">
+                <div class="col-md-3"><strong>CONTEXT_DOCUMENT_ROOT</strong></div>
+                <div class="col-md-9">
+                    <small>
+                        /opt/dianli/public
+                    </small>
+                </div>
+            </div>
+            <div class="clearfix">
+                <div class="col-md-3"><strong>SERVER_ADMIN</strong></div>
+                <div class="col-md-9">
+                    <small>
+                        [no address given]
+                    </small>
+                </div>
+            </div>
+            <div class="clearfix">
+                <div class="col-md-3"><strong>SCRIPT_FILENAME</strong></div>
+                <div class="col-md-9">
+                    <small>
+                        /opt/dianli/public/index.php
+                    </small>
+                </div>
+            </div>
+            <div class="clearfix">
+                <div class="col-md-3"><strong>REMOTE_PORT</strong></div>
+                <div class="col-md-9">
+                    <small>
+                        39576
+                    </small>
+                </div>
+            </div>
+            <div class="clearfix">
+                <div class="col-md-3"><strong>REDIRECT_URL</strong></div>
+                <div class="col-md-9">
+                    <small>
+                        /wxa/dl/order
+                    </small>
+                </div>
+            </div>
+            <div class="clearfix">
+                <div class="col-md-3"><strong>REDIRECT_QUERY_STRING</strong></div>
+                <div class="col-md-9">
+                    <small>
+                        access_token=5c1bf7e4054f0fc7a79af29de649abb2&amp;form_id=the%20formId%20is%20no%20longer%20available%20in%20develop%20or%20trial%20version%20of%20this%20mini%20program
+                    </small>
+                </div>
+            </div>
+            <div class="clearfix">
+                <div class="col-md-3"><strong>GATEWAY_INTERFACE</strong></div>
+                <div class="col-md-9">
+                    <small>
+                        CGI/1.1
+                    </small>
+                </div>
+            </div>
+            <div class="clearfix">
+                <div class="col-md-3"><strong>SERVER_PROTOCOL</strong></div>
+                <div class="col-md-9">
+                    <small>
+                        HTTP/1.0
+                    </small>
+                </div>
+            </div>
+            <div class="clearfix">
+                <div class="col-md-3"><strong>REQUEST_METHOD</strong></div>
+                <div class="col-md-9">
+                    <small>
+                        POST
+                    </small>
+                </div>
+            </div>
+            <div class="clearfix">
+                <div class="col-md-3"><strong>QUERY_STRING</strong></div>
+                <div class="col-md-9">
+                    <small>
+                        access_token=5c1bf7e4054f0fc7a79af29de649abb2&amp;form_id=the%20formId%20is%20no%20longer%20available%20in%20develop%20or%20trial%20version%20of%20this%20mini%20program
+                    </small>
+                </div>
+            </div>
+            <div class="clearfix">
+                <div class="col-md-3"><strong>REQUEST_URI</strong></div>
+                <div class="col-md-9">
+                    <small>
+                        /wxa/dl/order?access_token=5c1bf7e4054f0fc7a79af29de649abb2&amp;form_id=the%20formId%20is%20no%20longer%20available%20in%20develop%20or%20trial%20version%20of%20this%20mini%20program
+                    </small>
+                </div>
+            </div>
+            <div class="clearfix">
+                <div class="col-md-3"><strong>SCRIPT_NAME</strong></div>
+                <div class="col-md-9">
+                    <small>
+                        /index.php
+                    </small>
+                </div>
+            </div>
+            <div class="clearfix">
+                <div class="col-md-3"><strong>PATH_INFO</strong></div>
+                <div class="col-md-9">
+                    <small>
+                        /wxa/dl/order
+                    </small>
+                </div>
+            </div>
+            <div class="clearfix">
+                <div class="col-md-3"><strong>PATH_TRANSLATED</strong></div>
+                <div class="col-md-9">
+                    <small>
+                        redirect:/index.php/wxa/dl/order/dl/order
+                    </small>
+                </div>
+            </div>
+            <div class="clearfix">
+                <div class="col-md-3"><strong>PHP_SELF</strong></div>
+                <div class="col-md-9">
+                    <small>
+                        /index.php/wxa/dl/order
+                    </small>
+                </div>
+            </div>
+            <div class="clearfix">
+                <div class="col-md-3"><strong>REQUEST_TIME_FLOAT</strong></div>
+                <div class="col-md-9">
+                    <small>
+                        1593523051.728
+                    </small>
+                </div>
+            </div>
+            <div class="clearfix">
+                <div class="col-md-3"><strong>REQUEST_TIME</strong></div>
+                <div class="col-md-9">
+                    <small>
+                        1593523051
+                    </small>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div>
+        <div class="clearfix">
+            <div class="col-md-3"><strong>Environment Variables</strong></div>
+            <div class="col-md-9">
+                <small>empty</small>
+            </div>
+        </div>
+    </div>
+    <div>
+        <h3 class="subheading">ThinkPHP Constants</h3>
+        <div>
+            <div class="clearfix">
+                <div class="col-md-3"><strong>APP_PATH</strong></div>
+                <div class="col-md-9">
+                    <small>
+                        /opt/dianli/public/../application/
+                    </small>
+                </div>
+            </div>
+            <div class="clearfix">
+                <div class="col-md-3"><strong>THINK_VERSION</strong></div>
+                <div class="col-md-9">
+                    <small>
+                        5.0.16
+                    </small>
+                </div>
+            </div>
+            <div class="clearfix">
+                <div class="col-md-3"><strong>THINK_START_TIME</strong></div>
+                <div class="col-md-9">
+                    <small>
+                        1593523051.7286
+                    </small>
+                </div>
+            </div>
+            <div class="clearfix">
+                <div class="col-md-3"><strong>THINK_START_MEM</strong></div>
+                <div class="col-md-9">
+                    <small>
+                        402000
+                    </small>
+                </div>
+            </div>
+            <div class="clearfix">
+                <div class="col-md-3"><strong>EXT</strong></div>
+                <div class="col-md-9">
+                    <small>
+                        .php
+                    </small>
+                </div>
+            </div>
+            <div class="clearfix">
+                <div class="col-md-3"><strong>DS</strong></div>
+                <div class="col-md-9">
+                    <small>
+                        /
+                    </small>
+                </div>
+            </div>
+            <div class="clearfix">
+                <div class="col-md-3"><strong>THINK_PATH</strong></div>
+                <div class="col-md-9">
+                    <small>
+                        /opt/dianli/thinkphp/
+                    </small>
+                </div>
+            </div>
+            <div class="clearfix">
+                <div class="col-md-3"><strong>LIB_PATH</strong></div>
+                <div class="col-md-9">
+                    <small>
+                        /opt/dianli/thinkphp/library/
+                    </small>
+                </div>
+            </div>
+            <div class="clearfix">
+                <div class="col-md-3"><strong>CORE_PATH</strong></div>
+                <div class="col-md-9">
+                    <small>
+                        /opt/dianli/thinkphp/library/think/
+                    </small>
+                </div>
+            </div>
+            <div class="clearfix">
+                <div class="col-md-3"><strong>TRAIT_PATH</strong></div>
+                <div class="col-md-9">
+                    <small>
+                        /opt/dianli/thinkphp/library/traits/
+                    </small>
+                </div>
+            </div>
+            <div class="clearfix">
+                <div class="col-md-3"><strong>ROOT_PATH</strong></div>
+                <div class="col-md-9">
+                    <small>
+                        /opt/dianli/
+                    </small>
+                </div>
+            </div>
+            <div class="clearfix">
+                <div class="col-md-3"><strong>EXTEND_PATH</strong></div>
+                <div class="col-md-9">
+                    <small>
+                        /opt/dianli/extend/
+                    </small>
+                </div>
+            </div>
+            <div class="clearfix">
+                <div class="col-md-3"><strong>VENDOR_PATH</strong></div>
+                <div class="col-md-9">
+                    <small>
+                        /opt/dianli/vendor/
+                    </small>
+                </div>
+            </div>
+            <div class="clearfix">
+                <div class="col-md-3"><strong>RUNTIME_PATH</strong></div>
+                <div class="col-md-9">
+                    <small>
+                        /opt/dianli/runtime/
+                    </small>
+                </div>
+            </div>
+            <div class="clearfix">
+                <div class="col-md-3"><strong>LOG_PATH</strong></div>
+                <div class="col-md-9">
+                    <small>
+                        /opt/dianli/runtime/log/
+                    </small>
+                </div>
+            </div>
+            <div class="clearfix">
+                <div class="col-md-3"><strong>CACHE_PATH</strong></div>
+                <div class="col-md-9">
+                    <small>
+                        /opt/dianli/runtime/cache/
+                    </small>
+                </div>
+            </div>
+            <div class="clearfix">
+                <div class="col-md-3"><strong>TEMP_PATH</strong></div>
+                <div class="col-md-9">
+                    <small>
+                        /opt/dianli/runtime/temp/
+                    </small>
+                </div>
+            </div>
+            <div class="clearfix">
+                <div class="col-md-3"><strong>CONF_PATH</strong></div>
+                <div class="col-md-9">
+                    <small>
+                        /opt/dianli/public/../application/
+                    </small>
+                </div>
+            </div>
+            <div class="clearfix">
+                <div class="col-md-3"><strong>CONF_EXT</strong></div>
+                <div class="col-md-9">
+                    <small>
+                        .php
+                    </small>
+                </div>
+            </div>
+            <div class="clearfix">
+                <div class="col-md-3"><strong>ENV_PREFIX</strong></div>
+                <div class="col-md-9">
+                    <small>
+                        PHP_
+                    </small>
+                </div>
+            </div>
+            <div class="clearfix">
+                <div class="col-md-3"><strong>IS_CLI</strong></div>
+                <div class="col-md-9">
+                    <small>
+                        false
+                    </small>
+                </div>
+            </div>
+            <div class="clearfix">
+                <div class="col-md-3"><strong>IS_WIN</strong></div>
+                <div class="col-md-9">
+                    <small>
+                        false
+                    </small>
+                </div>
+            </div>
+            <div class="clearfix">
+                <div class="col-md-3"><strong>OpenApi\UNDEFINED</strong></div>
+                <div class="col-md-9">
+                    <small>
+                        @OA\UNDEFINED馃檲
+                    </small>
+                </div>
+            </div>
+            <div class="clearfix">
+                <div class="col-md-3"><strong>OpenApi\Annotations\UNDEFINED</strong></div>
+                <div class="col-md-9">
+                    <small>
+                        @OA\UNDEFINED馃檲
+                    </small>
+                </div>
+            </div>
+            <div class="clearfix">
+                <div class="col-md-3"><strong>OpenApi\Processors\UNDEFINED</strong></div>
+                <div class="col-md-9">
+                    <small>
+                        @OA\UNDEFINED馃檲
+                    </small>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="copyright">
+    <a title="瀹樻柟缃戠珯" href="http://www.thinkphp.cn">ThinkPHP</a>
+    <span>V5.0.16</span>
+    <span>{ 鍗佸勾纾ㄤ竴鍓�-涓篈PI寮€鍙戣璁＄殑楂樻€ц兘妗嗘灦 }</span>
+</div>
+<script>
+    var LINE = 222;
+
+    function $(selector, node) {
+        var elements;
+
+        node = node || document;
+        if (document.querySelectorAll) {
+            elements = node.querySelectorAll(selector);
+        } else {
+            switch (selector.substr(0, 1)) {
+                case '#':
+                    elements = [node.getElementById(selector.substr(1))];
+                    break;
+                case '.':
+                    if (document.getElementsByClassName) {
+                        elements = node.getElementsByClassName(selector.substr(1));
+                    } else {
+                        elements = get_elements_by_class(selector.substr(1), node);
+                    }
+                    break;
+                default:
+                    elements = node.getElementsByTagName();
+            }
+        }
+        return elements;
+
+        function get_elements_by_class(search_class, node, tag) {
+            var elements = [], eles,
+                pattern = new RegExp('(^|\\s)' + search_class + '(\\s|$)');
+
+            node = node || document;
+            tag = tag || '*';
+
+            eles = node.getElementsByTagName(tag);
+            for (var i = 0; i < eles.length; i++) {
+                if (pattern.test(eles[i].className)) {
+                    elements.push(eles[i])
+                }
+            }
+
+            return elements;
+        }
+    }
+
+    $.getScript = function (src, func) {
+        var script = document.createElement('script');
+
+        script.async = 'async';
+        script.src = src;
+        script.onload = func || function () {
+        };
+
+        $('head')[0].appendChild(script);
+    }
+
+    ;(function () {
+        var files = $('.toggle');
+        var ol = $('ol', $('.prettyprint')[0]);
+        var li = $('li', ol[0]);
+
+        // 鐭矾寰勫拰闀胯矾寰勫彉鎹�
+        for (var i = 0; i < files.length; i++) {
+            files[i].ondblclick = function () {
+                var title = this.title;
+
+                this.title = this.innerHTML;
+                this.innerHTML = title;
+            }
+        }
+
+        // 璁剧疆鍑洪敊琛�
+        var err_line = $('.line-' + LINE, ol[0])[0];
+        err_line.className = err_line.className + ' line-error';
+
+        $.getScript('//cdn.bootcss.com/prettify/r298/prettify.min.js', function () {
+            prettyPrint();
+
+            // 瑙ｅ喅Firefox娴忚鍣ㄤ竴涓緢璇″紓鐨勯棶棰�
+            // 褰撲唬鐮侀珮浜悗锛宱l鐨勮鍙疯帿鍚嶅叾濡欑殑閿欎綅
+            // 浣嗘槸鍙鍒锋柊li閲岄潰鐨刪tml閲嶆柊娓叉煋灏辨病鏈夐棶棰樹簡
+            if (window.navigator.userAgent.indexOf('Firefox') >= 0) {
+                ol[0].innerHTML = ol[0].innerHTML;
+            }
+        });
+
+    })();
+</script>
+</body>
+</html>

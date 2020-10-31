@@ -1,0 +1,3 @@
+运行指令，  进入到 es6 文件夹下面
+
+执行： babel src --out-dir dist
