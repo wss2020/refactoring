@@ -1,8 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0e110b11-4635-405a-8d50-bf66468894af" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记重构/计划本" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1jd4ThGIkFi3zFURHeeGb2yMcal" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0e110b11-4635-405a-8d50-bf66468894af" name="Default Changelist" comment="" />
+      <created>1604120645707</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604120645707</updated>
+      <workItem from="1604120647371" duration="392000" />
+    </task>
+    <task id="LOCAL-00001" summary="重构">
+      <created>1604120797886</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1604120797886</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="重构" />
+    <option name="LAST_COMMIT_MESSAGE" value="重构" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="212" y="23" key="CommitChangelistDialog2" timestamp="1604120792669">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="212" y="23" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1604120792669" />
+    <state x="220" y="127" key="Vcs.Push.Dialog.v2" timestamp="1604120939841">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="220" y="127" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1604120939841" />
+    <state x="448" y="140" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1604120688983">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="448" y="140" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.23.1440.877@0.23.1440.877" timestamp="1604120688983" />
   </component>
 </project>
