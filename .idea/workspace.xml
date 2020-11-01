@@ -2,13 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e110b11-4635-405a-8d50-bf66468894af" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/笔记重构/第7章 封装/7.6 内联类（Inline Class）/简介.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/笔记重构/第7章 封装/7.6 内联类（Inline Class）/范例/1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/笔记重构/第7章 封装/7.6 内联类（Inline Class）/范例/2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/笔记重构/第7章 封装/7.6 内联类（Inline Class）/范例/3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/笔记重构/第7章 封装/7.6 内联类（Inline Class）/范例/4.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/笔记重构/计划本" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -21,11 +32,18 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/笔记重构/第7章 封装/7.6 内联类（Inline Class）/范例" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="Errors" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/笔记重构/第7章 封装/7.6 内联类（Inline Class）/范例" />
+      <recent name="$PROJECT_DIR$/笔记重构/第7章 封装/7.6 内联类（Inline Class）" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -36,6 +54,8 @@
       <option name="presentableId" value="Default" />
       <updated>1604120645707</updated>
       <workItem from="1604120647371" duration="392000" />
+      <workItem from="1604200282522" duration="68000" />
+      <workItem from="1604240642091" duration="2026000" />
     </task>
     <task id="LOCAL-00001" summary="重构">
       <created>1604120797886</created>
@@ -44,7 +64,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604120797886</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="重构">
+      <created>1604200302351</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1604200302351</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -55,14 +82,15 @@
     <option name="LAST_COMMIT_MESSAGE" value="重构" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="212" y="23" key="CommitChangelistDialog2" timestamp="1604120792669">
+    <state x="212" y="23" key="CommitChangelistDialog2" timestamp="1604200302036">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="212" y="23" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1604120792669" />
-    <state x="220" y="127" key="Vcs.Push.Dialog.v2" timestamp="1604120939841">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="212" y="23" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1604200302036" />
+    <state x="220" y="147" key="Vcs.Push.Dialog.v2" timestamp="1604200305147">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="220" y="127" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1604120939841" />
+    <state x="220" y="147" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1604200305147" />
     <state x="448" y="140" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1604120688983">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
