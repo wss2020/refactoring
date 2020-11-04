@@ -10,3 +10,5 @@ if (!isWithinRange)
     alerts.push("room temperature went outside range");
 
 
+
+// 然后把输入参数也提炼出来。调用方...
