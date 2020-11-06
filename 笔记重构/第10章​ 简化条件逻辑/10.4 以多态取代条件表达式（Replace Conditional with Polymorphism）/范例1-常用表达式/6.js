@@ -1,43 +1,15 @@
-
-// 原码
+/**
+    airSpeedVelocity也如法炮制。完成以后，
+ 代码大致如下（我还对顶层的airSpeedVelocity和plumage函数做了内联处理）：
+ */
 function plumages(birds) {
-    return new Map(birds.map(b => [b.name, plumage(b)]));
-}
-function speeds(birds) {
-    return new Map(birds.map(b => [b.name, airSpeedVelocity(b)]));
-}
-function plumage(bird) {
-    switch (bird.type) {
-        case 'EuropeanSwallow':
-            return "average";
-        case 'AfricanSwallow':
-            return (bird.numberOfCoconuts > 2) ? "tired" : "average";
-        case 'NorwegianBlueParrot':
-            return (bird.voltage > 100) ? "scorched" : "beautiful";
-        default:
-            return "unknown";
-    }
-}
-function airSpeedVelocity(bird) {
-    switch (bird.type) {
-        case 'EuropeanSwallow':
-            return 35;
-        case 'AfricanSwallow':
-            return 40 - 2 * bird.numberOfCoconuts;
-        case 'NorwegianBlueParrot':
-            return (bird.isNailed) ? 0 : 10 + bird.voltage / 10;
-        default:
-            return null;
-    }
+    return new Map(
+        birds.map(b => createBird(b)).map(bird => [bird.name, bird.plumage])
+    );
 }
 
-
-//重构后
-function plumages(birds) {
-    return new Map(  birds.map(b => createBird(b)).map(bird => [bird.name, bird.plumage])   );
-}
 function speeds(birds) {
-    return new Map(  birds.map(b => createBird(b)).map(bird => [bird.name, bird.airSpeedVelocity])  );
+    return new Map(birds.map(b => createBird(b)).map(bird => [bird.name, bird.airSpeedVelocity]));
 }
 
 function createBird(bird) {
@@ -46,7 +18,7 @@ function createBird(bird) {
             return new EuropeanSwallow(bird);
         case 'AfricanSwallow':
             return new AfricanSwallow(bird);
-        case 'NorweigianBlueParrot':
+        case 'NorwegianBlueParrot':
             return new NorwegianBlueParrot(bird);
         default:
             return new Bird(bird);
@@ -99,6 +71,9 @@ class NorwegianBlueParrot extends Bird {
 
 
 
+
+
+
 let databirds = [
     {name:1,type:'EuropeanSwallow',},
     {name:1,type:'EuropeanSwallow',},
@@ -108,3 +83,13 @@ let databirds = [
 ];
 console.log( plumages(databirds) );
 console.log( speeds(databirds) );
+
+
+
+
+
+
+
+
+
+
