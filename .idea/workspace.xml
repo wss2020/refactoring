@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0e110b11-4635-405a-8d50-bf66468894af" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/笔记重构/第7章 封装/7.6 内联类（Inline Class）/简介.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/笔记重构/第7章 封装/7.6 内联类（Inline Class）/范例/1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/笔记重构/第7章 封装/7.6 内联类（Inline Class）/范例/2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/笔记重构/第7章 封装/7.6 内联类（Inline Class）/范例/3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/笔记重构/第7章 封装/7.6 内联类（Inline Class）/范例/4.js" afterDir="false" />
+    <list default="true" id="0e110b11-4635-405a-8d50-bf66468894af" name="Default Changelist" comment="重构API">
+      <change afterPath="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.5 改变函数声明（Change Function Declaration）/范例1-函数改名/1.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记重构/常用基本思想.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/常用基本思想.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.5 改变函数声明（Change Function Declaration）/范例1-函数改名（简单做法）.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.5 改变函数声明（Change Function Declaration）/范例1-函数改名（简单做法）.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +15,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -30,9 +29,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/笔记重构/第7章 封装/7.6 内联类（Inline Class）/范例" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.5 改变函数声明（Change Function Declaration）/范例1-函数改名" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -41,9 +41,37 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/笔记重构/第7章 封装/7.6 内联类（Inline Class）/范例" />
-      <recent name="$PROJECT_DIR$/笔记重构/第7章 封装/7.6 内联类（Inline Class）" />
+      <recent name="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.5 改变函数声明（Change Function Declaration）/范例1-函数改名" />
+      <recent name="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.3 提炼变量（Extract Variable）/范例2-在一个类中" />
+      <recent name="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.3 提炼变量（Extract Variable）/范例" />
+      <recent name="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.2 内联函数（Inline Function）/范例" />
+      <recent name="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.1 提炼函数（Extract Function）/范例3-对局部变量再赋值" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/笔记重构/第11章  重构API" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.test.js">
+    <configuration name="2.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.3 提炼变量（Extract Variable）/范例2-在一个类中/2.js" working-dir="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.3 提炼变量（Extract Variable）/范例2-在一个类中">
+      <method v="2" />
+    </configuration>
+    <configuration name="3.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/笔记重构/第11章  重构API/11.7 移除设值函数（Remove Setting Method）/范例/3.js" working-dir="$PROJECT_DIR$/笔记重构/第11章  重构API/11.7 移除设值函数（Remove Setting Method）/范例">
+      <method v="2" />
+    </configuration>
+    <configuration name="6.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/笔记重构/第10章​ 简化条件逻辑/10.4 以多态取代条件表达式（Replace Conditional with Polymorphism）/范例1-常用表达式/6.js" working-dir="$PROJECT_DIR$/笔记重构/第10章​ 简化条件逻辑/10.4 以多态取代条件表达式（Replace Conditional with Polymorphism）/范例1-常用表达式">
+      <method v="2" />
+    </configuration>
+    <configuration name="test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.3 提炼变量（Extract Variable）/test.js" working-dir="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.3 提炼变量（Extract Variable）">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.test.js" />
+        <item itemvalue="Node.js.2.js" />
+        <item itemvalue="Node.js.6.js" />
+        <item itemvalue="Node.js.3.js" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -55,7 +83,10 @@
       <updated>1604120645707</updated>
       <workItem from="1604120647371" duration="392000" />
       <workItem from="1604200282522" duration="68000" />
-      <workItem from="1604240642091" duration="2026000" />
+      <workItem from="1604240642091" duration="2341000" />
+      <workItem from="1604460463311" duration="14312000" />
+      <workItem from="1604534740737" duration="17546000" />
+      <workItem from="1604627408298" duration="10735000" />
     </task>
     <task id="LOCAL-00001" summary="重构">
       <created>1604120797886</created>
@@ -71,7 +102,210 @@
       <option name="project" value="LOCAL" />
       <updated>1604200302351</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="重构">
+      <created>1604242973933</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1604242973933</updated>
+    </task>
+    <task id="LOCAL-00004" summary="重构">
+      <created>1604468175344</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1604468175344</updated>
+    </task>
+    <task id="LOCAL-00005" summary="封装">
+      <created>1604475765107</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1604475765107</updated>
+    </task>
+    <task id="LOCAL-00006" summary="重构API">
+      <created>1604477382222</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1604477382222</updated>
+    </task>
+    <task id="LOCAL-00007" summary="重构API">
+      <created>1604478594138</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1604478594138</updated>
+    </task>
+    <task id="LOCAL-00008" summary="重构API">
+      <created>1604480910853</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1604480910853</updated>
+    </task>
+    <task id="LOCAL-00009" summary="重构API">
+      <created>1604482237765</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1604482237765</updated>
+    </task>
+    <task id="LOCAL-00010" summary="重构API">
+      <created>1604483673699</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1604483673699</updated>
+    </task>
+    <task id="LOCAL-00011" summary="重构API">
+      <created>1604483696528</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1604483696528</updated>
+    </task>
+    <task id="LOCAL-00012" summary="重构API">
+      <created>1604483932952</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1604483932952</updated>
+    </task>
+    <task id="LOCAL-00013" summary="重构API">
+      <created>1604535050441</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1604535050441</updated>
+    </task>
+    <task id="LOCAL-00014" summary="重构API">
+      <created>1604538943982</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1604538943982</updated>
+    </task>
+    <task id="LOCAL-00015" summary="重构API">
+      <created>1604540991046</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1604540991046</updated>
+    </task>
+    <task id="LOCAL-00016" summary="重构API">
+      <created>1604550417163</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1604550417163</updated>
+    </task>
+    <task id="LOCAL-00017" summary="重构API">
+      <created>1604551462103</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1604551462103</updated>
+    </task>
+    <task id="LOCAL-00018" summary="重构API">
+      <created>1604562250608</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1604562250608</updated>
+    </task>
+    <task id="LOCAL-00019" summary="重构API">
+      <created>1604564440026</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1604564440026</updated>
+    </task>
+    <task id="LOCAL-00020" summary="简化条件逻辑">
+      <created>1604565241896</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1604565241896</updated>
+    </task>
+    <task id="LOCAL-00021" summary="简化条件逻辑">
+      <created>1604565310875</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1604565310875</updated>
+    </task>
+    <task id="LOCAL-00022" summary="重构API">
+      <created>1604568999888</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1604568999888</updated>
+    </task>
+    <task id="LOCAL-00023" summary="重构API">
+      <created>1604569195070</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1604569195070</updated>
+    </task>
+    <task id="LOCAL-00024" summary="重构API">
+      <created>1604570044763</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1604570044763</updated>
+    </task>
+    <task id="LOCAL-00025" summary="简化条件逻辑">
+      <created>1604631396930</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1604631396930</updated>
+    </task>
+    <task id="LOCAL-00026" summary="简化条件逻辑">
+      <created>1604632229754</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1604632229754</updated>
+    </task>
+    <task id="LOCAL-00027" summary="一组常用重构">
+      <created>1604635900896</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1604635900896</updated>
+    </task>
+    <task id="LOCAL-00028" summary="111">
+      <created>1604636636537</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1604636636537</updated>
+    </task>
+    <task id="LOCAL-00029" summary="6">
+      <created>1604637052497</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1604637052497</updated>
+    </task>
+    <task id="LOCAL-00030" summary="6">
+      <created>1604640097770</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1604640097770</updated>
+    </task>
+    <task id="LOCAL-00031" summary="6">
+      <created>1604640159514</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1604640159514</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -79,18 +313,44 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="重构" />
-    <option name="LAST_COMMIT_MESSAGE" value="重构" />
+    <MESSAGE value="封装" />
+    <MESSAGE value="重构API" />
+    <MESSAGE value="简化条件逻辑" />
+    <MESSAGE value="一组常用重构" />
+    <MESSAGE value="111" />
+    <MESSAGE value="6" />
+    <option name="LAST_COMMIT_MESSAGE" value="6" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="212" y="23" key="CommitChangelistDialog2" timestamp="1604200302036">
+    <state x="0" y="23" key="CommitChangelistDialog2" timestamp="1604640159373">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="212" y="23" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1604200302036" />
-    <state x="220" y="147" key="Vcs.Push.Dialog.v2" timestamp="1604200305147">
+    <state x="0" y="23" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1604640159373" />
+    <state x="170" y="100" key="DiffContextDialog" timestamp="1604483666119">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="170" y="100" key="DiffContextDialog/0.23.1440.877@0.23.1440.877" timestamp="1604483666119" />
+    <state width="1414" height="198" key="GridCell.Tab.0.bottom" timestamp="1604640044864">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1414" height="198" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1604640044864" />
+    <state width="1414" height="198" key="GridCell.Tab.0.center" timestamp="1604640044863">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1414" height="198" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1604640044863" />
+    <state width="1414" height="198" key="GridCell.Tab.0.left" timestamp="1604640044862">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1414" height="198" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1604640044862" />
+    <state width="1414" height="198" key="GridCell.Tab.0.right" timestamp="1604640044864">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1414" height="198" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1604640044864" />
+    <state x="220" y="147" key="Vcs.Push.Dialog.v2" timestamp="1604640161383">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="220" y="127" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1604120939841" />
-    <state x="220" y="147" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1604200305147" />
+    <state x="220" y="147" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1604640161383" />
     <state x="448" y="140" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1604120688983">
       <screen x="0" y="23" width="1440" height="877" />
     </state>

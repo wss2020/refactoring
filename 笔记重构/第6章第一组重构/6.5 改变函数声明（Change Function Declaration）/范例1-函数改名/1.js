@@ -1,19 +1,8 @@
-
-
 //下列函数的名字太过简略了
 function circum(radius) {
     return 2 * Math.PI * radius;
 }
 
-var ljflasjflsd = 23323;
-
-var tes = ljflasjflsd + 222;
-
-
-let dataNumber = tes;
-let data1 = dataNumber + 1;
-let data2 = dataNumber + 2;
-let data3 = dataNumber + 3;
 
 //我想把它改得更有意义一点儿。首先修改函数的声明：
 function circumference(radius) {
@@ -22,7 +11,7 @@ function circumference(radius) {
 //然后找出所有调用circum函数的地方，将其改为circumference。
 
 
-/*
+/**
    在不同的编程语言环境中，“找到所有调用旧函数的地方”这件事的难度也各异。静态类型加上趁手的IDE能提供最好的体验，通常可以全自动地完成函数改名，出错的
 概率极低。如果没有静态类型，就需要多花些工夫：即便再好的搜索工具，也可能会找出很多同名但并非同一函数的地方。
 
@@ -34,3 +23,4 @@ Person类的changeAddress函数改名，但同时在代表“保险合同”的I
 我就越不希望一步到位地完成。如果有这些问题出现，我就会改为使用迁移式做法。同样，如果使用简单做法时出了什么错，我也会把代码回滚到上一个已知正确的状态，
 并改用迁移式做法（在范例2）再来一遍。
  */
+
