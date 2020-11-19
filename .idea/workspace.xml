@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0e110b11-4635-405a-8d50-bf66468894af" name="Default Changelist" comment="重构API">
-      <change afterPath="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.5 改变函数声明（Change Function Declaration）/范例1-函数改名/1.js" afterDir="false" />
+    <list default="true" id="0e110b11-4635-405a-8d50-bf66468894af" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/笔记重构/常用基本思想.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/常用基本思想.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.5 改变函数声明（Change Function Declaration）/范例1-函数改名（简单做法）.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.5 改变函数声明（Change Function Declaration）/范例1-函数改名（简单做法）.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.6 封装变量（Encapsulate Variable）/范例.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.6 封装变量（Encapsulate Variable）/范例压缩版.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +31,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.5 改变函数声明（Change Function Declaration）/范例1-函数改名" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.6 封装变量（Encapsulate Variable）/范例2-封装值" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -41,11 +40,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.6 封装变量（Encapsulate Variable）/范例2-封装值" />
+      <recent name="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.6 封装变量（Encapsulate Variable）/范例" />
+      <recent name="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.5 改变函数声明（Change Function Declaration）/范例4-把参数改为属性" />
+      <recent name="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.5 改变函数声明（Change Function Declaration）/范例3-添加参数" />
       <recent name="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.5 改变函数声明（Change Function Declaration）/范例1-函数改名" />
-      <recent name="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.3 提炼变量（Extract Variable）/范例2-在一个类中" />
-      <recent name="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.3 提炼变量（Extract Variable）/范例" />
-      <recent name="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.2 内联函数（Inline Function）/范例" />
-      <recent name="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.1 提炼函数（Extract Function）/范例3-对局部变量再赋值" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/笔记重构/第11章  重构API" />
@@ -86,7 +85,8 @@
       <workItem from="1604240642091" duration="2341000" />
       <workItem from="1604460463311" duration="14312000" />
       <workItem from="1604534740737" duration="17546000" />
-      <workItem from="1604627408298" duration="10735000" />
+      <workItem from="1604627408298" duration="15833000" />
+      <workItem from="1604712023606" duration="321000" />
     </task>
     <task id="LOCAL-00001" summary="重构">
       <created>1604120797886</created>
@@ -305,7 +305,21 @@
       <option name="project" value="LOCAL" />
       <updated>1604640159514</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="k">
+      <created>1604643457257</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1604643457257</updated>
+    </task>
+    <task id="LOCAL-00033" summary="6">
+      <created>1604649504432</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1604649504432</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -318,42 +332,47 @@
     <MESSAGE value="简化条件逻辑" />
     <MESSAGE value="一组常用重构" />
     <MESSAGE value="111" />
+    <MESSAGE value="k" />
     <MESSAGE value="6" />
     <option name="LAST_COMMIT_MESSAGE" value="6" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="0" y="23" key="CommitChangelistDialog2" timestamp="1604640159373">
+    <state x="0" y="23" key="CommitChangelistDialog2" timestamp="1604649504208">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="0" y="23" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1604640159373" />
+    <state x="0" y="23" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1604649504208" />
     <state x="170" y="100" key="DiffContextDialog" timestamp="1604483666119">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="170" y="100" key="DiffContextDialog/0.23.1440.877@0.23.1440.877" timestamp="1604483666119" />
-    <state width="1414" height="198" key="GridCell.Tab.0.bottom" timestamp="1604640044864">
+    <state width="1414" height="198" key="GridCell.Tab.0.bottom" timestamp="1604656753491">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1414" height="198" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1604640044864" />
-    <state width="1414" height="198" key="GridCell.Tab.0.center" timestamp="1604640044863">
+    <state width="1414" height="198" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1604656753490" />
+    <state width="1414" height="198" key="GridCell.Tab.0.center" timestamp="1604656753490">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1414" height="198" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1604640044863" />
-    <state width="1414" height="198" key="GridCell.Tab.0.left" timestamp="1604640044862">
+    <state width="1414" height="198" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1604656753490" />
+    <state width="1414" height="198" key="GridCell.Tab.0.left" timestamp="1604656753483">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1414" height="198" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1604640044862" />
-    <state width="1414" height="198" key="GridCell.Tab.0.right" timestamp="1604640044864">
+    <state width="1414" height="198" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1604656753483" />
+    <state width="1414" height="198" key="GridCell.Tab.0.right" timestamp="1604656753490">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1414" height="198" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1604640044864" />
-    <state x="220" y="147" key="Vcs.Push.Dialog.v2" timestamp="1604640161383">
+    <state width="1414" height="198" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1604656753490" />
+    <state x="220" y="147" key="Vcs.Push.Dialog.v2" timestamp="1604649505749">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="220" y="127" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1604120939841" />
-    <state x="220" y="147" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1604640161383" />
+    <state x="220" y="147" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1604649505749" />
     <state x="448" y="140" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1604120688983">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="448" y="140" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.23.1440.877@0.23.1440.877" timestamp="1604120688983" />
+    <state x="301" y="23" width="838" height="1032" key="search.everywhere.popup" timestamp="1604646026156">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="301" y="23" width="838" height="1032" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1604646026156" />
   </component>
 </project>
