@@ -5,24 +5,26 @@
    得到类似这样的读数（reading）：
  */
 
-let reading = {customer: "ivan", quantity: 10, month: 5, year: 2017};
+function acquireReading(){
+    return  {customer: "ivan", quantity: 10, month: 5, year: 2017};
+}
 
 //浏览处理这些数据记录的代码，我发现有很多地方在做着相似的计算，于是我找到了一处计算“基础费用”（base charge）的逻辑。
 // 客户端1...
-const aReading = acquireReading();
-const baseCharge = baseRate(aReading.month, aReading.year) * aReading.quantity;
+const aReading1 = acquireReading();
+const baseCharge = baseRate(aReading1.month, aReading1.year) * aReading1.quantity;
 
 //在英格兰，一切生活必需品都得交税，茶自然也不例外。不过，按照规定，只要不超出某个必要用量，就不用交税。
 //客户端2...
-const aReading = acquireReading();
-const base = (baseRate(aReading.month, aReading.year) * aReading.quantity);
+const aReading2 = acquireReading();
+const base = (baseRate(aReading2.month, aReading2.year) * aReading2.quantity);
 const taxableCharge = Math.max(0, base - taxThreshold(aReading.year));
 
 /**   我相信你也发现了：计算基础费用的公式被重复了两遍。如果你跟我有一样的习惯，现在大概已经在着手提炼函数（106）了。
    有趣的是，好像别人已经动过这个脑筋了。 */
 //客户端3...
-const aReading = acquireReading();
-const basicChargeAmount = calculateBaseCharge(aReading);
+const aReading3 = acquireReading();
+const basicChargeAmount = calculateBaseCharge(aReading3);
 function calculateBaseCharge(aReading) {
     return baseRate(aReading.month, aReading.year) * aReading.quantity;
 }

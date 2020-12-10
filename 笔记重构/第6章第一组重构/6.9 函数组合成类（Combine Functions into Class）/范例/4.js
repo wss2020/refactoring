@@ -12,12 +12,7 @@ const base = (baseRate(aReading2.month, aReading2.year) * aReading2.quantity);
 const taxableCharge = Math.max(0, base - taxThreshold(aReading2.year));
 
 
-/**
-    看到这里，我有一种自然的冲动，想把前面两处客户端代码都改为使用这个函数。
- 但这样一个顶层函数的问题在于，它通常位于一个文件中，读者不一定能想到来这里寻找它。
- 我更愿意对代码多做些修改，让该函数与其处理的数据在空间上有更紧密的联系。为此目的，不妨把数据本身变成一个类。
- 我可以运用封装记录（162）将记录变成类。
- */
+/** 搬移的同时，我会顺便运用函数改名（124），按照我喜欢的风格对这个函数改名。 */
 class Reading {
     constructor(data) {
         this._customer = data.customer;
@@ -37,21 +32,20 @@ class Reading {
     get year() {
         return this._year;
     }
+    get baseCharge() {
+        return baseRate(this.month, this.year) * this.quantity;
+    }
 }
 
-/**
- 首先，我想把手上已有的函数calculateBaseCharge搬到新建的Reading类中。
- 一得到原始的读数数据，我就用Reading类将它包装起来，然后就可以在函数中使用Reading类了。
- */
 // 客户端3...
 const rawReading3 = acquireReading();
 const aReading = new Reading(rawReading3);
-const basicChargeAmount = calculateBaseCharge(aReading);
-function calculateBaseCharge(aReading) {
-    return baseRate(aReading.month, aReading.year) * aReading.quantity;
-}
+const basicChargeAmount = aReading.baseCharge;
 
 
 /**
- * 然后我用搬移函数（198）把calculateBaseCharge搬到新类中。
+   用这个名字，Reading类的客户端将不知道baseCharge究竟是一个字段还是推演计算出的值。
+   这是好事，它符合“统一访问原则”（Uniform Access Principle）[mf-ua]。
+
+   现在我可以修改客户端1的代码，令其调用新的方法，不要重复计算基础费用。
  */
