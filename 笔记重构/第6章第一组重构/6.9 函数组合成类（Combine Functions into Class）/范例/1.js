@@ -4,7 +4,7 @@
 
    得到类似这样的读数（reading）：
  */
-
+function taxThreshold(year){}
 function acquireReading(){
     return  {customer: "ivan", quantity: 10, month: 5, year: 2017};
 }
