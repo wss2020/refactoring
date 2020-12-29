@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0e110b11-4635-405a-8d50-bf66468894af" name="Default Changelist" comment="">
+    <list default="true" id="0e110b11-4635-405a-8d50-bf66468894af" name="Default Changelist" comment="6.10 函数组合成变换">
+      <change afterPath="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.4 函数下移（Push Down Method）  /简介.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.6 封装变量（Encapsulate Variable）/范例.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.6 封装变量（Encapsulate Variable）/范例压缩版.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +30,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.6 封装变量（Encapsulate Variable）/范例2-封装值" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/demo" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -39,36 +38,41 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.6 封装变量（Encapsulate Variable）/范例2-封装值" />
-      <recent name="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.6 封装变量（Encapsulate Variable）/范例" />
-      <recent name="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.5 改变函数声明（Change Function Declaration）/范例4-把参数改为属性" />
-      <recent name="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.5 改变函数声明（Change Function Declaration）/范例3-添加参数" />
-      <recent name="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.5 改变函数声明（Change Function Declaration）/范例1-函数改名" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.10 函数组合成变换（Combine Functions into Transform）/范例" />
       <recent name="$PROJECT_DIR$/笔记重构/第11章  重构API" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/demo" />
+      <recent name="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.3 构造函数本体上移（Pull Up Constructor Body）/范例2" />
+      <recent name="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.3 构造函数本体上移（Pull Up Constructor Body）/范例" />
+      <recent name="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.1 函数上移（Pull Up Method）/范例" />
+      <recent name="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.10 函数组合成变换（Combine Functions into Transform）/范例" />
+    </key>
   </component>
-  <component name="RunManager" selected="Node.js.test.js">
-    <configuration name="2.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.3 提炼变量（Extract Variable）/范例2-在一个类中/2.js" working-dir="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.3 提炼变量（Extract Variable）/范例2-在一个类中">
+  <component name="RunManager" selected="Node.js.2.js">
+    <configuration name="2.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/demo/2.js" working-dir="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/demo">
       <method v="2" />
     </configuration>
-    <configuration name="3.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/笔记重构/第11章  重构API/11.7 移除设值函数（Remove Setting Method）/范例/3.js" working-dir="$PROJECT_DIR$/笔记重构/第11章  重构API/11.7 移除设值函数（Remove Setting Method）/范例">
+    <configuration name="4.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.8 引入参数对象（Introduce Parameter Object）/范例/4.js" working-dir="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.8 引入参数对象（Introduce Parameter Object）/范例">
       <method v="2" />
     </configuration>
-    <configuration name="6.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/笔记重构/第10章​ 简化条件逻辑/10.4 以多态取代条件表达式（Replace Conditional with Polymorphism）/范例1-常用表达式/6.js" working-dir="$PROJECT_DIR$/笔记重构/第10章​ 简化条件逻辑/10.4 以多态取代条件表达式（Replace Conditional with Polymorphism）/范例1-常用表达式">
+    <configuration name="5.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.8 引入参数对象（Introduce Parameter Object）/范例/5.js" working-dir="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.8 引入参数对象（Introduce Parameter Object）/范例">
       <method v="2" />
     </configuration>
-    <configuration name="test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.3 提炼变量（Extract Variable）/test.js" working-dir="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.3 提炼变量（Extract Variable）">
+    <configuration name="demo.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/demo.js" working-dir="$PROJECT_DIR$/笔记重构/第12章  处理继承关系">
+      <method v="2" />
+    </configuration>
+    <configuration name="demo.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.9 函数组合成类（Combine Functions into Class）/demo.js" working-dir="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.9 函数组合成类（Combine Functions into Class）">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.test.js" />
         <item itemvalue="Node.js.2.js" />
-        <item itemvalue="Node.js.6.js" />
-        <item itemvalue="Node.js.3.js" />
+        <item itemvalue="Node.js.demo.js (1)" />
+        <item itemvalue="Node.js.demo.js" />
+        <item itemvalue="Node.js.5.js" />
+        <item itemvalue="Node.js.4.js" />
       </list>
     </recent_temporary>
   </component>
@@ -87,6 +91,12 @@
       <workItem from="1604534740737" duration="17546000" />
       <workItem from="1604627408298" duration="15833000" />
       <workItem from="1604712023606" duration="321000" />
+      <workItem from="1605768006438" duration="79000" />
+      <workItem from="1607565922483" duration="3092000" />
+      <workItem from="1607573874903" duration="4318000" />
+      <workItem from="1607650994723" duration="3417000" />
+      <workItem from="1607668233509" duration="11000" />
+      <workItem from="1609228921419" duration="6568000" />
     </task>
     <task id="LOCAL-00001" summary="重构">
       <created>1604120797886</created>
@@ -319,7 +329,98 @@
       <option name="project" value="LOCAL" />
       <updated>1604649504432</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="6">
+      <created>1605768019858</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1605768019858</updated>
+    </task>
+    <task id="LOCAL-00035" summary="6.8  引入参数对象">
+      <created>1607568896728</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1607568896728</updated>
+    </task>
+    <task id="LOCAL-00036" summary="6.9 函数组合成类">
+      <created>1607577899255</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1607577899255</updated>
+    </task>
+    <task id="LOCAL-00037" summary="6.9 函数组合成类">
+      <created>1607586771788</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1607586771788</updated>
+    </task>
+    <task id="LOCAL-00038" summary="6.9 函数组合成类">
+      <created>1607586847884</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1607586847884</updated>
+    </task>
+    <task id="LOCAL-00039" summary="6.9 函数组合成类">
+      <created>1607587392546</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1607587392546</updated>
+    </task>
+    <task id="LOCAL-00040" summary="6.9 函数组合成类">
+      <created>1607587512169</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1607587512169</updated>
+    </task>
+    <task id="LOCAL-00041" summary="6.10 函数组合成变换">
+      <created>1607657367041</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1607657367041</updated>
+    </task>
+    <task id="LOCAL-00042" summary="6.10 函数组合成变换">
+      <created>1609228984814</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1609228984814</updated>
+    </task>
+    <task id="LOCAL-00043" summary="12">
+      <created>1609230809988</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1609230809988</updated>
+    </task>
+    <task id="LOCAL-00044" summary="12">
+      <created>1609230848718</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1609230848718</updated>
+    </task>
+    <task id="LOCAL-00045" summary="12">
+      <created>1609231418643</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1609231418643</updated>
+    </task>
+    <task id="LOCAL-00046" summary="12">
+      <created>1609235005279</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1609235005279</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -334,42 +435,64 @@
     <MESSAGE value="111" />
     <MESSAGE value="k" />
     <MESSAGE value="6" />
-    <option name="LAST_COMMIT_MESSAGE" value="6" />
+    <MESSAGE value="6.8  引入参数对象" />
+    <MESSAGE value="6.9 函数组合成类" />
+    <MESSAGE value="6.10 函数组合成变换" />
+    <MESSAGE value="12" />
+    <option name="LAST_COMMIT_MESSAGE" value="12" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="0" y="23" key="CommitChangelistDialog2" timestamp="1604649504208">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state x="-1317" y="77" key="CommitChangelistDialog2" timestamp="1609235005083">
+      <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
-    <state x="0" y="23" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1604649504208" />
-    <state x="170" y="100" key="DiffContextDialog" timestamp="1604483666119">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state x="-1860" y="0" key="CommitChangelistDialog2/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1609228984650" />
+    <state x="-1317" y="77" key="CommitChangelistDialog2/0.23.1440.877/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1609235005083" />
+    <state x="45" y="23" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1607659939239" />
+    <state x="-1693" y="95" key="DiffContextDialog" timestamp="1609228981054">
+      <screen x="-1920" y="0" width="1920" height="1080" />
     </state>
+    <state x="-1693" y="95" key="DiffContextDialog/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1609228981054" />
     <state x="170" y="100" key="DiffContextDialog/0.23.1440.877@0.23.1440.877" timestamp="1604483666119" />
-    <state width="1414" height="198" key="GridCell.Tab.0.bottom" timestamp="1604656753491">
+    <state width="1894" height="119" key="GridCell.Tab.0.bottom" timestamp="1609235266466">
+      <screen x="-1920" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1894" height="119" key="GridCell.Tab.0.bottom/0.23.1440.877/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1609235266466" />
+    <state width="1414" height="180" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1607587528009" />
+    <state width="1894" height="119" key="GridCell.Tab.0.center" timestamp="1609235266461">
+      <screen x="-1920" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1894" height="119" key="GridCell.Tab.0.center/0.23.1440.877/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1609235266461" />
+    <state width="1414" height="180" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1607587528008" />
+    <state width="1894" height="119" key="GridCell.Tab.0.left" timestamp="1609235266460">
+      <screen x="-1920" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1894" height="119" key="GridCell.Tab.0.left/0.23.1440.877/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1609235266460" />
+    <state width="1414" height="180" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1607587528008" />
+    <state width="1894" height="119" key="GridCell.Tab.0.right" timestamp="1609235266465">
+      <screen x="-1920" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1894" height="119" key="GridCell.Tab.0.right/0.23.1440.877/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1609235266465" />
+    <state width="1414" height="180" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1607587528008" />
+    <state x="432" y="102" key="RollbackChangesDialog" timestamp="1607651013599">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1414" height="198" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1604656753490" />
-    <state width="1414" height="198" key="GridCell.Tab.0.center" timestamp="1604656753490">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state x="432" y="102" key="RollbackChangesDialog/0.23.1440.877@0.23.1440.877" timestamp="1607651013599" />
+    <state x="-1627" y="173" key="Vcs.Push.Dialog.v2" timestamp="1609235006359">
+      <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
-    <state width="1414" height="198" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1604656753490" />
-    <state width="1414" height="198" key="GridCell.Tab.0.left" timestamp="1604656753483">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state width="1414" height="198" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1604656753483" />
-    <state width="1414" height="198" key="GridCell.Tab.0.right" timestamp="1604656753490">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state width="1414" height="198" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1604656753490" />
-    <state x="220" y="147" key="Vcs.Push.Dialog.v2" timestamp="1604649505749">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
+    <state x="-1627" y="153" key="Vcs.Push.Dialog.v2/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1609228985679" />
     <state x="220" y="127" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1604120939841" />
-    <state x="220" y="147" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1604649505749" />
+    <state x="-1627" y="173" key="Vcs.Push.Dialog.v2/0.23.1440.877/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1609235006359" />
+    <state x="220" y="147" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1607657368165" />
     <state x="448" y="140" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1604120688983">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="448" y="140" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.23.1440.877@0.23.1440.877" timestamp="1604120688983" />
+    <state x="-1333" y="213" width="745" height="692" key="find.popup" timestamp="1609235257247">
+      <screen x="-1920" y="23" width="1920" height="1057" />
+    </state>
+    <state x="-1333" y="194" width="745" height="692" key="find.popup/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1609228955176" />
+    <state x="-1333" y="213" width="745" height="692" key="find.popup/0.23.1440.877/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1609235257247" />
     <state x="301" y="23" width="838" height="1032" key="search.everywhere.popup" timestamp="1604646026156">
       <screen x="0" y="23" width="1440" height="877" />
     </state>

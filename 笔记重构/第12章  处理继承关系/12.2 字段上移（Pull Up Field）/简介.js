@@ -3,18 +3,18 @@
 //重构前  Java
 class Employee {}
 class Salesman extends Employee {
-    private String name;
+    // private String name;
 }
 
 class Engineer extends Employee {
-    private String name;
+    // private String name;
 }
 
 
 
 //重构后
 class Employee {
-    protected String name;
+    // protected String name;
 }
 class Salesman extends Employee {}
 class Engineer extends Employee {}
