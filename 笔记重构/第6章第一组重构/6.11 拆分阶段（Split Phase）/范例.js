@@ -144,11 +144,6 @@ function applyShipping(priceData, shippingMethod) {
     const shippingPerCase = (priceData.basePrice > shippingMethod.discountThreshold) ? shippingMethod.discountedFee : shippingMethod.feePerCase;
     const shippingCost = priceData.quantity * shippingPerCase; return priceData.basePrice - priceData.discount + shippingCost;
 }
-
-
-
-
-
 
 
 
