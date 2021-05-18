@@ -1,7 +1,6 @@
 let assert = require('assert');
 let expect = require('chai').expect;
 
-
 class Province {
     constructor(doc) {
         this._name = doc.name;
@@ -68,7 +67,6 @@ class Province {
     }
 }
 
-
 class Producer {
     constructor(aProvince, data) {
         this._province = aProvince;
@@ -96,8 +94,6 @@ class Producer {
     }
 }
 
-
-
 function sampleProvinceData() {
     return {
         name: "Asia",
@@ -110,14 +106,6 @@ function sampleProvinceData() {
         price: 20
     };
 }
-
-
-// describe('province', function () {
-//     it('shortfall', function () {
-//         const asia = new Province(sampleProvinceData());
-//         assert.equal(asia.shortfall, 5);
-//     });
-// });
 
 //缺额计算  测试用例
 // describe('province', function () {
@@ -139,8 +127,9 @@ describe('province', function () {
     //beforeEach子句会在每个测试之前运行一遍，将asia变量清空，每次都给它赋一个新的值。
     // 这样我就能在每个测试开始前，为它们各自构建一套新的测试夹具，这保证了测试的独立性，避免了可能带来麻烦的不确定性。
     let asia;
-    beforeEach(function() {
-        asia = new Province(sampleProvinceData()); });
+    beforeEach(
+        function() { asia = new Province(sampleProvinceData()); }
+        );
 
     //缺额计算  测试用例
     it('shortfall', function () {
@@ -175,6 +164,26 @@ describe('province', function () {
     });
 
 });
+
+describe('no producers', function() {
+    let noProducers;
+    beforeEach(function() {
+        const data = {
+            name: "No proudcers",
+            producers: [],
+            demand: 30,
+            price: 20
+        };
+        noProducers = new Province(data);
+    });
+    it('shortfall', function() {
+        expect(noProducers.shortfall).equal(30);
+    });
+    it('profit', function() {
+        expect(noProducers.profit).equal(0);
+    });
+});
+
 
 
 describe('string for producers', function () {

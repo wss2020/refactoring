@@ -2,47 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e110b11-4635-405a-8d50-bf66468894af" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.10 以委托取代子类（Replace Subclass with Delegate） /简介.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.10 以委托取代子类（Replace Subclass with Delegate） /范例1/1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.10 以委托取代子类（Replace Subclass with Delegate） /范例1/10.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.10 以委托取代子类（Replace Subclass with Delegate） /范例1/11.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.10 以委托取代子类（Replace Subclass with Delegate） /范例1/12.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.10 以委托取代子类（Replace Subclass with Delegate） /范例1/2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.10 以委托取代子类（Replace Subclass with Delegate） /范例1/3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.10 以委托取代子类（Replace Subclass with Delegate） /范例1/4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.10 以委托取代子类（Replace Subclass with Delegate） /范例1/5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.10 以委托取代子类（Replace Subclass with Delegate） /范例1/6.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.10 以委托取代子类（Replace Subclass with Delegate） /范例1/7.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.10 以委托取代子类（Replace Subclass with Delegate） /范例1/8.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.10 以委托取代子类（Replace Subclass with Delegate） /范例1/9.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.10 以委托取代子类（Replace Subclass with Delegate） /范例2：取代继承体系 /1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.10 以委托取代子类（Replace Subclass with Delegate） /范例2：取代继承体系 /10.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.10 以委托取代子类（Replace Subclass with Delegate） /范例2：取代继承体系 /11.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.10 以委托取代子类（Replace Subclass with Delegate） /范例2：取代继承体系 /12.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.10 以委托取代子类（Replace Subclass with Delegate） /范例2：取代继承体系 /13.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.10 以委托取代子类（Replace Subclass with Delegate） /范例2：取代继承体系 /14.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.10 以委托取代子类（Replace Subclass with Delegate） /范例2：取代继承体系 /15.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.10 以委托取代子类（Replace Subclass with Delegate） /范例2：取代继承体系 /16.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.10 以委托取代子类（Replace Subclass with Delegate） /范例2：取代继承体系 /17.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.10 以委托取代子类（Replace Subclass with Delegate） /范例2：取代继承体系 /2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.10 以委托取代子类（Replace Subclass with Delegate） /范例2：取代继承体系 /3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.10 以委托取代子类（Replace Subclass with Delegate） /范例2：取代继承体系 /4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.10 以委托取代子类（Replace Subclass with Delegate） /范例2：取代继承体系 /5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.10 以委托取代子类（Replace Subclass with Delegate） /范例2：取代继承体系 /6.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.10 以委托取代子类（Replace Subclass with Delegate） /范例2：取代继承体系 /7.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.10 以委托取代子类（Replace Subclass with Delegate） /范例2：取代继承体系 /8.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.10 以委托取代子类（Replace Subclass with Delegate） /范例2：取代继承体系 /9.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.11 以委托取代超类（Replace Superclass with Delegate） /简介.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.11 以委托取代超类（Replace Superclass with Delegate） /范例/1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.11 以委托取代超类（Replace Superclass with Delegate） /范例/2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.11 以委托取代超类（Replace Superclass with Delegate） /范例/3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.11 以委托取代超类（Replace Superclass with Delegate） /范例/4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.11 以委托取代超类（Replace Superclass with Delegate） /范例/5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.11 以委托取代超类（Replace Superclass with Delegate） /范例/6.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.11 以委托取代超类（Replace Superclass with Delegate） /范例/7.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.11 以委托取代超类（Replace Superclass with Delegate） /范例/8.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.9 折叠继承体系（Collapse Hierarchy） /简介.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记重构/第3章 构筑测试体系/1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记重构/第3章 构筑测试体系/code/code.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记重构/第3章 构筑测试体系/mocha-demos/test/1.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第3章 构筑测试体系/mocha-demos/test/1.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,11 +32,12 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.11 以委托取代超类（Replace Superclass with Delegate） /范例" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/笔记重构/第3章 构筑测试体系/mocha-demos" />
+    <property name="nodejs.mocha.mocha_node_package_dir" value="$PROJECT_DIR$/笔记重构/第3章 构筑测试体系/mocha-demos/node_modules/mocha" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -83,36 +47,100 @@
       <recent name="$PROJECT_DIR$/笔记重构/第11章  重构API" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/笔记重构/第3章 构筑测试体系/mocha-demos" />
+      <recent name="$PROJECT_DIR$/笔记重构/第3章 构筑测试体系/mocha-demos/code" />
       <recent name="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.11 以委托取代超类（Replace Superclass with Delegate） /范例" />
       <recent name="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.10 以委托取代子类（Replace Subclass with Delegate） /范例2：取代继承体系 " />
       <recent name="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.10 以委托取代子类（Replace Subclass with Delegate） /范例" />
-      <recent name="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.8 提炼超类（Extract Superclass） /范例" />
-      <recent name="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.7 移除子类（Remove Subclass） /范例" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.demo.js">
-    <configuration name="1.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.6 以子类取代类型码（Replace Type Code with Subclasses）/范例1/1.js" working-dir="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.6 以子类取代类型码（Replace Type Code with Subclasses）/范例1">
+  <component name="RunManager" selected="Mocha.string for producers">
+    <configuration name="no producers.profit" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/笔记重构/第3章 构筑测试体系/mocha-demos/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$/笔记重构/第3章 构筑测试体系/mocha-demos</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/笔记重构/第3章 构筑测试体系/mocha-demos/test/1.js</test-file>
+      <test-names>
+        <name value="no producers" />
+        <name value="profit" />
+      </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="1.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.6 以子类取代类型码（Replace Type Code with Subclasses）/范例2 使用间接继承 /1.js" working-dir="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.6 以子类取代类型码（Replace Type Code with Subclasses）/范例2 使用间接继承 ">
+    <configuration name="province.empty string demand" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/笔记重构/第3章 构筑测试体系/mocha-demos/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$/笔记重构/第3章 构筑测试体系/mocha-demos</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/笔记重构/第3章 构筑测试体系/mocha-demos/test/1.js</test-file>
+      <test-names>
+        <name value="province" />
+        <name value="empty string demand" />
+      </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="3.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.6 以子类取代类型码（Replace Type Code with Subclasses）/范例2 使用间接继承 /3.js" working-dir="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.6 以子类取代类型码（Replace Type Code with Subclasses）/范例2 使用间接继承 ">
+    <configuration name="province.negative demand" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/笔记重构/第3章 构筑测试体系/mocha-demos/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$/笔记重构/第3章 构筑测试体系/mocha-demos</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/笔记重构/第3章 构筑测试体系/mocha-demos/test/1.js</test-file>
+      <test-names>
+        <name value="province" />
+        <name value="negative demand" />
+      </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="4.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.6 以子类取代类型码（Replace Type Code with Subclasses）/范例2 使用间接继承 /4.js" working-dir="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.6 以子类取代类型码（Replace Type Code with Subclasses）/范例2 使用间接继承 ">
+    <configuration name="province.zero demand" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/笔记重构/第3章 构筑测试体系/mocha-demos/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$/笔记重构/第3章 构筑测试体系/mocha-demos</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/笔记重构/第3章 构筑测试体系/mocha-demos/test/1.js</test-file>
+      <test-names>
+        <name value="province" />
+        <name value="zero demand" />
+      </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="demo.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.7 移除子类（Remove Subclass） /范例/demo.js" working-dir="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.7 移除子类（Remove Subclass） /范例">
+    <configuration name="string for producers" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/笔记重构/第3章 构筑测试体系/mocha-demos/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$/笔记重构/第3章 构筑测试体系/mocha-demos</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>SUITE</test-kind>
+      <test-file>$PROJECT_DIR$/笔记重构/第3章 构筑测试体系/mocha-demos/test/1.js</test-file>
+      <test-names>
+        <name value="string for producers" />
+      </test-names>
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.demo.js" />
-        <item itemvalue="Node.js.4.js" />
-        <item itemvalue="Node.js.1.js (1)" />
-        <item itemvalue="Node.js.1.js" />
-        <item itemvalue="Node.js.3.js (1)" />
+        <item itemvalue="Mocha.string for producers" />
+        <item itemvalue="Mocha.no producers.profit" />
+        <item itemvalue="Mocha.province.empty string demand" />
+        <item itemvalue="Mocha.province.negative demand" />
+        <item itemvalue="Mocha.province.zero demand" />
       </list>
     </recent_temporary>
   </component>
@@ -138,21 +166,14 @@
       <workItem from="1607668233509" duration="11000" />
       <workItem from="1609228921419" duration="7112000" />
       <workItem from="1609379487949" duration="9341000" />
-      <workItem from="1609726066706" duration="15701000" />
-    </task>
-    <task id="LOCAL-00004" summary="重构">
-      <created>1604468175344</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1604468175344</updated>
-    </task>
-    <task id="LOCAL-00005" summary="封装">
-      <created>1604475765107</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1604475765107</updated>
+      <workItem from="1609726066706" duration="15767000" />
+      <workItem from="1609750059071" duration="2000" />
+      <workItem from="1615537602113" duration="1720000" />
+      <workItem from="1615774767759" duration="270000" />
+      <workItem from="1620974656909" duration="213000" />
+      <workItem from="1621215526053" duration="10585000" />
+      <workItem from="1621302099871" duration="279000" />
+      <workItem from="1621302807050" duration="4305000" />
     </task>
     <task id="LOCAL-00006" summary="重构API">
       <created>1604477382222</created>
@@ -483,7 +504,21 @@
       <option name="project" value="LOCAL" />
       <updated>1609731365269</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="12">
+      <created>1609750038948</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1609750038948</updated>
+    </task>
+    <task id="LOCAL-00054" summary="add test">
+      <created>1621235380563</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1621235380563</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -502,111 +537,57 @@
     <MESSAGE value="6.9 函数组合成类" />
     <MESSAGE value="6.10 函数组合成变换" />
     <MESSAGE value="12" />
-    <option name="LAST_COMMIT_MESSAGE" value="12" />
+    <MESSAGE value="add test" />
+    <option name="LAST_COMMIT_MESSAGE" value="add test" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1470" y="77" key="CommitChangelistDialog2" timestamp="1609731365134">
-      <screen x="-1920" y="23" width="1920" height="1057" />
+    <state x="1892" y="-32" key="CommitChangelistDialog2" timestamp="1621235379850">
+      <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
-    <state x="-1860" y="0" key="CommitChangelistDialog2/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1609228984650" />
-    <state x="-1470" y="77" key="CommitChangelistDialog2/0.23.1440.877/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1609731365134" />
-    <state x="45" y="23" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1607659939239" />
-    <state x="-1693" y="95" key="DiffContextDialog" timestamp="1609228981054">
-      <screen x="-1920" y="0" width="1920" height="1080" />
+    <state x="1892" y="-32" key="CommitChangelistDialog2/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1621235379850" />
+    <state width="1894" height="238" key="GridCell.Tab.0.bottom" timestamp="1621313266509">
+      <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
-    <state x="-1693" y="95" key="DiffContextDialog/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1609228981054" />
-    <state x="170" y="100" key="DiffContextDialog/0.23.1440.877@0.23.1440.877" timestamp="1604483666119" />
-    <state width="1894" height="395" key="GridCell.Tab.0.bottom" timestamp="1609728469835">
-      <screen x="-1920" y="23" width="1920" height="1057" />
+    <state width="1894" height="19" key="GridCell.Tab.0.bottom/0.23.1440.877/-1920.58.1920.1057@-1920.58.1920.1057" timestamp="1615540134582" />
+    <state width="1894" height="238" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1621313266509" />
+    <state width="1894" height="238" key="GridCell.Tab.0.center" timestamp="1621313266508">
+      <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
-    <state width="1894" height="395" key="GridCell.Tab.0.bottom/0.23.1440.877/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1609728469835" />
-    <state width="1414" height="180" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1607587528009" />
-    <state width="1894" height="395" key="GridCell.Tab.0.center" timestamp="1609728469834">
-      <screen x="-1920" y="23" width="1920" height="1057" />
+    <state width="1894" height="19" key="GridCell.Tab.0.center/0.23.1440.877/-1920.58.1920.1057@-1920.58.1920.1057" timestamp="1615540134581" />
+    <state width="1894" height="238" key="GridCell.Tab.0.center/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1621313266508" />
+    <state width="1894" height="238" key="GridCell.Tab.0.left" timestamp="1621313266508">
+      <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
-    <state width="1894" height="395" key="GridCell.Tab.0.center/0.23.1440.877/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1609728469834" />
-    <state width="1414" height="180" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1607587528008" />
-    <state width="1894" height="395" key="GridCell.Tab.0.left" timestamp="1609728469833">
-      <screen x="-1920" y="23" width="1920" height="1057" />
+    <state width="1894" height="19" key="GridCell.Tab.0.left/0.23.1440.877/-1920.58.1920.1057@-1920.58.1920.1057" timestamp="1615540134581" />
+    <state width="1894" height="238" key="GridCell.Tab.0.left/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1621313266508" />
+    <state width="1894" height="238" key="GridCell.Tab.0.right" timestamp="1621313266509">
+      <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
-    <state width="1894" height="395" key="GridCell.Tab.0.left/0.23.1440.877/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1609728469833" />
-    <state width="1414" height="180" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1607587528008" />
-    <state width="1894" height="395" key="GridCell.Tab.0.right" timestamp="1609728469835">
-      <screen x="-1920" y="23" width="1920" height="1057" />
+    <state width="1894" height="19" key="GridCell.Tab.0.right/0.23.1440.877/-1920.58.1920.1057@-1920.58.1920.1057" timestamp="1615540134582" />
+    <state width="1894" height="238" key="GridCell.Tab.0.right/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1621313266509" />
+    <state x="1885" y="149" key="IDE.errors.dialog" timestamp="1621244270038">
+      <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
-    <state width="1894" height="395" key="GridCell.Tab.0.right/0.23.1440.877/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1609728469835" />
-    <state width="1414" height="180" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1607587528008" />
-    <state width="1894" height="331" key="GridCell.Tab.1.bottom" timestamp="1609385330954">
-      <screen x="-1920" y="23" width="1920" height="1057" />
+    <state x="1885" y="149" key="IDE.errors.dialog/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1621244270038" />
+    <state x="2112" y="110" key="RollbackChangesDialog" timestamp="1621239776379">
+      <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
-    <state width="1894" height="331" key="GridCell.Tab.1.bottom/0.23.1440.877/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1609385330954" />
-    <state width="1894" height="331" key="GridCell.Tab.1.center" timestamp="1609385330953">
-      <screen x="-1920" y="23" width="1920" height="1057" />
+    <state x="2112" y="110" key="RollbackChangesDialog/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1621239776379" />
+    <state x="1620" y="101" key="SettingsEditor" timestamp="1621302378898">
+      <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
-    <state width="1894" height="331" key="GridCell.Tab.1.center/0.23.1440.877/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1609385330953" />
-    <state width="1894" height="331" key="GridCell.Tab.1.left" timestamp="1609385330953">
-      <screen x="-1920" y="23" width="1920" height="1057" />
+    <state x="1620" y="101" key="SettingsEditor/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1621302378898" />
+    <state x="1900" y="146" key="Vcs.Push.Dialog.v2" timestamp="1621235388615">
+      <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
-    <state width="1894" height="331" key="GridCell.Tab.1.left/0.23.1440.877/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1609385330953" />
-    <state width="1894" height="331" key="GridCell.Tab.1.right" timestamp="1609385330954">
-      <screen x="-1920" y="23" width="1920" height="1057" />
+    <state x="1900" y="146" key="Vcs.Push.Dialog.v2/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1621235388615" />
+    <state x="2027" y="161" width="745" height="616" key="find.popup" timestamp="1621241875158">
+      <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
-    <state width="1894" height="331" key="GridCell.Tab.1.right/0.23.1440.877/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1609385330954" />
-    <state width="1894" height="331" key="GridCell.Tab.2.bottom" timestamp="1609385330956">
-      <screen x="-1920" y="23" width="1920" height="1057" />
+    <state x="2027" y="161" width="745" height="616" key="find.popup/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1621241875158" />
+    <state x="2062" y="374" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1621245216985">
+      <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
-    <state width="1894" height="331" key="GridCell.Tab.2.bottom/0.23.1440.877/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1609385330956" />
-    <state width="1894" height="331" key="GridCell.Tab.2.center" timestamp="1609385330955">
-      <screen x="-1920" y="23" width="1920" height="1057" />
-    </state>
-    <state width="1894" height="331" key="GridCell.Tab.2.center/0.23.1440.877/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1609385330955" />
-    <state width="1894" height="331" key="GridCell.Tab.2.left" timestamp="1609385330955">
-      <screen x="-1920" y="23" width="1920" height="1057" />
-    </state>
-    <state width="1894" height="331" key="GridCell.Tab.2.left/0.23.1440.877/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1609385330955" />
-    <state width="1894" height="331" key="GridCell.Tab.2.right" timestamp="1609385330955">
-      <screen x="-1920" y="23" width="1920" height="1057" />
-    </state>
-    <state width="1894" height="331" key="GridCell.Tab.2.right/0.23.1440.877/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1609385330955" />
-    <state width="1894" height="331" key="GridCell.Tab.3.bottom" timestamp="1609385330957">
-      <screen x="-1920" y="23" width="1920" height="1057" />
-    </state>
-    <state width="1894" height="331" key="GridCell.Tab.3.bottom/0.23.1440.877/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1609385330957" />
-    <state width="1894" height="331" key="GridCell.Tab.3.center" timestamp="1609385330957">
-      <screen x="-1920" y="23" width="1920" height="1057" />
-    </state>
-    <state width="1894" height="331" key="GridCell.Tab.3.center/0.23.1440.877/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1609385330957" />
-    <state width="1894" height="331" key="GridCell.Tab.3.left" timestamp="1609385330956">
-      <screen x="-1920" y="23" width="1920" height="1057" />
-    </state>
-    <state width="1894" height="331" key="GridCell.Tab.3.left/0.23.1440.877/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1609385330956" />
-    <state width="1894" height="331" key="GridCell.Tab.3.right" timestamp="1609385330957">
-      <screen x="-1920" y="23" width="1920" height="1057" />
-    </state>
-    <state width="1894" height="331" key="GridCell.Tab.3.right/0.23.1440.877/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1609385330957" />
-    <state x="432" y="102" key="RollbackChangesDialog" timestamp="1607651013599">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state x="432" y="102" key="RollbackChangesDialog/0.23.1440.877@0.23.1440.877" timestamp="1607651013599" />
-    <state x="-1627" y="173" key="Vcs.Push.Dialog.v2" timestamp="1609731366444">
-      <screen x="-1920" y="23" width="1920" height="1057" />
-    </state>
-    <state x="-1627" y="153" key="Vcs.Push.Dialog.v2/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1609228985679" />
-    <state x="220" y="127" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1604120939841" />
-    <state x="-1627" y="173" key="Vcs.Push.Dialog.v2/0.23.1440.877/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1609731366444" />
-    <state x="220" y="147" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1607657368165" />
-    <state x="448" y="140" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1604120688983">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state x="448" y="140" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.23.1440.877@0.23.1440.877" timestamp="1604120688983" />
-    <state x="-1333" y="213" width="745" height="692" key="find.popup" timestamp="1609235257247">
-      <screen x="-1920" y="23" width="1920" height="1057" />
-    </state>
-    <state x="-1333" y="194" width="745" height="692" key="find.popup/0.0.1440.900/-1920.0.1920.1080@-1920.0.1920.1080" timestamp="1609228955176" />
-    <state x="-1333" y="213" width="745" height="692" key="find.popup/0.23.1440.877/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1609235257247" />
-    <state x="301" y="23" width="838" height="1032" key="search.everywhere.popup" timestamp="1604646026156">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state x="301" y="23" width="838" height="1032" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1604646026156" />
+    <state x="2062" y="374" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1621245216985" />
   </component>
 </project>
