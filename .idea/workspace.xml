@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0e110b11-4635-405a-8d50-bf66468894af" name="Default Changelist" comment="add test">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.7 变量改名（Rename Variable）/介绍.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.7 变量改名（Rename Variable）/介绍.js" afterDir="false" />
+    <list default="true" id="0e110b11-4635-405a-8d50-bf66468894af" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.7 变量改名（Rename Variable）/范例1-变量改名.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.7 变量改名（Rename Variable）/范例1-变量改名.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -165,14 +163,7 @@
       <workItem from="1621475184688" duration="406000" />
       <workItem from="1621489378118" duration="901000" />
       <workItem from="1621570079461" duration="2396000" />
-      <workItem from="1621576184510" duration="3842000" />
-    </task>
-    <task id="LOCAL-00008" summary="重构API">
-      <created>1604480910853</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1604480910853</updated>
+      <workItem from="1621576184510" duration="4254000" />
     </task>
     <task id="LOCAL-00009" summary="重构API">
       <created>1604482237765</created>
@@ -510,7 +501,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621583549306</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="add test">
+      <created>1621590544262</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1621590544262</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -533,10 +531,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="add test" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1892" y="-32" key="CommitChangelistDialog2" timestamp="1621583824330">
+    <state x="1892" y="-32" key="CommitChangelistDialog2" timestamp="1621590544116">
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
-    <state x="1892" y="-32" key="CommitChangelistDialog2/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1621583824330" />
+    <state x="1892" y="-32" key="CommitChangelistDialog2/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1621590544116" />
     <state x="2023" y="108" key="DiffContextDialog" timestamp="1621583823169">
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
