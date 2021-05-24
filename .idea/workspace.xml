@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0e110b11-4635-405a-8d50-bf66468894af" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.7 变量改名（Rename Variable）/范例1-变量改名.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.7 变量改名（Rename Variable）/范例1-变量改名.js" afterDir="false" />
+    <list default="true" id="0e110b11-4635-405a-8d50-bf66468894af" name="Default Changelist" comment="6.8">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.8 引入参数对象（Introduce Parameter Object）/简介.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.8 引入参数对象（Introduce Parameter Object）/简介.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.9 函数组合成类（Combine Functions into Class）/简介.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.9 函数组合成类（Combine Functions into Class）/简介.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.9 函数组合成类（Combine Functions into Class）/范例/4.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.9 函数组合成类（Combine Functions into Class）/范例/4.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,21 +166,8 @@
       <workItem from="1621475184688" duration="406000" />
       <workItem from="1621489378118" duration="901000" />
       <workItem from="1621570079461" duration="2396000" />
-      <workItem from="1621576184510" duration="4254000" />
-    </task>
-    <task id="LOCAL-00009" summary="重构API">
-      <created>1604482237765</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1604482237765</updated>
-    </task>
-    <task id="LOCAL-00010" summary="重构API">
-      <created>1604483673699</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1604483673699</updated>
+      <workItem from="1621576184510" duration="4328000" />
+      <workItem from="1621824570307" duration="4607000" />
     </task>
     <task id="LOCAL-00011" summary="重构API">
       <created>1604483696528</created>
@@ -508,7 +498,21 @@
       <option name="project" value="LOCAL" />
       <updated>1621590544262</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="add test">
+      <created>1621591009088</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1621591009088</updated>
+    </task>
+    <task id="LOCAL-00059" summary="6.7">
+      <created>1621824690422</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1621824690422</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -528,41 +532,42 @@
     <MESSAGE value="6.10 函数组合成变换" />
     <MESSAGE value="12" />
     <MESSAGE value="add test" />
-    <option name="LAST_COMMIT_MESSAGE" value="add test" />
+    <MESSAGE value="6.7" />
+    <option name="LAST_COMMIT_MESSAGE" value="6.7" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1892" y="-32" key="CommitChangelistDialog2" timestamp="1621590544116">
+    <state x="2179" y="-5" key="CommitChangelistDialog2" timestamp="1621826566931">
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
-    <state x="1892" y="-32" key="CommitChangelistDialog2/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1621590544116" />
-    <state x="2023" y="108" key="DiffContextDialog" timestamp="1621583823169">
+    <state x="2179" y="-5" key="CommitChangelistDialog2/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1621826566931" />
+    <state x="2023" y="108" key="DiffContextDialog" timestamp="1621590963666">
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
-    <state x="2023" y="108" key="DiffContextDialog/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1621583823169" />
-    <state width="1894" height="228" key="GridCell.Tab.0.bottom" timestamp="1621583220300">
+    <state x="2023" y="108" key="DiffContextDialog/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1621590963666" />
+    <state width="1894" height="3" key="GridCell.Tab.0.bottom" timestamp="1621591025018">
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
     <state width="1894" height="19" key="GridCell.Tab.0.bottom/0.23.1440.877/-1920.58.1920.1057@-1920.58.1920.1057" timestamp="1615540134582" />
     <state width="1894" height="238" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.-59.1920.1057@0.23.1440.877" timestamp="1621314910269" />
-    <state width="1894" height="228" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1621583220300" />
-    <state width="1894" height="228" key="GridCell.Tab.0.center" timestamp="1621583220290">
+    <state width="1894" height="3" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1621591025018" />
+    <state width="1894" height="3" key="GridCell.Tab.0.center" timestamp="1621591025018">
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
     <state width="1894" height="19" key="GridCell.Tab.0.center/0.23.1440.877/-1920.58.1920.1057@-1920.58.1920.1057" timestamp="1615540134581" />
     <state width="1894" height="238" key="GridCell.Tab.0.center/0.23.1440.877/1440.-59.1920.1057@0.23.1440.877" timestamp="1621314910268" />
-    <state width="1894" height="228" key="GridCell.Tab.0.center/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1621583220290" />
-    <state width="1894" height="228" key="GridCell.Tab.0.left" timestamp="1621583220286">
+    <state width="1894" height="3" key="GridCell.Tab.0.center/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1621591025018" />
+    <state width="1894" height="3" key="GridCell.Tab.0.left" timestamp="1621591025017">
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
     <state width="1894" height="19" key="GridCell.Tab.0.left/0.23.1440.877/-1920.58.1920.1057@-1920.58.1920.1057" timestamp="1615540134581" />
     <state width="1894" height="238" key="GridCell.Tab.0.left/0.23.1440.877/1440.-59.1920.1057@0.23.1440.877" timestamp="1621314910267" />
-    <state width="1894" height="228" key="GridCell.Tab.0.left/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1621583220286" />
-    <state width="1894" height="228" key="GridCell.Tab.0.right" timestamp="1621583220294">
+    <state width="1894" height="3" key="GridCell.Tab.0.left/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1621591025017" />
+    <state width="1894" height="3" key="GridCell.Tab.0.right" timestamp="1621591025018">
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
     <state width="1894" height="19" key="GridCell.Tab.0.right/0.23.1440.877/-1920.58.1920.1057@-1920.58.1920.1057" timestamp="1615540134582" />
     <state width="1894" height="238" key="GridCell.Tab.0.right/0.23.1440.877/1440.-59.1920.1057@0.23.1440.877" timestamp="1621314910268" />
-    <state width="1894" height="228" key="GridCell.Tab.0.right/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1621583220294" />
+    <state width="1894" height="3" key="GridCell.Tab.0.right/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1621591025018" />
     <state x="1885" y="149" key="IDE.errors.dialog" timestamp="1621244270038">
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>

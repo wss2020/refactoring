@@ -13,7 +13,9 @@ const base = (baseRate(aReading2.month, aReading2.year) * aReading2.quantity);
 const taxableCharge = Math.max(0, base - taxThreshold(aReading2.year));
 
 
-/** 搬移的同时，我会顺便运用函数改名（124），按照我喜欢的风格对这个函数改名。 */
+/**
+ * 搬移的同时，我会顺便运用函数改名（124），按照我喜欢的风格对这个函数改名。
+ * */
 class Reading {
     constructor(data) {
         this._customer = data.customer;

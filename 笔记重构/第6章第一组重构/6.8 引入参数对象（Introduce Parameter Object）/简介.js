@@ -1,34 +1,16 @@
-/*
-
-
- */
-
-
 
 // 修改前
-function amountInvoiced(startDate, endDate) {
-}
-
-function amountReceived(startDate, endDate) {
-}
-
-function amountOverdue(startDate, endDate) {
-}
-
+function amountInvoiced(startDate, endDate) {}
+function amountReceived(startDate, endDate) {}
+function amountOverdue(startDate, endDate) {}
 
 // 修改后
-function amountInvoiced(aDateRange) {
-}
-
-function amountReceived(aDateRange) {
-}
-
-function amountOverdue(aDateRange) {
-}
+function amountInvoiced(aDateRange) {}
+function amountReceived(aDateRange) {}
+function amountOverdue(aDateRange) {}
 
 
-
-/*
+/**
 动机
 
     我常会看见，一组数据项总是结伴同行，出没于一个又一个函数。
@@ -50,21 +32,14 @@ function amountOverdue(aDateRange) {
 
 
 
-/*
+/**
 做法
-
   如果暂时还没有一个合适的数据结构，就创建一个。
-
-  //我倾向于使用类，因为稍后把行为放进来会比较容易。我通常会尽量确保这些新建的数据结构是值对象[mf-vo]。
-
+     我倾向于使用类，因为稍后把行为放进来会比较容易。我通常会尽量确保这些新建的数据结构是值对象[mf-vo]。
   测试。
-
   使用改变函数声明（124）给原来的函数新增一个参数，类型是新建的数据结构。
-
   测试。
-
   调整所有调用者，传入新数据结构的适当实例。每修改一处，执行测试。
-
   用新数据结构中的每项元素，逐一取代参数列表中与之对应的参数项，然后删除原来的参数。测试。
  */
 
