@@ -11,6 +11,9 @@ function enrichReading(original) {
     return result;
 }
 
+function calculateBaseCharge(aReading) {
+    return baseRate(aReading.month, aReading.year) * aReading.quantity;
+}
 //客户端3...
 const rawReading = acquireReading();
 const aReading = enrichReading(rawReading);

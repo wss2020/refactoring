@@ -20,6 +20,9 @@ const taxableCharge = Math.max(0, base - taxThreshold(aReading.year));
 
    然后我挑选一处想要搬移的计算逻辑。首先，我用现在的enrichReading函数来增强“读数”记录，尽管该函数暂时还什么都没做。
  */
+function calculateBaseCharge(aReading) {
+    return baseRate(aReading.month, aReading.year) * aReading.quantity;
+}
 //客户端3...
 const rawReading = acquireReading();
 const aReading = enrichReading(rawReading);

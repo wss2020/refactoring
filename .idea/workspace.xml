@@ -3,9 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="0e110b11-4635-405a-8d50-bf66468894af" name="Default Changelist" comment="6.8">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.8 引入参数对象（Introduce Parameter Object）/简介.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.8 引入参数对象（Introduce Parameter Object）/简介.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.9 函数组合成类（Combine Functions into Class）/简介.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.9 函数组合成类（Combine Functions into Class）/简介.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.9 函数组合成类（Combine Functions into Class）/范例/4.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.9 函数组合成类（Combine Functions into Class）/范例/4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.10 函数组合成变换（Combine Functions into Transform）/范例/10.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.10 函数组合成变换（Combine Functions into Transform）/范例/10.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.10 函数组合成变换（Combine Functions into Transform）/范例/3.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.10 函数组合成变换（Combine Functions into Transform）/范例/3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.10 函数组合成变换（Combine Functions into Transform）/范例/4.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.10 函数组合成变换（Combine Functions into Transform）/范例/4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.10 函数组合成变换（Combine Functions into Transform）/范例/5.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.10 函数组合成变换（Combine Functions into Transform）/范例/5.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.10 函数组合成变换（Combine Functions into Transform）/范例/6.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.10 函数组合成变换（Combine Functions into Transform）/范例/6.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.10 函数组合成变换（Combine Functions into Transform）/范例/7.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.10 函数组合成变换（Combine Functions into Transform）/范例/7.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.10 函数组合成变换（Combine Functions into Transform）/范例/8.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.10 函数组合成变换（Combine Functions into Transform）/范例/8.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.10 函数组合成变换（Combine Functions into Transform）/范例/9.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.10 函数组合成变换（Combine Functions into Transform）/范例/9.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +172,7 @@
       <workItem from="1621489378118" duration="901000" />
       <workItem from="1621570079461" duration="2396000" />
       <workItem from="1621576184510" duration="4328000" />
-      <workItem from="1621824570307" duration="4607000" />
+      <workItem from="1621824570307" duration="6321000" />
     </task>
     <task id="LOCAL-00011" summary="重构API">
       <created>1604483696528</created>
