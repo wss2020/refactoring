@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0e110b11-4635-405a-8d50-bf66468894af" name="Default Changelist" comment="6.8">
+    <list default="true" id="0e110b11-4635-405a-8d50-bf66468894af" name="Default Changelist" comment="6.11">
+      <change afterPath="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.11 拆分阶段（Split Phase）/范例/1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.11 拆分阶段（Split Phase）/范例/2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.11 拆分阶段（Split Phase）/范例/3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.11 拆分阶段（Split Phase）/范例/4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.11 拆分阶段（Split Phase）/范例/5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.11 拆分阶段（Split Phase）/范例/6.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.11 拆分阶段（Split Phase）/范例/7.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.11 拆分阶段（Split Phase）/范例/8.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.10 函数组合成变换（Combine Functions into Transform）/范例/10.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.10 函数组合成变换（Combine Functions into Transform）/范例/10.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.10 函数组合成变换（Combine Functions into Transform）/范例/3.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.10 函数组合成变换（Combine Functions into Transform）/范例/3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.10 函数组合成变换（Combine Functions into Transform）/范例/4.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.10 函数组合成变换（Combine Functions into Transform）/范例/4.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.10 函数组合成变换（Combine Functions into Transform）/范例/5.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.10 函数组合成变换（Combine Functions into Transform）/范例/5.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.10 函数组合成变换（Combine Functions into Transform）/范例/6.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.10 函数组合成变换（Combine Functions into Transform）/范例/6.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.10 函数组合成变换（Combine Functions into Transform）/范例/7.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.10 函数组合成变换（Combine Functions into Transform）/范例/7.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.10 函数组合成变换（Combine Functions into Transform）/范例/8.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.10 函数组合成变换（Combine Functions into Transform）/范例/8.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.10 函数组合成变换（Combine Functions into Transform）/范例/9.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.10 函数组合成变换（Combine Functions into Transform）/范例/9.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.11 拆分阶段（Split Phase）/简介.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.11 拆分阶段（Split Phase）/简介.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.11 拆分阶段（Split Phase）/范例.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.11 拆分阶段（Split Phase）/范例.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -37,7 +39,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.11 拆分阶段（Split Phase）/范例" />
     <property name="nodejs.mocha.mocha_node_package_dir" value="$PROJECT_DIR$/笔记重构/第3章 构筑测试体系/mocha-demos/node_modules/mocha" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -46,17 +48,17 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/笔记重构/第3章 构筑测试体系/mocha-demos" />
-      <recent name="$PROJECT_DIR$/笔记重构/第3章 构筑测试体系/mocha-demos/code" />
-      <recent name="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.11 以委托取代超类（Replace Superclass with Delegate） /范例" />
-      <recent name="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.10 以委托取代子类（Replace Subclass with Delegate） /范例2：取代继承体系 " />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.11 以委托取代超类（Replace Superclass with Delegate） " />
       <recent name="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.10 函数组合成变换（Combine Functions into Transform）/范例" />
       <recent name="$PROJECT_DIR$/笔记重构/第11章  重构API" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.11 拆分阶段（Split Phase）/范例" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/笔记重构/第3章 构筑测试体系/mocha-demos" />
+      <recent name="$PROJECT_DIR$/笔记重构/第3章 构筑测试体系/mocha-demos/code" />
+      <recent name="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.11 以委托取代超类（Replace Superclass with Delegate） /范例" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.test.js">
@@ -172,14 +174,8 @@
       <workItem from="1621489378118" duration="901000" />
       <workItem from="1621570079461" duration="2396000" />
       <workItem from="1621576184510" duration="4328000" />
-      <workItem from="1621824570307" duration="6321000" />
-    </task>
-    <task id="LOCAL-00011" summary="重构API">
-      <created>1604483696528</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1604483696528</updated>
+      <workItem from="1621824570307" duration="7834000" />
+      <workItem from="1621905249698" duration="2953000" />
     </task>
     <task id="LOCAL-00012" summary="重构API">
       <created>1604483932952</created>
@@ -517,7 +513,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621824690422</updated>
     </task>
-    <option name="localTasksCounter" value="60" />
+    <task id="LOCAL-00060" summary="6.10">
+      <created>1621841324544</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1621841324544</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -538,13 +541,15 @@
     <MESSAGE value="12" />
     <MESSAGE value="add test" />
     <MESSAGE value="6.7" />
-    <option name="LAST_COMMIT_MESSAGE" value="6.7" />
+    <MESSAGE value="6.8" />
+    <MESSAGE value="6.10" />
+    <option name="LAST_COMMIT_MESSAGE" value="6.10" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2179" y="-5" key="CommitChangelistDialog2" timestamp="1621826566931">
+    <state x="2059" y="-5" key="CommitChangelistDialog2" timestamp="1621841630281">
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
-    <state x="2179" y="-5" key="CommitChangelistDialog2/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1621826566931" />
+    <state x="2059" y="-5" key="CommitChangelistDialog2/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1621841630281" />
     <state x="2023" y="108" key="DiffContextDialog" timestamp="1621590963666">
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>

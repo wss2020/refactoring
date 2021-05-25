@@ -1,7 +1,4 @@
 
-
-
-
 //修改前
 const orderData = orderString.split(/\s+/);
 const productPrice = priceList[orderData[0].split("-")[1]];
@@ -23,7 +20,7 @@ function price(order, priceList) {
 }
 
 
-/*
+/**
 动机
 
    每当看见一段代码在同时处理两件不同的事，我就想把它拆分成各自独立的模块，
@@ -46,7 +43,7 @@ function price(order, priceList) {
      将这些代码片段拆分成各自独立的模块，能更明确地标示出它们之间的差异。
  */
 
-/*
+/**
 做法
 
    将第二阶段的代码提炼成独立的函数。
@@ -60,8 +57,7 @@ function price(order, priceList) {
     然后用搬移语句到调用者（217）把使用该参数的代码行搬移到“第二阶段函数”之外。
 
    对第一阶段的代码运用提炼函数（106），让提炼出的函数返回中转数据结构。
-
-     也可以把第一阶段提炼成一个变换（transform）对象。
+   也可以把第一阶段提炼成一个变换（transform）对象。
  */
 
 
