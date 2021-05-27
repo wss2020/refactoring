@@ -29,11 +29,9 @@ class Course {
 }
 
 //客户端会使用课程集合来获取课程的相关信息。
-numAdvancedCourses = aPerson.courses
-                     .filter(c => c.isAdvanced)
-                     .length;
+numAdvancedCourses = aPerson.courses.filter(c => c.isAdvanced).length;
 
-/*
+/**
    有些开发者可能觉得这个类已经得到了恰当的封装，毕竟，所有的字段都被访问函数保护到了。但我要指出，对课程列表的封装还不完整。诚然，对列表整体的任何更
 新操作，都能通过设值函数得到控制。
  */
@@ -49,7 +47,7 @@ for (const name of readBasicCourseNames(filename)) {
     aPerson.courses.push(new Course(name, false));
 }
 
-/*
+/**
    这就破坏了封装性，因为以此种方式更新列表Person类根本无从得知。这里仅仅封装了字段引用，而未真正封装字段的内容。现在我来对类实施真正恰当的封装，首
 先要为类添加两个方法，为客户端提供“添加课程”和“移除课程”的接口。
  */
@@ -65,7 +63,7 @@ class Person {
         else this._courses.splice(index, 1);
     }
 }
-/*
+/**
    对于移除操作，我得考虑一下，如果客户端要求移除一个不存在的集合元素怎么办。我可以耸耸肩装作没看见，也可以抛出错误。这里我默认让它抛出错误，但留给客
 户端一个自己处理的机会。然后我就可以让直接修改集合值的地方改用新的方法了。
  */
@@ -74,7 +72,7 @@ for (const name of readBasicCourseNames(filename)) {
     aPerson.addCourse(new Course(name, false));
 }
 
-/*
+/**
    有了单独的添加和移除方法，通常setCourse设值函数就没必要存在了。若果真如此，我就会使用移除设值函数（331）移除它。如果出于其他原因，必须提供一个
 设值方法作为API，我至少要确保用一份副本给字段赋值，不去修改通过参数传入的集合。
  */
@@ -91,12 +89,12 @@ class Person {
     }
 }
 
-/*
+/**
     总的来讲，我觉得对集合保持适度的审慎是有益的，我宁愿多复制一份数据，也不愿去调试因意外修改集合招致的错误。修改操作并不总是显而易见的，比如，
 在JavaScript中原生的数组排序函数sort()就会修改原数组，而在其他语言中默认都是为更改集合的操作返回一份副本。任何负责管理集合的类都应该总是返回数据
 副本，但我还养成了一个习惯，只要我做的事看起来可能改变集合，我也会返回一个副本。
  */
-
+
 
 
 

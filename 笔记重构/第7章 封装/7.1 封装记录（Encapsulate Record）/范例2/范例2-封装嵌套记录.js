@@ -1,4 +1,4 @@
-/*
+/**
   上面的例子将记录的浅复制(为何是浅复制，看 test.js)展开到了对象里，
   但当我处理深层嵌套的数据（比如来自JSON文件的数据）时，
    又该怎么办呢？此时该重构手法的核心步骤依然适用，记录的更新点需要同样小心处理，但对记录的读取点则有多种处理方案。
@@ -83,13 +83,13 @@ function getRawDataOfCustomers() {
 function setRawDataOfCustomers(arg) {
     customerData = new CustomerData(arg);
 }
-/*
+/**
     最重要的是妥善处理好那些更新操作。
     因此，当我查看getRawDataOfCustomers的所有调用者时，总是特别关注那些对数据做修改的地方。
     再提醒你一下，下面是那步更新操作。
  */
 getRawDataOfCustomers()[customerID].usages[year][month] = amount;
-/*
+/**
    “做法”部分说，接下来要通过一个访问函数来返回原始的顾客数据，如果访问函数还不存在就创建一个。
    现在顾客类还没有设值函数，而且这个更新操作对结构进行了深入查找，因此是时候创建一个设值函数了。
    我会先用提炼函数（106），将层层深入数据结构的查找操作提炼到函数里。
@@ -112,7 +112,7 @@ getCustomerData().setUsage(customerID, year, month, amount);
         this._data[customerID].usages[year][month] = amount;
     }
 */
-/*
+/**
    封装大型的数据结构时，我会更多关注更新操作。凸显更新操作，并将它们集中到一处地方，是此次封装过程最重要的一部分。
 
    一通替换过后，我可能认为修改已经告一段落，但如何确认替换是否真正完成了呢？
@@ -138,7 +138,7 @@ function setRawDataOfCustomers(arg) {
     }
  */
 
-/*
+/**
 我使用了lodash库来辅助生成深复制的副本。
   另一个方式是，返回一份只读的数据代理。如果客户端代码尝试修改对象的结构，那么该数据代理就会抛出异常。
    这在有些编程语言中能轻易实现，但用JavaScript实现可就麻烦了，我把它留给读者作为练习好了。
@@ -160,7 +160,7 @@ function compareUsage (customerID, laterYear, month) {
     return {laterAmount: later, change: later - earlier};
 }
 
-/*
+/**
  这种处理方式的美妙之处在于，它为customerData提供了一份清晰的API列表，清楚描绘了该类的全部用途。
     我只需阅读类的代码，就能知道数据的所有用法。但这样会使代码量剧增，特别是当对象有许多用途时。
      现代编程语言大多提供直观的语法，以支持从深层的列表和散列[mf-lh]结构中获得数据，因此直接把这样的数据结构给到客户端，也不失为一种选择。
@@ -185,7 +185,7 @@ function compareUsage (customerID, laterYear, month) {
 }
 
 
-/*
+/**
 简单归简单，这种方案也有缺点。
     最明显的问题是复制巨大的数据结构时代价颇高，这可能引发性能问题。
     不过也正如我对性能问题的一贯态度，这样的性能损耗也许是可以接受的——只有测量到可见的影响，我才会真的关心它。
@@ -194,7 +194,7 @@ function compareUsage (customerID, laterYear, month) {
 
 另一种方案需要更多工作，但能提供更可靠的控制粒度：对每个字段循环应用封装记录。
   我会把顾客（customer）记录变成一个类，对其用途（usage）字段
-
+
 应用封装集合（170），并为它创建一个类。
   然后我就能通过访问函数来控制其更新点，比如说对用途（usage）对象应用将引用对象改为值对象（252）。
   但处理一个大型的数据结构时，这种方案异常繁复，如果对该数据结构的更新点没那么多，其实大可不必这么做。
