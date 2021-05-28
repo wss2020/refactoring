@@ -3,8 +3,7 @@
 //曾用名：以类取代类型码（Replace Type Code with Class）
 
 //重构前
-orders.filter(o => "high" === o.priority
-    || "rush" === o.priority);
+orders.filter(o => "high" === o.priority || "rush" === o.priority);
 
 
 //重构后

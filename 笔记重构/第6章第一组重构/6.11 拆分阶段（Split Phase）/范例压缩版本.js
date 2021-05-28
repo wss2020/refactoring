@@ -29,7 +29,6 @@ function applyShipping(priceData, shippingMethod) {
     const shippingCost = priceData.quantity * shippingPerCase;
     return priceData.basePrice - priceData.discount + shippingCost;
 }
-
 
 
 
