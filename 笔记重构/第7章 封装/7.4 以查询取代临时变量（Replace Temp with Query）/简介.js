@@ -1,10 +1,15 @@
 //重构前
-// const basePrice = this._quantity * this._itemPrice;
-// if (basePrice > 1000)
-//     return basePrice * 0.95;
-// else
-//     return basePrice * 0.98;
-
+class Price_ {
+    constructor(data){
+        this._quantity = data._quantity;
+        this._itemPrice = data._itemPrice
+    }
+    basePriceResult(){
+        const basePrice = this._quantity * this._itemPrice;
+        if (basePrice > 1000)  return basePrice * 0.95;
+        else  return basePrice * 0.98;
+    }
+}
 
 
 //重构后
@@ -16,11 +21,9 @@ class Price {
     get basePrice() {
        return  this._quantity * this._itemPrice;
     }
-    BasePriceResult(){
-        if (this.basePrice > 1000)
-            return this.basePrice * 0.95;
-        else
-            return this.basePrice * 0.98;
+    basePriceResult(){
+        if (this.basePrice > 1000) return this.basePrice * 0.95;
+        else return this.basePrice * 0.98;
     }
 }
 
