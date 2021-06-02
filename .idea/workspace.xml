@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e110b11-4635-405a-8d50-bf66468894af" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/笔记重构/第7章 封装/7.8 移除中间人（Remove Middle Man）/范例/3.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第7章 封装/7.8 移除中间人（Remove Middle Man）/范例/3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记重构/第7章 封装/7.9 替换算法（Substitute Algorithm）/简介.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第7章 封装/7.9 替换算法（Substitute Algorithm）/简介.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +54,10 @@
       <recent name="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.10 函数组合成变换（Combine Functions into Transform）/范例" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.test.js (1)">
+  <component name="RunManager" selected="Node.js.简介.js (1)">
+    <configuration name="简介.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/笔记重构/第7章 封装/7.9 替换算法（Substitute Algorithm）/简介.js" working-dir="$PROJECT_DIR$/笔记重构/第7章 封装/7.9 替换算法（Substitute Algorithm）">
+      <method v="2" />
+    </configuration>
     <configuration name="简介.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/笔记重构/第7章 封装/7.1 封装记录（Encapsulate Record）/简介.js" working-dir="$PROJECT_DIR$/笔记重构/第7章 封装/7.1 封装记录（Encapsulate Record）">
       <method v="2" />
     </configuration>
@@ -65,22 +68,6 @@
       <method v="2" />
     </configuration>
     <configuration name="test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/笔记重构/第7章 封装/7.1 封装记录（Encapsulate Record）/其它/test.js" working-dir="$PROJECT_DIR$/笔记重构/第7章 封装/7.1 封装记录（Encapsulate Record）">
-      <method v="2" />
-    </configuration>
-    <configuration name="no producers.profit" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <mocha-package>$PROJECT_DIR$/笔记重构/第3章 构筑测试体系/mocha-demos/node_modules/mocha</mocha-package>
-      <working-directory>$PROJECT_DIR$/笔记重构/第3章 构筑测试体系/mocha-demos</working-directory>
-      <pass-parent-env>true</pass-parent-env>
-      <ui>bdd</ui>
-      <extra-mocha-options />
-      <test-kind>TEST</test-kind>
-      <test-file>$PROJECT_DIR$/笔记重构/第3章 构筑测试体系/mocha-demos/test/1.js</test-file>
-      <test-names>
-        <name value="no producers" />
-        <name value="profit" />
-      </test-names>
       <method v="2" />
     </configuration>
     <configuration name="string for producers" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
@@ -100,11 +87,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.简介.js (1)" />
         <item itemvalue="Node.js.test.js (1)" />
         <item itemvalue="Node.js.简介.js" />
         <item itemvalue="Node.js.test.js" />
         <item itemvalue="Mocha.string for producers" />
-        <item itemvalue="Mocha.no producers.profit" />
       </list>
     </recent_temporary>
   </component>
@@ -152,14 +139,7 @@
       <workItem from="1622165820572" duration="2139000" />
       <workItem from="1622425715484" duration="11884000" />
       <workItem from="1622536423824" duration="2870000" />
-      <workItem from="1622612613658" duration="1978000" />
-    </task>
-    <task id="LOCAL-00017" summary="重构API">
-      <created>1604551462103</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1604551462103</updated>
+      <workItem from="1622612613658" duration="3325000" />
     </task>
     <task id="LOCAL-00018" summary="重构API">
       <created>1604562250608</created>
@@ -497,7 +477,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622613778989</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="封装7">
+      <created>1622615407746</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1622615407747</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -525,41 +512,41 @@
     <option name="LAST_COMMIT_MESSAGE" value="封装7" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2059" y="-5" key="CommitChangelistDialog2" timestamp="1622613778555">
+    <state x="2059" y="-5" key="CommitChangelistDialog2" timestamp="1622615407556">
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
-    <state x="2059" y="-5" key="CommitChangelistDialog2/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1622613778555" />
+    <state x="2059" y="-5" key="CommitChangelistDialog2/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1622615407556" />
     <state x="2023" y="108" key="DiffContextDialog" timestamp="1621590963666">
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
     <state x="2023" y="108" key="DiffContextDialog/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1621590963666" />
-    <state width="1414" height="3" key="GridCell.Tab.0.bottom" timestamp="1622110608873">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1894" height="205" key="GridCell.Tab.0.bottom" timestamp="1622623955798">
+      <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
     <state width="1894" height="19" key="GridCell.Tab.0.bottom/0.23.1440.877/-1920.58.1920.1057@-1920.58.1920.1057" timestamp="1615540134582" />
     <state width="1894" height="238" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.-59.1920.1057@0.23.1440.877" timestamp="1621314910269" />
-    <state width="1894" height="3" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1621936865595" />
+    <state width="1894" height="205" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1622623955798" />
     <state width="1414" height="3" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1622110608873" />
-    <state width="1414" height="3" key="GridCell.Tab.0.center" timestamp="1622110608871">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1894" height="205" key="GridCell.Tab.0.center" timestamp="1622623955796">
+      <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
     <state width="1894" height="19" key="GridCell.Tab.0.center/0.23.1440.877/-1920.58.1920.1057@-1920.58.1920.1057" timestamp="1615540134581" />
     <state width="1894" height="238" key="GridCell.Tab.0.center/0.23.1440.877/1440.-59.1920.1057@0.23.1440.877" timestamp="1621314910268" />
-    <state width="1894" height="3" key="GridCell.Tab.0.center/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1621936865594" />
+    <state width="1894" height="205" key="GridCell.Tab.0.center/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1622623955796" />
     <state width="1414" height="3" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1622110608871" />
-    <state width="1414" height="3" key="GridCell.Tab.0.left" timestamp="1622110608847">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1894" height="205" key="GridCell.Tab.0.left" timestamp="1622623955796">
+      <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
     <state width="1894" height="19" key="GridCell.Tab.0.left/0.23.1440.877/-1920.58.1920.1057@-1920.58.1920.1057" timestamp="1615540134581" />
     <state width="1894" height="238" key="GridCell.Tab.0.left/0.23.1440.877/1440.-59.1920.1057@0.23.1440.877" timestamp="1621314910267" />
-    <state width="1894" height="3" key="GridCell.Tab.0.left/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1621936865594" />
+    <state width="1894" height="205" key="GridCell.Tab.0.left/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1622623955796" />
     <state width="1414" height="3" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1622110608847" />
-    <state width="1414" height="3" key="GridCell.Tab.0.right" timestamp="1622110608872">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state width="1894" height="205" key="GridCell.Tab.0.right" timestamp="1622623955797">
+      <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
     <state width="1894" height="19" key="GridCell.Tab.0.right/0.23.1440.877/-1920.58.1920.1057@-1920.58.1920.1057" timestamp="1615540134582" />
     <state width="1894" height="238" key="GridCell.Tab.0.right/0.23.1440.877/1440.-59.1920.1057@0.23.1440.877" timestamp="1621314910268" />
-    <state width="1894" height="3" key="GridCell.Tab.0.right/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1621936865595" />
+    <state width="1894" height="205" key="GridCell.Tab.0.right/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1622623955797" />
     <state width="1414" height="3" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1622110608872" />
     <state x="1885" y="149" key="IDE.errors.dialog" timestamp="1621244270038">
       <screen x="1440" y="-59" width="1920" height="1057" />
