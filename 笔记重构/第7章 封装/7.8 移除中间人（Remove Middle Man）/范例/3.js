@@ -1,7 +1,7 @@
 //首先 在Person中建立一个函数，用于获取受托对象。
 class Person {
-    get _department(){
-        return new Department();
+    constructor() {
+        this._department = new Department();
     }
 
     get department() {
