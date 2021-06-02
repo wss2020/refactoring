@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e110b11-4635-405a-8d50-bf66468894af" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/笔记重构/第7章 封装/7.9 替换算法（Substitute Algorithm）/简介.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第7章 封装/7.9 替换算法（Substitute Algorithm）/简介.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.1 搬移函数（Move Function）/介绍.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.1 搬移函数（Move Function）/介绍.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,14 +139,7 @@
       <workItem from="1622165820572" duration="2139000" />
       <workItem from="1622425715484" duration="11884000" />
       <workItem from="1622536423824" duration="2870000" />
-      <workItem from="1622612613658" duration="3325000" />
-    </task>
-    <task id="LOCAL-00018" summary="重构API">
-      <created>1604562250608</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1604562250608</updated>
+      <workItem from="1622612613658" duration="5992000" />
     </task>
     <task id="LOCAL-00019" summary="重构API">
       <created>1604564440026</created>
@@ -484,7 +477,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622615407747</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="封装7">
+      <created>1622624577510</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1622624577510</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -512,10 +512,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="封装7" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2059" y="-5" key="CommitChangelistDialog2" timestamp="1622615407556">
+    <state x="2059" y="-5" key="CommitChangelistDialog2" timestamp="1622624577129">
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
-    <state x="2059" y="-5" key="CommitChangelistDialog2/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1622615407556" />
+    <state x="2059" y="-5" key="CommitChangelistDialog2/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1622624577129" />
     <state x="2023" y="108" key="DiffContextDialog" timestamp="1621590963666">
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
