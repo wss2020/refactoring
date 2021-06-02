@@ -18,6 +18,9 @@ class Person1 {
     get officeNumber() {
         return this._telephoneNumber.number;
     }
+    get _telephoneNumber(){
+        return new TelephoneNumber();
+    }
 }
 class TelephoneNumber {
     get areaCode() {
@@ -48,7 +51,7 @@ class TelephoneNumber {
 做法
     决定如何分解类所负的责任。
     创建一个新的类，用以表现从旧类中分离出来的责任。
-    注意：如果旧类剩下的责任与旧类的名称不符，为旧类改名。
+        注意：如果旧类剩下的责任与旧类的名称不符，为旧类改名。
     构造旧类时创建一个新类的实例，建立“从旧类访问新类”的连接关系。
     对于你想搬移的每一个字段，运用搬移字段（207）搬移之。每次更改后运行测试。
     使用搬移函数（198）将必要函数搬移到新类。先搬移较低层函数（也就是“被其他函数调用”多于“调用其他函数”者）。每次更改后运行测试。

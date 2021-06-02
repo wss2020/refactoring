@@ -3,7 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="0e110b11-4635-405a-8d50-bf66468894af" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/笔记重构/第7章 封装/7.4 以查询取代临时变量（Replace Temp with Query）/简介.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第7章 封装/7.4 以查询取代临时变量（Replace Temp with Query）/简介.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记重构/第7章 封装/7.5 提炼类（Extract Class）/简介.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第7章 封装/7.5 提炼类（Extract Class）/简介.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记重构/第7章 封装/7.6 内联类（Inline Class）/简介.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第7章 封装/7.6 内联类（Inline Class）/简介.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记重构/第7章 封装/7.7 隐藏委托关系（Hide Delegate）/简介.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第7章 封装/7.7 隐藏委托关系（Hide Delegate）/简介.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记重构/第7章 封装/7.8 移除中间人（Remove Middle Man）/简介.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第7章 封装/7.8 移除中间人（Remove Middle Man）/简介.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记重构/第7章 封装/7.8 移除中间人（Remove Middle Man）/范例/1.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第7章 封装/7.8 移除中间人（Remove Middle Man）/范例/1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记重构/第7章 封装/7.8 移除中间人（Remove Middle Man）/范例/2.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第7章 封装/7.8 移除中间人（Remove Middle Man）/范例/2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记重构/第7章 封装/7.8 移除中间人（Remove Middle Man）/范例/3.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第7章 封装/7.8 移除中间人（Remove Middle Man）/范例/3.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,14 +156,9 @@
       <workItem from="1622078801589" duration="519000" />
       <workItem from="1622086226036" duration="5642000" />
       <workItem from="1622165820572" duration="2139000" />
-      <workItem from="1622425715484" duration="8237000" />
-    </task>
-    <task id="LOCAL-00015" summary="重构API">
-      <created>1604540991046</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1604540991046</updated>
+      <workItem from="1622425715484" duration="11884000" />
+      <workItem from="1622536423824" duration="2870000" />
+      <workItem from="1622612613658" duration="1085000" />
     </task>
     <task id="LOCAL-00016" summary="重构API">
       <created>1604550417163</created>
@@ -495,7 +496,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622193739467</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="封装7">
+      <created>1622449223765</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1622449223765</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -519,13 +527,14 @@
     <MESSAGE value="6.10" />
     <MESSAGE value="6.11" />
     <MESSAGE value="封装" />
-    <option name="LAST_COMMIT_MESSAGE" value="封装" />
+    <MESSAGE value="封装7" />
+    <option name="LAST_COMMIT_MESSAGE" value="封装7" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2059" y="-5" key="CommitChangelistDialog2" timestamp="1622193739262">
+    <state x="2059" y="-5" key="CommitChangelistDialog2" timestamp="1622449223341">
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
-    <state x="2059" y="-5" key="CommitChangelistDialog2/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1622193739262" />
+    <state x="2059" y="-5" key="CommitChangelistDialog2/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1622449223341" />
     <state x="2023" y="108" key="DiffContextDialog" timestamp="1621590963666">
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
