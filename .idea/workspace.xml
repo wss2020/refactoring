@@ -2,8 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e110b11-4635-405a-8d50-bf66468894af" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.1 搬移函数（Move Function）/范例/1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.1 搬移函数（Move Function）/范例/10.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.1 搬移函数（Move Function）/范例/2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.1 搬移函数（Move Function）/范例/3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.1 搬移函数（Move Function）/范例/4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.1 搬移函数（Move Function）/范例/5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.1 搬移函数（Move Function）/范例/6.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.1 搬移函数（Move Function）/范例/7.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.1 搬移函数（Move Function）/范例/8.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.1 搬移函数（Move Function）/范例/9.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.1 搬移函数（Move Function）/介绍.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.1 搬移函数（Move Function）/介绍.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.1 搬移函数（Move Function）/范例1-搬移内嵌函数至顶层.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.1 搬移函数（Move Function）/范例/范例1-搬移内嵌函数至顶层.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.1 搬移函数（Move Function）/范例1压缩版.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.1 搬移函数（Move Function）/范例/范例1压缩版.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +41,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/笔记重构/第7章 封装/7.1 封装记录（Encapsulate Record）/范例1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.1 搬移函数（Move Function）/范例" />
     <property name="nodejs.mocha.mocha_node_package_dir" value="$PROJECT_DIR$/笔记重构/第3章 构筑测试体系/mocha-demos/node_modules/mocha" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -40,18 +51,18 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.1 搬移函数（Move Function）/范例" />
       <recent name="$PROJECT_DIR$/笔记重构/第7章 封装/7.1 封装记录（Encapsulate Record）/范例1" />
       <recent name="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.11 拆分阶段（Split Phase）/范例" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/笔记重构/第3章 构筑测试体系/mocha-demos" />
-      <recent name="$PROJECT_DIR$/笔记重构/第3章 构筑测试体系/mocha-demos/code" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.1 搬移函数（Move Function）/范例" />
       <recent name="$PROJECT_DIR$/笔记重构/第7章 封装/7.1 封装记录（Encapsulate Record）/范例2" />
       <recent name="$PROJECT_DIR$/笔记重构/第7章 封装/7.1 封装记录（Encapsulate Record）/其它" />
       <recent name="$PROJECT_DIR$/笔记重构/第7章 封装/7.1 封装记录（Encapsulate Record）/范例1" />
       <recent name="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.11 以委托取代超类（Replace Superclass with Delegate） " />
-      <recent name="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.10 函数组合成变换（Combine Functions into Transform）/范例" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.简介.js (1)">
@@ -139,14 +150,9 @@
       <workItem from="1622165820572" duration="2139000" />
       <workItem from="1622425715484" duration="11884000" />
       <workItem from="1622536423824" duration="2870000" />
-      <workItem from="1622612613658" duration="5992000" />
-    </task>
-    <task id="LOCAL-00019" summary="重构API">
-      <created>1604564440026</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1604564440026</updated>
+      <workItem from="1622612613658" duration="6282000" />
+      <workItem from="1622686704891" duration="4395000" />
+      <workItem from="1622769697019" duration="3697000" />
     </task>
     <task id="LOCAL-00020" summary="简化条件逻辑">
       <created>1604565241896</created>
@@ -484,7 +490,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622624577510</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="8">
+      <created>1622628164632</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1622628164632</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -509,53 +522,54 @@
     <MESSAGE value="6.11" />
     <MESSAGE value="封装" />
     <MESSAGE value="封装7" />
-    <option name="LAST_COMMIT_MESSAGE" value="封装7" />
+    <MESSAGE value="8" />
+    <option name="LAST_COMMIT_MESSAGE" value="8" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2059" y="-5" key="CommitChangelistDialog2" timestamp="1622624577129">
+    <state x="2059" y="-5" key="CommitChangelistDialog2" timestamp="1622628164431">
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
-    <state x="2059" y="-5" key="CommitChangelistDialog2/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1622624577129" />
+    <state x="2059" y="-5" key="CommitChangelistDialog2/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1622628164431" />
     <state x="2023" y="108" key="DiffContextDialog" timestamp="1621590963666">
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
     <state x="2023" y="108" key="DiffContextDialog/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1621590963666" />
-    <state width="1894" height="205" key="GridCell.Tab.0.bottom" timestamp="1622623955798">
+    <state width="1894" height="205" key="GridCell.Tab.0.bottom" timestamp="1622628249245">
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
     <state width="1894" height="19" key="GridCell.Tab.0.bottom/0.23.1440.877/-1920.58.1920.1057@-1920.58.1920.1057" timestamp="1615540134582" />
     <state width="1894" height="238" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.-59.1920.1057@0.23.1440.877" timestamp="1621314910269" />
-    <state width="1894" height="205" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1622623955798" />
+    <state width="1894" height="205" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1622628249245" />
     <state width="1414" height="3" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1622110608873" />
-    <state width="1894" height="205" key="GridCell.Tab.0.center" timestamp="1622623955796">
+    <state width="1894" height="205" key="GridCell.Tab.0.center" timestamp="1622628249244">
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
     <state width="1894" height="19" key="GridCell.Tab.0.center/0.23.1440.877/-1920.58.1920.1057@-1920.58.1920.1057" timestamp="1615540134581" />
     <state width="1894" height="238" key="GridCell.Tab.0.center/0.23.1440.877/1440.-59.1920.1057@0.23.1440.877" timestamp="1621314910268" />
-    <state width="1894" height="205" key="GridCell.Tab.0.center/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1622623955796" />
+    <state width="1894" height="205" key="GridCell.Tab.0.center/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1622628249244" />
     <state width="1414" height="3" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1622110608871" />
-    <state width="1894" height="205" key="GridCell.Tab.0.left" timestamp="1622623955796">
+    <state width="1894" height="205" key="GridCell.Tab.0.left" timestamp="1622628249243">
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
     <state width="1894" height="19" key="GridCell.Tab.0.left/0.23.1440.877/-1920.58.1920.1057@-1920.58.1920.1057" timestamp="1615540134581" />
     <state width="1894" height="238" key="GridCell.Tab.0.left/0.23.1440.877/1440.-59.1920.1057@0.23.1440.877" timestamp="1621314910267" />
-    <state width="1894" height="205" key="GridCell.Tab.0.left/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1622623955796" />
+    <state width="1894" height="205" key="GridCell.Tab.0.left/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1622628249243" />
     <state width="1414" height="3" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1622110608847" />
-    <state width="1894" height="205" key="GridCell.Tab.0.right" timestamp="1622623955797">
+    <state width="1894" height="205" key="GridCell.Tab.0.right" timestamp="1622628249244">
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
     <state width="1894" height="19" key="GridCell.Tab.0.right/0.23.1440.877/-1920.58.1920.1057@-1920.58.1920.1057" timestamp="1615540134582" />
     <state width="1894" height="238" key="GridCell.Tab.0.right/0.23.1440.877/1440.-59.1920.1057@0.23.1440.877" timestamp="1621314910268" />
-    <state width="1894" height="205" key="GridCell.Tab.0.right/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1622623955797" />
+    <state width="1894" height="205" key="GridCell.Tab.0.right/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1622628249244" />
     <state width="1414" height="3" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1622110608872" />
     <state x="1885" y="149" key="IDE.errors.dialog" timestamp="1621244270038">
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
     <state x="1885" y="149" key="IDE.errors.dialog/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1621244270038" />
-    <state x="2112" y="110" key="RollbackChangesDialog" timestamp="1621935637462">
+    <state x="2112" y="110" key="RollbackChangesDialog" timestamp="1622775368964">
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
-    <state x="2112" y="110" key="RollbackChangesDialog/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1621935637462" />
+    <state x="2112" y="110" key="RollbackChangesDialog/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1622775368964" />
     <state x="1620" y="101" key="SettingsEditor" timestamp="1621302378898">
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
