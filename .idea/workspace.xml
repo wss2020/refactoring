@@ -2,19 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e110b11-4635-405a-8d50-bf66468894af" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.1 搬移函数（Move Function）/范例/1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.1 搬移函数（Move Function）/范例/10.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.1 搬移函数（Move Function）/范例/2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.1 搬移函数（Move Function）/范例/3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.1 搬移函数（Move Function）/范例/4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.1 搬移函数（Move Function）/范例/5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.1 搬移函数（Move Function）/范例/6.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.1 搬移函数（Move Function）/范例/7.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.1 搬移函数（Move Function）/范例/8.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.1 搬移函数（Move Function）/范例/9.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.3 搬移语句到函数（Move Statements into Function）/范例/1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.3 搬移语句到函数（Move Statements into Function）/范例/2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.3 搬移语句到函数（Move Statements into Function）/范例/3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.3 搬移语句到函数（Move Statements into Function）/范例/4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.3 搬移语句到函数（Move Statements into Function）/范例/5.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.1 搬移函数（Move Function）/范例1-搬移内嵌函数至顶层.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.1 搬移函数（Move Function）/范例/范例1-搬移内嵌函数至顶层.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.1 搬移函数（Move Function）/范例1压缩版.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.1 搬移函数（Move Function）/范例/范例1压缩版.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记重构/《重构改善既有代码的设计(第2版)》中文PDF.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/《重构改善既有代码的设计(第2版)》中文PDF.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.3 搬移语句到函数（Move Statements into Function）/介绍.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.3 搬移语句到函数（Move Statements into Function）/介绍.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.3 搬移语句到函数（Move Statements into Function）/范例.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.3 搬移语句到函数（Move Statements into Function）/范例/范例.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.3 搬移语句到函数（Move Statements into Function）/范例压缩版.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.3 搬移语句到函数（Move Statements into Function）/范例/范例压缩版.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +22,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="TypeScript File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -41,31 +39,32 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.1 搬移函数（Move Function）/范例" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.3 搬移语句到函数（Move Statements into Function）/范例" />
     <property name="nodejs.mocha.mocha_node_package_dir" value="$PROJECT_DIR$/笔记重构/第3章 构筑测试体系/mocha-demos/node_modules/mocha" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.1 搬移函数（Move Function）/范例" />
-      <recent name="$PROJECT_DIR$/笔记重构/第7章 封装/7.1 封装记录（Encapsulate Record）/范例1" />
-      <recent name="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.11 拆分阶段（Split Phase）/范例" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/笔记重构/第3章 构筑测试体系/mocha-demos" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.1 搬移函数（Move Function）/范例" />
-      <recent name="$PROJECT_DIR$/笔记重构/第7章 封装/7.1 封装记录（Encapsulate Record）/范例2" />
-      <recent name="$PROJECT_DIR$/笔记重构/第7章 封装/7.1 封装记录（Encapsulate Record）/其它" />
-      <recent name="$PROJECT_DIR$/笔记重构/第7章 封装/7.1 封装记录（Encapsulate Record）/范例1" />
-      <recent name="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.11 以委托取代超类（Replace Superclass with Delegate） " />
+      <recent name="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.3 搬移语句到函数（Move Statements into Function）/范例" />
+      <recent name="$PROJECT_DIR$/笔记重构" />
+      <recent name="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.2 搬移字段（Move Field）/范例3" />
+      <recent name="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.2 搬移字段（Move Field）/范例2" />
+      <recent name="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.2 搬移字段（Move Field）/范例1" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.3 搬移语句到函数（Move Statements into Function）/范例" />
+      <recent name="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.2 搬移字段（Move Field）/范例3" />
+      <recent name="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.2 搬移字段（Move Field）/范例1" />
+      <recent name="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.2 搬移字段（Move Field）" />
+      <recent name="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.1 搬移函数（Move Function）/范例2" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.简介.js (1)">
+  <component name="RunManager" selected="Node.js.test.js (2)">
     <configuration name="简介.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/笔记重构/第7章 封装/7.9 替换算法（Substitute Algorithm）/简介.js" working-dir="$PROJECT_DIR$/笔记重构/第7章 封装/7.9 替换算法（Substitute Algorithm）">
       <method v="2" />
     </configuration>
@@ -75,34 +74,22 @@
     <configuration name="test.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/笔记重构/第7章 封装/7.2 封装集合（Encapsulate Collection）/test.js" working-dir="$PROJECT_DIR$/笔记重构/第7章 封装/7.2 封装集合（Encapsulate Collection）">
       <method v="2" />
     </configuration>
+    <configuration name="test.js (2)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.3 搬移语句到函数（Move Statements into Function）/test.js" working-dir="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.3 搬移语句到函数（Move Statements into Function）">
+      <method v="2" />
+    </configuration>
     <configuration name="test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.6 封装变量（Encapsulate Variable）/范例2-封装值/test.js" working-dir="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.6 封装变量（Encapsulate Variable）/范例2-封装值">
       <method v="2" />
     </configuration>
     <configuration name="test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/笔记重构/第7章 封装/7.1 封装记录（Encapsulate Record）/其它/test.js" working-dir="$PROJECT_DIR$/笔记重构/第7章 封装/7.1 封装记录（Encapsulate Record）">
       <method v="2" />
     </configuration>
-    <configuration name="string for producers" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <mocha-package>$PROJECT_DIR$/笔记重构/第3章 构筑测试体系/mocha-demos/node_modules/mocha</mocha-package>
-      <working-directory>$PROJECT_DIR$/笔记重构/第3章 构筑测试体系/mocha-demos</working-directory>
-      <pass-parent-env>true</pass-parent-env>
-      <ui>bdd</ui>
-      <extra-mocha-options />
-      <test-kind>SUITE</test-kind>
-      <test-file>$PROJECT_DIR$/笔记重构/第3章 构筑测试体系/mocha-demos/test/1.js</test-file>
-      <test-names>
-        <name value="string for producers" />
-      </test-names>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.test.js (2)" />
         <item itemvalue="Node.js.简介.js (1)" />
         <item itemvalue="Node.js.test.js (1)" />
         <item itemvalue="Node.js.简介.js" />
         <item itemvalue="Node.js.test.js" />
-        <item itemvalue="Mocha.string for producers" />
       </list>
     </recent_temporary>
   </component>
@@ -152,28 +139,8 @@
       <workItem from="1622536423824" duration="2870000" />
       <workItem from="1622612613658" duration="6282000" />
       <workItem from="1622686704891" duration="4395000" />
-      <workItem from="1622769697019" duration="3697000" />
-    </task>
-    <task id="LOCAL-00020" summary="简化条件逻辑">
-      <created>1604565241896</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1604565241896</updated>
-    </task>
-    <task id="LOCAL-00021" summary="简化条件逻辑">
-      <created>1604565310875</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1604565310875</updated>
-    </task>
-    <task id="LOCAL-00022" summary="重构API">
-      <created>1604568999888</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1604568999888</updated>
+      <workItem from="1622769697019" duration="8815000" />
+      <workItem from="1623030010635" duration="5577000" />
     </task>
     <task id="LOCAL-00023" summary="重构API">
       <created>1604569195070</created>
@@ -497,7 +464,28 @@
       <option name="project" value="LOCAL" />
       <updated>1622628164632</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="8">
+      <created>1622775390996</created>
+      <option name="number" value="00069" />
+      <option name="presentableId" value="LOCAL-00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1622775390996</updated>
+    </task>
+    <task id="LOCAL-00070" summary="8.1">
+      <created>1622790766239</created>
+      <option name="number" value="00070" />
+      <option name="presentableId" value="LOCAL-00070" />
+      <option name="project" value="LOCAL" />
+      <updated>1622790766239</updated>
+    </task>
+    <task id="LOCAL-00071" summary="8.2">
+      <created>1623054792762</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1623054792762</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -523,44 +511,46 @@
     <MESSAGE value="封装" />
     <MESSAGE value="封装7" />
     <MESSAGE value="8" />
-    <option name="LAST_COMMIT_MESSAGE" value="8" />
+    <MESSAGE value="8.1" />
+    <MESSAGE value="8.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="8.2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2059" y="-5" key="CommitChangelistDialog2" timestamp="1622628164431">
+    <state x="2059" y="-5" key="CommitChangelistDialog2" timestamp="1623054792251">
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
-    <state x="2059" y="-5" key="CommitChangelistDialog2/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1622628164431" />
+    <state x="2059" y="-5" key="CommitChangelistDialog2/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1623054792251" />
     <state x="2023" y="108" key="DiffContextDialog" timestamp="1621590963666">
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
     <state x="2023" y="108" key="DiffContextDialog/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1621590963666" />
-    <state width="1894" height="205" key="GridCell.Tab.0.bottom" timestamp="1622628249245">
+    <state width="1894" height="205" key="GridCell.Tab.0.bottom" timestamp="1623055592748">
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
     <state width="1894" height="19" key="GridCell.Tab.0.bottom/0.23.1440.877/-1920.58.1920.1057@-1920.58.1920.1057" timestamp="1615540134582" />
     <state width="1894" height="238" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.-59.1920.1057@0.23.1440.877" timestamp="1621314910269" />
-    <state width="1894" height="205" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1622628249245" />
+    <state width="1894" height="205" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1623055592748" />
     <state width="1414" height="3" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1622110608873" />
-    <state width="1894" height="205" key="GridCell.Tab.0.center" timestamp="1622628249244">
+    <state width="1894" height="205" key="GridCell.Tab.0.center" timestamp="1623055592747">
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
     <state width="1894" height="19" key="GridCell.Tab.0.center/0.23.1440.877/-1920.58.1920.1057@-1920.58.1920.1057" timestamp="1615540134581" />
     <state width="1894" height="238" key="GridCell.Tab.0.center/0.23.1440.877/1440.-59.1920.1057@0.23.1440.877" timestamp="1621314910268" />
-    <state width="1894" height="205" key="GridCell.Tab.0.center/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1622628249244" />
+    <state width="1894" height="205" key="GridCell.Tab.0.center/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1623055592747" />
     <state width="1414" height="3" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1622110608871" />
-    <state width="1894" height="205" key="GridCell.Tab.0.left" timestamp="1622628249243">
+    <state width="1894" height="205" key="GridCell.Tab.0.left" timestamp="1623055592744">
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
     <state width="1894" height="19" key="GridCell.Tab.0.left/0.23.1440.877/-1920.58.1920.1057@-1920.58.1920.1057" timestamp="1615540134581" />
     <state width="1894" height="238" key="GridCell.Tab.0.left/0.23.1440.877/1440.-59.1920.1057@0.23.1440.877" timestamp="1621314910267" />
-    <state width="1894" height="205" key="GridCell.Tab.0.left/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1622628249243" />
+    <state width="1894" height="205" key="GridCell.Tab.0.left/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1623055592744" />
     <state width="1414" height="3" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1622110608847" />
-    <state width="1894" height="205" key="GridCell.Tab.0.right" timestamp="1622628249244">
+    <state width="1894" height="205" key="GridCell.Tab.0.right" timestamp="1623055592747">
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
     <state width="1894" height="19" key="GridCell.Tab.0.right/0.23.1440.877/-1920.58.1920.1057@-1920.58.1920.1057" timestamp="1615540134582" />
     <state width="1894" height="238" key="GridCell.Tab.0.right/0.23.1440.877/1440.-59.1920.1057@0.23.1440.877" timestamp="1621314910268" />
-    <state width="1894" height="205" key="GridCell.Tab.0.right/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1622628249244" />
+    <state width="1894" height="205" key="GridCell.Tab.0.right/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1623055592747" />
     <state width="1414" height="3" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1622110608872" />
     <state x="1885" y="149" key="IDE.errors.dialog" timestamp="1621244270038">
       <screen x="1440" y="-59" width="1920" height="1057" />

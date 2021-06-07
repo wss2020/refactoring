@@ -3,6 +3,7 @@
 //修改前
 result.push(`<p>title: ${person.photo.title}</p>`);
 result.concat(photoData(person.photo));
+
 function photoData(aPhoto) {
     return [
         `<p>location: ${aPhoto.location}</p>`,
@@ -11,9 +12,9 @@ function photoData(aPhoto) {
 }
 
 
-
 //修改后
 result.concat(photoData(person.photo));
+
 function photoData(aPhoto) {
     return [
         `<p>title: ${aPhoto.title}</p>`,
@@ -21,9 +22,9 @@ function photoData(aPhoto) {
         `<p>date: ${aPhoto.date.toDateString()}</p>`,];
 }
 
-/*
+/**
 动机
-
+
    要维护代码库的健康发展，需要遵守几条黄金守则，其中最重要的一条当属“消除重复”。如果我发现调用某个函数时，总有一些相同的代码也需要每次执行，那么我
 会考虑将此段代码合并到函数里头。这样，日后对这段代码的修改只需改一处地方，还能对所有调用者同时生效。如果将来代码对不同的调用者需有不同的行为，那时再通
 过搬移语句到调用者（217）将它（或其一部分）搬移出来也十分简单。
@@ -31,12 +32,10 @@ function photoData(aPhoto) {
    如果某些语句与一个函数放在一起更像一个整体，并且更有助于理解，那我就会毫不犹豫地将语句搬移到函数里去。如果它们与函数不像一个整体，但仍应与函数一起
 执行，那我可以用提炼函数（106）将语句和函数一并提炼出去。这基本就是我下面要描述的做法了，只是下面还多了内联和改名的步骤。这些清理工作通常有其必要性，
 可以在完成核心步骤后再择机完成。
-
  */
 
 
-
-/*
+/**
 做法
 
      如果重复的代码段离调用目标函数的地方还有些距离，则先用移动语句（223）将这些语句挪动到紧邻目标函数的位置。
