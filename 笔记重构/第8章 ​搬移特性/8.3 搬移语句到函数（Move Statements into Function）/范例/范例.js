@@ -1,7 +1,4 @@
 
-
-
-
 //最后，再对新提炼的函数应用函数改名（124），就大功告成了。
 function renderPerson(outStream, person) {
     const result = [];
@@ -16,7 +13,6 @@ function photoDiv(aPhoto) {
         emitPhotoData(aPhoto),
         "</div>",
     ].join("\n");
-
 }
 function emitPhotoData(aPhoto) {
     return [
