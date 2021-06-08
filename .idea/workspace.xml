@@ -2,20 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e110b11-4635-405a-8d50-bf66468894af" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.8 以管道取代循环（Replace Loop with Pipeline）/范例/1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.8 以管道取代循环（Replace Loop with Pipeline）/范例/2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.8 以管道取代循环（Replace Loop with Pipeline）/范例/3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.8 以管道取代循环（Replace Loop with Pipeline）/范例/4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.8 以管道取代循环（Replace Loop with Pipeline）/范例/5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.8 以管道取代循环（Replace Loop with Pipeline）/范例/6.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.8 以管道取代循环（Replace Loop with Pipeline）/范例/7.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.8 以管道取代循环（Replace Loop with Pipeline）/范例/8.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.8 以管道取代循环（Replace Loop with Pipeline）/范例/9.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/笔记重构/《重构改善既有代码的设计(第2版)》中文PDF.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/《重构改善既有代码的设计(第2版)》中文PDF.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.8 以管道取代循环（Replace Loop with Pipeline）/简介.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.8 以管道取代循环（Replace Loop with Pipeline）/简介.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.8 以管道取代循环（Replace Loop with Pipeline）/范例.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.8 以管道取代循环（Replace Loop with Pipeline）/范例/范例.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.8 以管道取代循环（Replace Loop with Pipeline）/范例压缩版.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.8 以管道取代循环（Replace Loop with Pipeline）/范例/范例压缩版.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.9 移除死代码（Remove Dead Code）/简介.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.9 移除死代码（Remove Dead Code）/简介.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,14 +137,7 @@
       <workItem from="1623116690727" duration="3951000" />
       <workItem from="1623120979118" duration="251000" />
       <workItem from="1623130865971" duration="599000" />
-      <workItem from="1623137302681" duration="3775000" />
-    </task>
-    <task id="LOCAL-00026" summary="简化条件逻辑">
-      <created>1604632229754</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1604632229754</updated>
+      <workItem from="1623137302681" duration="3857000" />
     </task>
     <task id="LOCAL-00027" summary="一组常用重构">
       <created>1604635900896</created>
@@ -493,7 +475,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623141596957</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="8.8">
+      <created>1623144338185</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1623144338185</updated>
+    </task>
+    <option name="localTasksCounter" value="76" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -523,13 +512,14 @@
     <MESSAGE value="8.3" />
     <MESSAGE value="8.4" />
     <MESSAGE value="8" />
-    <option name="LAST_COMMIT_MESSAGE" value="8" />
+    <MESSAGE value="8.8" />
+    <option name="LAST_COMMIT_MESSAGE" value="8.8" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2059" y="-5" key="CommitChangelistDialog2" timestamp="1623141596649">
+    <state x="2059" y="-5" key="CommitChangelistDialog2" timestamp="1623144337910">
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
-    <state x="2059" y="-5" key="CommitChangelistDialog2/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1623141596649" />
+    <state x="2059" y="-5" key="CommitChangelistDialog2/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1623144337910" />
     <state x="2023" y="108" key="DiffContextDialog" timestamp="1623117534941">
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
@@ -574,10 +564,10 @@
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
     <state x="1620" y="101" key="SettingsEditor/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1621302378898" />
-    <state x="1900" y="146" key="Vcs.Push.Dialog.v2" timestamp="1623117547074">
+    <state x="1900" y="146" key="Vcs.Push.Dialog.v2" timestamp="1623144342142">
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
-    <state x="1900" y="146" key="Vcs.Push.Dialog.v2/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1623117547074" />
+    <state x="1900" y="146" key="Vcs.Push.Dialog.v2/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1623144342142" />
     <state x="2027" y="161" width="745" height="616" key="find.popup" timestamp="1621241875158">
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
