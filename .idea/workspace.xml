@@ -2,18 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e110b11-4635-405a-8d50-bf66468894af" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.4 搬移语句到调用者（Move Statements to Callers）/范例/1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.4 搬移语句到调用者（Move Statements to Callers）/范例/2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.4 搬移语句到调用者（Move Statements to Callers）/范例/3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.4 搬移语句到调用者（Move Statements to Callers）/范例/4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.4 搬移语句到调用者（Move Statements to Callers）/范例/5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.4 搬移语句到调用者（Move Statements to Callers）/范例/6.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.7 拆分循环（Split Loop）/范例/1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.7 拆分循环（Split Loop）/范例/2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.7 拆分循环（Split Loop）/范例/3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.7 拆分循环（Split Loop）/范例/4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.7 拆分循环（Split Loop）/范例/5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.7 拆分循环（Split Loop）/范例/6.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/笔记重构/《重构改善既有代码的设计(第2版)》中文PDF.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/《重构改善既有代码的设计(第2版)》中文PDF.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.3 搬移语句到函数（Move Statements into Function）/范例/范例.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.3 搬移语句到函数（Move Statements into Function）/范例/范例.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.4 搬移语句到调用者（Move Statements to Callers）/简介.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.4 搬移语句到调用者（Move Statements to Callers）/简介.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.4 搬移语句到调用者（Move Statements to Callers）/范例.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.4 搬移语句到调用者（Move Statements to Callers）/范例/范例.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.4 搬移语句到调用者（Move Statements to Callers）/范例简化版.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.4 搬移语句到调用者（Move Statements to Callers）/范例/范例简化版.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.5 以函数调用取代内联代码（Replace Inline Code with Function Call）/简介.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.5 以函数调用取代内联代码（Replace Inline Code with Function Call）/简介.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.6 移动语句（Slide Statements）/介绍.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.6 移动语句（Slide Statements）/介绍.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.6 移动语句（Slide Statements）/范例1.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.6 移动语句（Slide Statements）/范例1/范例1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.6 移动语句（Slide Statements）/范例2-包含条件逻辑的移动.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.6 移动语句（Slide Statements）/范例2/范例2-包含条件逻辑的移动.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.6 移动语句（Slide Statements）/范例压缩版.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.6 移动语句（Slide Statements）/范例2/范例压缩版.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.7 拆分循环（Split Loop）/介绍.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.7 拆分循环（Split Loop）/介绍.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.7 拆分循环（Split Loop）/范例.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.7 拆分循环（Split Loop）/范例/范例.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.7 拆分循环（Split Loop）/范例压缩版.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.7 拆分循环（Split Loop）/范例/范例压缩版.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +45,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.4 搬移语句到调用者（Move Statements to Callers）/范例" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.7 拆分循环（Split Loop）/范例" />
     <property name="nodejs.mocha.mocha_node_package_dir" value="$PROJECT_DIR$/笔记重构/第3章 构筑测试体系/mocha-demos/node_modules/mocha" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -51,19 +55,19 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.7 拆分循环（Split Loop）/范例" />
+      <recent name="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.6 移动语句（Slide Statements）/范例2" />
+      <recent name="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.6 移动语句（Slide Statements）/范例1" />
+      <recent name="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.4 搬移语句到调用者（Move Statements to Callers）/范例" />
+      <recent name="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.3 搬移语句到函数（Move Statements into Function）/范例" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.7 拆分循环（Split Loop）/范例" />
       <recent name="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.4 搬移语句到调用者（Move Statements to Callers）/范例" />
       <recent name="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.3 搬移语句到函数（Move Statements into Function）/范例" />
       <recent name="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.2 搬移字段（Move Field）/范例3" />
       <recent name="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.2 搬移字段（Move Field）/范例1" />
-      <recent name="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.2 搬移字段（Move Field）" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.4 搬移语句到调用者（Move Statements to Callers）/范例" />
-      <recent name="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.3 搬移语句到函数（Move Statements into Function）/范例" />
-      <recent name="$PROJECT_DIR$/笔记重构" />
-      <recent name="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.2 搬移字段（Move Field）/范例3" />
-      <recent name="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.2 搬移字段（Move Field）/范例2" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.test.js (2)">
@@ -143,14 +147,10 @@
       <workItem from="1622686704891" duration="4395000" />
       <workItem from="1622769697019" duration="8815000" />
       <workItem from="1623030010635" duration="7712000" />
-      <workItem from="1623116690727" duration="827000" />
-    </task>
-    <task id="LOCAL-00024" summary="重构API">
-      <created>1604570044763</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1604570044763</updated>
+      <workItem from="1623116690727" duration="3951000" />
+      <workItem from="1623120979118" duration="251000" />
+      <workItem from="1623130865971" duration="599000" />
+      <workItem from="1623137302681" duration="1955000" />
     </task>
     <task id="LOCAL-00025" summary="简化条件逻辑">
       <created>1604631396930</created>
@@ -488,7 +488,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623056591585</updated>
     </task>
-    <option name="localTasksCounter" value="73" />
+    <task id="LOCAL-00073" summary="8.4">
+      <created>1623117545167</created>
+      <option name="number" value="00073" />
+      <option name="presentableId" value="LOCAL-00073" />
+      <option name="project" value="LOCAL" />
+      <updated>1623117545168</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -517,17 +524,18 @@
     <MESSAGE value="8.1" />
     <MESSAGE value="8.2" />
     <MESSAGE value="8.3" />
-    <option name="LAST_COMMIT_MESSAGE" value="8.3" />
+    <MESSAGE value="8.4" />
+    <option name="LAST_COMMIT_MESSAGE" value="8.4" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2059" y="-5" key="CommitChangelistDialog2" timestamp="1623056591362">
+    <state x="2059" y="-5" key="CommitChangelistDialog2" timestamp="1623117544786">
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
-    <state x="2059" y="-5" key="CommitChangelistDialog2/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1623056591362" />
-    <state x="2023" y="108" key="DiffContextDialog" timestamp="1621590963666">
+    <state x="2059" y="-5" key="CommitChangelistDialog2/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1623117544786" />
+    <state x="2023" y="108" key="DiffContextDialog" timestamp="1623117534941">
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
-    <state x="2023" y="108" key="DiffContextDialog/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1621590963666" />
+    <state x="2023" y="108" key="DiffContextDialog/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1623117534941" />
     <state width="1894" height="205" key="GridCell.Tab.0.bottom" timestamp="1623060035859">
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
@@ -568,10 +576,10 @@
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
     <state x="1620" y="101" key="SettingsEditor/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1621302378898" />
-    <state x="1900" y="146" key="Vcs.Push.Dialog.v2" timestamp="1622193741461">
+    <state x="1900" y="146" key="Vcs.Push.Dialog.v2" timestamp="1623117547074">
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
-    <state x="1900" y="146" key="Vcs.Push.Dialog.v2/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1622193741461" />
+    <state x="1900" y="146" key="Vcs.Push.Dialog.v2/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1623117547074" />
     <state x="2027" y="161" width="745" height="616" key="find.popup" timestamp="1621241875158">
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
