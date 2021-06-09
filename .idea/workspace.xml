@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e110b11-4635-405a-8d50-bf66468894af" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.2 字段改名（Rename Field）/范例/1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.2 字段改名（Rename Field）/范例/2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.2 字段改名（Rename Field）/范例/3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.2 字段改名（Rename Field）/范例/4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.2 字段改名（Rename Field）/范例/5.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/笔记重构/《重构改善既有代码的设计(第2版)》中文PDF.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/《重构改善既有代码的设计(第2版)》中文PDF.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.2 字段改名（Rename Field）/简介.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.2 字段改名（Rename Field）/简介.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.2 字段改名（Rename Field）/范例 给字段改名.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.2 字段改名（Rename Field）/范例/范例 给字段改名.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.2 字段改名（Rename Field）/范例压缩版.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.2 字段改名（Rename Field）/范例/范例压缩版.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.3 以查询取代派生变量（Replace Derived Variable with Query）/简介.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.3 以查询取代派生变量（Replace Derived Variable with Query）/简介.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.3 以查询取代派生变量（Replace Derived Variable with Query）/范例1.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.3 以查询取代派生变量（Replace Derived Variable with Query）/范例1/范例1.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,11 +51,11 @@
       <recent name="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.7 拆分循环（Split Loop）/范例" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.3 以查询取代派生变量（Replace Derived Variable with Query）/范例1" />
       <recent name="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.2 字段改名（Rename Field）/范例" />
       <recent name="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.1 拆分变量（Split Variable）/范例2" />
       <recent name="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.1 拆分变量（Split Variable）/范例1" />
       <recent name="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.8 以管道取代循环（Replace Loop with Pipeline）/范例" />
-      <recent name="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.7 拆分循环（Split Loop）/范例" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.3.js">
@@ -145,14 +139,7 @@
       <workItem from="1623120979118" duration="251000" />
       <workItem from="1623130865971" duration="599000" />
       <workItem from="1623137302681" duration="5433000" />
-      <workItem from="1623218655309" duration="5053000" />
-    </task>
-    <task id="LOCAL-00029" summary="6">
-      <created>1604637052497</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1604637052497</updated>
+      <workItem from="1623218655309" duration="5456000" />
     </task>
     <task id="LOCAL-00030" summary="6">
       <created>1604640097770</created>
@@ -490,14 +477,20 @@
       <option name="project" value="LOCAL" />
       <updated>1623229381713</updated>
     </task>
-    <option name="localTasksCounter" value="78" />
+    <task id="LOCAL-00078" summary="9.2 字段改名">
+      <created>1623232294194</created>
+      <option name="number" value="00078" />
+      <option name="presentableId" value="LOCAL-00078" />
+      <option name="project" value="LOCAL" />
+      <updated>1623232294194</updated>
+    </task>
+    <option name="localTasksCounter" value="79" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="重构API" />
     <MESSAGE value="简化条件逻辑" />
     <MESSAGE value="一组常用重构" />
     <MESSAGE value="111" />
@@ -522,13 +515,14 @@
     <MESSAGE value="8.8" />
     <MESSAGE value="8.9" />
     <MESSAGE value="9.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="9.1" />
+    <MESSAGE value="9.2 字段改名" />
+    <option name="LAST_COMMIT_MESSAGE" value="9.2 字段改名" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2059" y="-5" key="CommitChangelistDialog2" timestamp="1623229381440">
+    <state x="2059" y="-5" key="CommitChangelistDialog2" timestamp="1623232293956">
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
-    <state x="2059" y="-5" key="CommitChangelistDialog2/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1623229381440" />
+    <state x="2059" y="-5" key="CommitChangelistDialog2/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1623232293956" />
     <state x="2023" y="108" key="DiffContextDialog" timestamp="1623117534941">
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
