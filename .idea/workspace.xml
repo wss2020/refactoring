@@ -2,10 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e110b11-4635-405a-8d50-bf66468894af" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.3 以查询取代派生变量（Replace Derived Variable with Query）/范例1/1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.3 以查询取代派生变量（Replace Derived Variable with Query）/范例1/2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.3 以查询取代派生变量（Replace Derived Variable with Query）/范例1/3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.3 以查询取代派生变量（Replace Derived Variable with Query）/范例1/4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.3 以查询取代派生变量（Replace Derived Variable with Query）/范例1/5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.3 以查询取代派生变量（Replace Derived Variable with Query）/范例2/1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.3 以查询取代派生变量（Replace Derived Variable with Query）/范例2/2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.3 以查询取代派生变量（Replace Derived Variable with Query）/范例2/3.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记重构/《重构改善既有代码的设计(第2版)》中文PDF copy.pdf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/笔记重构/《重构改善既有代码的设计(第2版)》中文PDF.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/《重构改善既有代码的设计(第2版)》中文PDF.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.3 以查询取代派生变量（Replace Derived Variable with Query）/简介.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.3 以查询取代派生变量（Replace Derived Variable with Query）/简介.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.3 以查询取代派生变量（Replace Derived Variable with Query）/范例1.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.3 以查询取代派生变量（Replace Derived Variable with Query）/范例1/范例1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.3 以查询取代派生变量（Replace Derived Variable with Query）/范例2-不止一个数据来源.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.3 以查询取代派生变量（Replace Derived Variable with Query）/范例2/范例2-不止一个数据来源.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +41,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.2 字段改名（Rename Field）/范例" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.3 以查询取代派生变量（Replace Derived Variable with Query）/范例2" />
     <property name="nodejs.mocha.mocha_node_package_dir" value="$PROJECT_DIR$/笔记重构/第3章 构筑测试体系/mocha-demos/node_modules/mocha" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -43,19 +51,19 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.2 字段改名（Rename Field）/范例" />
-      <recent name="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.1 拆分变量（Split Variable）/范例2" />
-      <recent name="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.1 拆分变量（Split Variable）/范例1" />
-      <recent name="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.8 以管道取代循环（Replace Loop with Pipeline）/范例" />
-      <recent name="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.7 拆分循环（Split Loop）/范例" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.3 以查询取代派生变量（Replace Derived Variable with Query）/范例2" />
       <recent name="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.3 以查询取代派生变量（Replace Derived Variable with Query）/范例1" />
       <recent name="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.2 字段改名（Rename Field）/范例" />
       <recent name="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.1 拆分变量（Split Variable）/范例2" />
       <recent name="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.1 拆分变量（Split Variable）/范例1" />
-      <recent name="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.8 以管道取代循环（Replace Loop with Pipeline）/范例" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.3 以查询取代派生变量（Replace Derived Variable with Query）/范例2" />
+      <recent name="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.3 以查询取代派生变量（Replace Derived Variable with Query）/范例1" />
+      <recent name="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.2 字段改名（Rename Field）/范例" />
+      <recent name="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.1 拆分变量（Split Variable）/范例2" />
+      <recent name="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.1 拆分变量（Split Variable）/范例1" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.3.js">
@@ -139,14 +147,9 @@
       <workItem from="1623120979118" duration="251000" />
       <workItem from="1623130865971" duration="599000" />
       <workItem from="1623137302681" duration="5433000" />
-      <workItem from="1623218655309" duration="5456000" />
-    </task>
-    <task id="LOCAL-00030" summary="6">
-      <created>1604640097770</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1604640097770</updated>
+      <workItem from="1623218655309" duration="5638000" />
+      <workItem from="1623748392204" duration="1757000" />
+      <workItem from="1623812954590" duration="2826000" />
     </task>
     <task id="LOCAL-00031" summary="6">
       <created>1604640159514</created>
@@ -484,14 +487,20 @@
       <option name="project" value="LOCAL" />
       <updated>1623232294194</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="9.3">
+      <created>1623232846944</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1623232846944</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="简化条件逻辑" />
     <MESSAGE value="一组常用重构" />
     <MESSAGE value="111" />
     <MESSAGE value="k" />
@@ -516,44 +525,45 @@
     <MESSAGE value="8.9" />
     <MESSAGE value="9.1" />
     <MESSAGE value="9.2 字段改名" />
-    <option name="LAST_COMMIT_MESSAGE" value="9.2 字段改名" />
+    <MESSAGE value="9.3" />
+    <option name="LAST_COMMIT_MESSAGE" value="9.3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2059" y="-5" key="CommitChangelistDialog2" timestamp="1623232293956">
+    <state x="2059" y="-5" key="CommitChangelistDialog2" timestamp="1623232846740">
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
-    <state x="2059" y="-5" key="CommitChangelistDialog2/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1623232293956" />
+    <state x="2059" y="-5" key="CommitChangelistDialog2/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1623232846740" />
     <state x="2023" y="108" key="DiffContextDialog" timestamp="1623117534941">
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
     <state x="2023" y="108" key="DiffContextDialog/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1623117534941" />
-    <state width="1894" height="164" key="GridCell.Tab.0.bottom" timestamp="1623229194579">
+    <state width="1894" height="3" key="GridCell.Tab.0.bottom" timestamp="1623232858567">
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
     <state width="1894" height="19" key="GridCell.Tab.0.bottom/0.23.1440.877/-1920.58.1920.1057@-1920.58.1920.1057" timestamp="1615540134582" />
     <state width="1894" height="238" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.-59.1920.1057@0.23.1440.877" timestamp="1621314910269" />
-    <state width="1894" height="164" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1623229194579" />
+    <state width="1894" height="3" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1623232858567" />
     <state width="1414" height="3" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1622110608873" />
-    <state width="1894" height="164" key="GridCell.Tab.0.center" timestamp="1623229194578">
+    <state width="1894" height="3" key="GridCell.Tab.0.center" timestamp="1623232858567">
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
     <state width="1894" height="19" key="GridCell.Tab.0.center/0.23.1440.877/-1920.58.1920.1057@-1920.58.1920.1057" timestamp="1615540134581" />
     <state width="1894" height="238" key="GridCell.Tab.0.center/0.23.1440.877/1440.-59.1920.1057@0.23.1440.877" timestamp="1621314910268" />
-    <state width="1894" height="164" key="GridCell.Tab.0.center/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1623229194578" />
+    <state width="1894" height="3" key="GridCell.Tab.0.center/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1623232858567" />
     <state width="1414" height="3" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1622110608871" />
-    <state width="1894" height="164" key="GridCell.Tab.0.left" timestamp="1623229194578">
+    <state width="1894" height="3" key="GridCell.Tab.0.left" timestamp="1623232858566">
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
     <state width="1894" height="19" key="GridCell.Tab.0.left/0.23.1440.877/-1920.58.1920.1057@-1920.58.1920.1057" timestamp="1615540134581" />
     <state width="1894" height="238" key="GridCell.Tab.0.left/0.23.1440.877/1440.-59.1920.1057@0.23.1440.877" timestamp="1621314910267" />
-    <state width="1894" height="164" key="GridCell.Tab.0.left/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1623229194578" />
+    <state width="1894" height="3" key="GridCell.Tab.0.left/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1623232858566" />
     <state width="1414" height="3" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1622110608847" />
-    <state width="1894" height="164" key="GridCell.Tab.0.right" timestamp="1623229194579">
+    <state width="1894" height="3" key="GridCell.Tab.0.right" timestamp="1623232858567">
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
     <state width="1894" height="19" key="GridCell.Tab.0.right/0.23.1440.877/-1920.58.1920.1057@-1920.58.1920.1057" timestamp="1615540134582" />
     <state width="1894" height="238" key="GridCell.Tab.0.right/0.23.1440.877/1440.-59.1920.1057@0.23.1440.877" timestamp="1621314910268" />
-    <state width="1894" height="164" key="GridCell.Tab.0.right/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1623229194579" />
+    <state width="1894" height="3" key="GridCell.Tab.0.right/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1623232858567" />
     <state width="1414" height="3" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1622110608872" />
     <state x="1885" y="149" key="IDE.errors.dialog" timestamp="1621244270038">
       <screen x="1440" y="-59" width="1920" height="1057" />
