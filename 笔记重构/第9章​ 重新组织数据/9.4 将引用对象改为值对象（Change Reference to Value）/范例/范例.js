@@ -94,7 +94,7 @@ class TelephoneNumber {
 }
 //对其进行测试很重要：
 it('telephone equals', function() {
-    assert(​new TelephoneNumber("312", "555-0142").equals(new TelephoneNumber("312", "555-0142")));
+    assert(new TelephoneNumber("312", "555-0142").equals(new TelephoneNumber("312", "555-0142")));
 });
 
 
@@ -110,6 +110,27 @@ it('telephone equals', function() {
    如果有多个客户端使用了TelephoneNumber对象，重构的过程还是一样，只是在运用移除设值函数（331）时要修改多处客户端代码。另外，有必要添加几个测试，
 检查电话号码不相等以及与非电话号码和null值比较相等性等情况。
  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -2,18 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e110b11-4635-405a-8d50-bf66468894af" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.3 以查询取代派生变量（Replace Derived Variable with Query）/范例1/1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.3 以查询取代派生变量（Replace Derived Variable with Query）/范例1/2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.3 以查询取代派生变量（Replace Derived Variable with Query）/范例1/3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.3 以查询取代派生变量（Replace Derived Variable with Query）/范例1/4.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.3 以查询取代派生变量（Replace Derived Variable with Query）/范例1/5.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.3 以查询取代派生变量（Replace Derived Variable with Query）/范例2/1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.3 以查询取代派生变量（Replace Derived Variable with Query）/范例2/2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.3 以查询取代派生变量（Replace Derived Variable with Query）/范例2/3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.4 将引用对象改为值对象（Change Reference to Value）/范例/1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.4 将引用对象改为值对象（Change Reference to Value）/范例/2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.4 将引用对象改为值对象（Change Reference to Value）/范例/3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.4 将引用对象改为值对象（Change Reference to Value）/范例/4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.4 将引用对象改为值对象（Change Reference to Value）/范例/5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.5 将值对象改为引用对象（Change Value to Reference）/范例/1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.5 将值对象改为引用对象（Change Value to Reference）/范例/2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.5 将值对象改为引用对象（Change Value to Reference）/范例/3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/笔记重构/解析 es5.ts/es5.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/笔记重构/《重构改善既有代码的设计(第2版)》中文PDF copy.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/笔记重构/《重构改善既有代码的设计(第2版)》中文PDF.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/《重构改善既有代码的设计(第2版)》中文PDF.pdf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.3 以查询取代派生变量（Replace Derived Variable with Query）/范例2-不止一个数据来源.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.3 以查询取代派生变量（Replace Derived Variable with Query）/范例2/范例2-不止一个数据来源.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.4 将引用对象改为值对象（Change Reference to Value）/简介.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.4 将引用对象改为值对象（Change Reference to Value）/简介.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.4 将引用对象改为值对象（Change Reference to Value）/范例.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.4 将引用对象改为值对象（Change Reference to Value）/范例/范例.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.4 将引用对象改为值对象（Change Reference to Value）/范例压缩版.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.4 将引用对象改为值对象（Change Reference to Value）/范例/范例压缩版.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.5 将值对象改为引用对象（Change Value to Reference）/简介.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.5 将值对象改为引用对象（Change Value to Reference）/简介.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.5 将值对象改为引用对象（Change Value to Reference）/范例.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.5 将值对象改为引用对象（Change Value to Reference）/范例/范例.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +44,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.3 以查询取代派生变量（Replace Derived Variable with Query）/范例2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.5 将值对象改为引用对象（Change Value to Reference）/范例" />
     <property name="nodejs.mocha.mocha_node_package_dir" value="$PROJECT_DIR$/笔记重构/第3章 构筑测试体系/mocha-demos/node_modules/mocha" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -52,46 +55,85 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.5 将值对象改为引用对象（Change Value to Reference）/范例" />
+      <recent name="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.4 将引用对象改为值对象（Change Reference to Value）/范例" />
       <recent name="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.3 以查询取代派生变量（Replace Derived Variable with Query）/范例2" />
       <recent name="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.3 以查询取代派生变量（Replace Derived Variable with Query）/范例1" />
       <recent name="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.2 字段改名（Rename Field）/范例" />
-      <recent name="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.1 拆分变量（Split Variable）/范例2" />
-      <recent name="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.1 拆分变量（Split Variable）/范例1" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.5 将值对象改为引用对象（Change Value to Reference）/范例" />
+      <recent name="$PROJECT_DIR$/笔记重构/解析 es5.ts" />
+      <recent name="$PROJECT_DIR$/笔记重构/第3章 构筑测试体系/mocha-demos" />
+      <recent name="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.4 将引用对象改为值对象（Change Reference to Value）/范例" />
       <recent name="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.3 以查询取代派生变量（Replace Derived Variable with Query）/范例2" />
-      <recent name="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.3 以查询取代派生变量（Replace Derived Variable with Query）/范例1" />
-      <recent name="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.2 字段改名（Rename Field）/范例" />
-      <recent name="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.1 拆分变量（Split Variable）/范例2" />
-      <recent name="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.1 拆分变量（Split Variable）/范例1" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.3.js">
-    <configuration name="2.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.1 拆分变量（Split Variable）/范例2/2.js" working-dir="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.1 拆分变量（Split Variable）/范例2">
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Mocha.笔记重构/第3章 构筑测试体系/mocha-demos/9.4/test.js">
     <configuration name="3.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.1 拆分变量（Split Variable）/范例2/3.js" working-dir="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.1 拆分变量（Split Variable）/范例2">
       <method v="2" />
     </configuration>
-    <configuration name="简介.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/笔记重构/第7章 封装/7.9 替换算法（Substitute Algorithm）/简介.js" working-dir="$PROJECT_DIR$/笔记重构/第7章 封装/7.9 替换算法（Substitute Algorithm）">
+    <configuration name="类对象相等测试：" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/笔记重构/第3章 构筑测试体系/mocha-demos/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$/笔记重构/第3章 构筑测试体系/mocha-demos</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>SUITE</test-kind>
+      <test-file>$PROJECT_DIR$/笔记重构/第3章 构筑测试体系/mocha-demos/9.4/test.js</test-file>
+      <test-names>
+        <name value="类对象相等测试：" />
+      </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="test.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/笔记重构/第7章 封装/7.2 封装集合（Encapsulate Collection）/test.js" working-dir="$PROJECT_DIR$/笔记重构/第7章 封装/7.2 封装集合（Encapsulate Collection）">
+    <configuration name="笔记重构/第3章 构筑测试体系/mocha-demos/9.4/test.js" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/笔记重构/第3章 构筑测试体系/mocha-demos/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$/笔记重构/第3章 构筑测试体系/mocha-demos</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST_FILE</test-kind>
+      <test-file>$PROJECT_DIR$/笔记重构/第3章 构筑测试体系/mocha-demos/9.4/test.js</test-file>
       <method v="2" />
     </configuration>
-    <configuration name="test.js (2)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.3 搬移语句到函数（Move Statements into Function）/test.js" working-dir="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.3 搬移语句到函数（Move Statements into Function）">
+    <configuration name="笔记重构/第3章 构筑测试体系/mocha-demos/demo01/add.test.js" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/笔记重构/第3章 构筑测试体系/mocha-demos/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$/笔记重构/第3章 构筑测试体系/mocha-demos</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST_FILE</test-kind>
+      <test-file>$PROJECT_DIR$/笔记重构/第3章 构筑测试体系/mocha-demos/demo01/add.test.js</test-file>
       <method v="2" />
     </configuration>
-    <configuration name="test.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/笔记重构/第7章 封装/7.1 封装记录（Encapsulate Record）/其它/test.js" working-dir="$PROJECT_DIR$/笔记重构/第7章 封装/7.1 封装记录（Encapsulate Record）">
+    <configuration name="telephone equals" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <mocha-package>$PROJECT_DIR$/笔记重构/第3章 构筑测试体系/mocha-demos/node_modules/mocha</mocha-package>
+      <working-directory>$PROJECT_DIR$/笔记重构/第3章 构筑测试体系/mocha-demos</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/笔记重构/第3章 构筑测试体系/mocha-demos/demo01/add.test.js</test-file>
+      <test-names>
+        <name value="telephone equals" />
+      </test-names>
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Mocha.笔记重构/第3章 构筑测试体系/mocha-demos/9.4/test.js" />
+        <item itemvalue="Mocha.类对象相等测试：" />
+        <item itemvalue="Mocha.笔记重构/第3章 构筑测试体系/mocha-demos/demo01/add.test.js" />
+        <item itemvalue="Mocha.telephone equals" />
         <item itemvalue="Node.js.3.js" />
-        <item itemvalue="Node.js.2.js" />
-        <item itemvalue="Node.js.test.js (2)" />
-        <item itemvalue="Node.js.简介.js (1)" />
-        <item itemvalue="Node.js.test.js (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -149,14 +191,8 @@
       <workItem from="1623137302681" duration="5433000" />
       <workItem from="1623218655309" duration="5638000" />
       <workItem from="1623748392204" duration="1757000" />
-      <workItem from="1623812954590" duration="2826000" />
-    </task>
-    <task id="LOCAL-00031" summary="6">
-      <created>1604640159514</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1604640159514</updated>
+      <workItem from="1623812954590" duration="9818000" />
+      <workItem from="1624001447260" duration="5525000" />
     </task>
     <task id="LOCAL-00032" summary="k">
       <created>1604643457257</created>
@@ -494,7 +530,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623232846944</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="9.3">
+      <created>1623821725087</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1623821725088</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -529,50 +572,50 @@
     <option name="LAST_COMMIT_MESSAGE" value="9.3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2059" y="-5" key="CommitChangelistDialog2" timestamp="1623232846740">
+    <state x="2059" y="-5" key="CommitChangelistDialog2" timestamp="1623821724270">
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
-    <state x="2059" y="-5" key="CommitChangelistDialog2/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1623232846740" />
+    <state x="2059" y="-5" key="CommitChangelistDialog2/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1623821724270" />
     <state x="2023" y="108" key="DiffContextDialog" timestamp="1623117534941">
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
     <state x="2023" y="108" key="DiffContextDialog/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1623117534941" />
-    <state width="1894" height="3" key="GridCell.Tab.0.bottom" timestamp="1623232858567">
+    <state width="1894" height="200" key="GridCell.Tab.0.bottom" timestamp="1623838198684">
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
     <state width="1894" height="19" key="GridCell.Tab.0.bottom/0.23.1440.877/-1920.58.1920.1057@-1920.58.1920.1057" timestamp="1615540134582" />
     <state width="1894" height="238" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.-59.1920.1057@0.23.1440.877" timestamp="1621314910269" />
-    <state width="1894" height="3" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1623232858567" />
+    <state width="1894" height="200" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1623838198684" />
     <state width="1414" height="3" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1622110608873" />
-    <state width="1894" height="3" key="GridCell.Tab.0.center" timestamp="1623232858567">
+    <state width="1894" height="200" key="GridCell.Tab.0.center" timestamp="1623838198683">
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
     <state width="1894" height="19" key="GridCell.Tab.0.center/0.23.1440.877/-1920.58.1920.1057@-1920.58.1920.1057" timestamp="1615540134581" />
     <state width="1894" height="238" key="GridCell.Tab.0.center/0.23.1440.877/1440.-59.1920.1057@0.23.1440.877" timestamp="1621314910268" />
-    <state width="1894" height="3" key="GridCell.Tab.0.center/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1623232858567" />
+    <state width="1894" height="200" key="GridCell.Tab.0.center/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1623838198683" />
     <state width="1414" height="3" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1622110608871" />
-    <state width="1894" height="3" key="GridCell.Tab.0.left" timestamp="1623232858566">
+    <state width="1894" height="200" key="GridCell.Tab.0.left" timestamp="1623838198682">
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
     <state width="1894" height="19" key="GridCell.Tab.0.left/0.23.1440.877/-1920.58.1920.1057@-1920.58.1920.1057" timestamp="1615540134581" />
     <state width="1894" height="238" key="GridCell.Tab.0.left/0.23.1440.877/1440.-59.1920.1057@0.23.1440.877" timestamp="1621314910267" />
-    <state width="1894" height="3" key="GridCell.Tab.0.left/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1623232858566" />
+    <state width="1894" height="200" key="GridCell.Tab.0.left/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1623838198682" />
     <state width="1414" height="3" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1622110608847" />
-    <state width="1894" height="3" key="GridCell.Tab.0.right" timestamp="1623232858567">
+    <state width="1894" height="200" key="GridCell.Tab.0.right" timestamp="1623838198683">
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
     <state width="1894" height="19" key="GridCell.Tab.0.right/0.23.1440.877/-1920.58.1920.1057@-1920.58.1920.1057" timestamp="1615540134582" />
     <state width="1894" height="238" key="GridCell.Tab.0.right/0.23.1440.877/1440.-59.1920.1057@0.23.1440.877" timestamp="1621314910268" />
-    <state width="1894" height="3" key="GridCell.Tab.0.right/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1623232858567" />
+    <state width="1894" height="200" key="GridCell.Tab.0.right/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1623838198683" />
     <state width="1414" height="3" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1622110608872" />
     <state x="1885" y="149" key="IDE.errors.dialog" timestamp="1621244270038">
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
     <state x="1885" y="149" key="IDE.errors.dialog/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1621244270038" />
-    <state x="2112" y="110" key="RollbackChangesDialog" timestamp="1622775368964">
+    <state x="2112" y="110" key="RollbackChangesDialog" timestamp="1623828033506">
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
-    <state x="2112" y="110" key="RollbackChangesDialog/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1622775368964" />
+    <state x="2112" y="110" key="RollbackChangesDialog/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1623828033506" />
     <state x="1620" y="101" key="SettingsEditor" timestamp="1621302378898">
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
@@ -581,10 +624,10 @@
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
     <state x="1900" y="146" key="Vcs.Push.Dialog.v2/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1623144342142" />
-    <state x="2027" y="161" width="745" height="616" key="find.popup" timestamp="1621241875158">
+    <state x="2027" y="161" width="822" height="652" key="find.popup" timestamp="1623828150270">
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
-    <state x="2027" y="161" width="745" height="616" key="find.popup/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1621241875158" />
+    <state x="2027" y="161" width="822" height="652" key="find.popup/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1623828150270" />
     <state x="2062" y="374" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1621245216985">
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>

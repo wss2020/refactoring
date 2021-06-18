@@ -9,7 +9,7 @@ let customer = customerRepository.get(customerData.id);
 
 
 
-/*
+/**
 动机
 
    一个数据结构中可能包含多个记录，而这些记录都关联到同一个逻辑数据结构。
@@ -29,7 +29,7 @@ let customer = customerRepository.get(customerData.id);
  */
 
 
-/*
+/**
 做法
 
    为相关对象创建一个仓库（如果还没有这样一个仓库的话）。
