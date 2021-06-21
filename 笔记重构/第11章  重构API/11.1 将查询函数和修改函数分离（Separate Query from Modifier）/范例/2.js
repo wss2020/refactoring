@@ -27,6 +27,4 @@ function findMiscreant(people) {
     return "";
 }
 
-
-
 //然后在新建的查询函数中去掉副作用。

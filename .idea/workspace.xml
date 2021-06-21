@@ -3,16 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="0e110b11-4635-405a-8d50-bf66468894af" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/笔记重构/第10章​ 简化条件逻辑/10.1 分解条件表达式（Decompose Conditional）/简介.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第10章​ 简化条件逻辑/10.1 分解条件表达式（Decompose Conditional）/简介.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/笔记重构/第10章​ 简化条件逻辑/10.1 分解条件表达式（Decompose Conditional）/范例/1.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第10章​ 简化条件逻辑/10.1 分解条件表达式（Decompose Conditional）/范例/1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/笔记重构/第10章​ 简化条件逻辑/10.2 合并条件表达式（Consolidate Conditional Expression）/简介.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第10章​ 简化条件逻辑/10.2 合并条件表达式（Consolidate Conditional Expression）/简介.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/笔记重构/第10章​ 简化条件逻辑/10.2 合并条件表达式（Consolidate Conditional Expression）/范例1--使用逻辑或/3.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第10章​ 简化条件逻辑/10.2 合并条件表达式（Consolidate Conditional Expression）/范例1--使用逻辑或/3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/笔记重构/第10章​ 简化条件逻辑/10.2 合并条件表达式（Consolidate Conditional Expression）/范例1--使用逻辑或/4.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第10章​ 简化条件逻辑/10.2 合并条件表达式（Consolidate Conditional Expression）/范例1--使用逻辑或/4.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/笔记重构/第10章​ 简化条件逻辑/10.3 以卫语句取代嵌套条件表达式（Replace Nested Conditional with Guard Clauses/简介.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第10章​ 简化条件逻辑/10.3 以卫语句取代嵌套条件表达式（Replace Nested Conditional with Guard Clauses/简介.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/笔记重构/第10章​ 简化条件逻辑/10.3 以卫语句取代嵌套条件表达式（Replace Nested Conditional with Guard Clauses/范例2-将条件反转/5.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第10章​ 简化条件逻辑/10.3 以卫语句取代嵌套条件表达式（Replace Nested Conditional with Guard Clauses/范例2-将条件反转/5.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/笔记重构/第10章​ 简化条件逻辑/10.3 以卫语句取代嵌套条件表达式（Replace Nested Conditional with Guard Clauses/范例2-将条件反转/6.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第10章​ 简化条件逻辑/10.3 以卫语句取代嵌套条件表达式（Replace Nested Conditional with Guard Clauses/范例2-将条件反转/6.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/笔记重构/第10章​ 简化条件逻辑/10.4 以多态取代条件表达式（Replace Conditional with Polymorphism）/简介.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第10章​ 简化条件逻辑/10.4 以多态取代条件表达式（Replace Conditional with Polymorphism）/简介.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/笔记重构/第10章​ 简化条件逻辑/10.4 以多态取代条件表达式（Replace Conditional with Polymorphism）/范例1-常用表达式/1.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第10章​ 简化条件逻辑/10.4 以多态取代条件表达式（Replace Conditional with Polymorphism）/范例1-常用表达式/1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记重构/第11章  重构API/11.1 将查询函数和修改函数分离（Separate Query from Modifier）/简介.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第11章  重构API/11.1 将查询函数和修改函数分离（Separate Query from Modifier）/简介.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记重构/第11章  重构API/11.1 将查询函数和修改函数分离（Separate Query from Modifier）/范例/2.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第11章  重构API/11.1 将查询函数和修改函数分离（Separate Query from Modifier）/范例/2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记重构/第11章  重构API/11.1 将查询函数和修改函数分离（Separate Query from Modifier）/范例/3.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第11章  重构API/11.1 将查询函数和修改函数分离（Separate Query from Modifier）/范例/3.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -189,14 +182,7 @@
       <workItem from="1623748392204" duration="1757000" />
       <workItem from="1623812954590" duration="9818000" />
       <workItem from="1624001447260" duration="8391000" />
-      <workItem from="1624241180098" duration="533000" />
-    </task>
-    <task id="LOCAL-00033" summary="6">
-      <created>1604649504432</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1604649504432</updated>
+      <workItem from="1624241180098" duration="3351000" />
     </task>
     <task id="LOCAL-00034" summary="6">
       <created>1605768019858</created>
@@ -534,14 +520,20 @@
       <option name="project" value="LOCAL" />
       <updated>1624007651278</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="10">
+      <created>1624251478914</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1624251478916</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="111" />
     <MESSAGE value="k" />
     <MESSAGE value="6" />
     <MESSAGE value="6.8  引入参数对象" />
@@ -566,13 +558,14 @@
     <MESSAGE value="9.2 字段改名" />
     <MESSAGE value="9.3" />
     <MESSAGE value="9" />
-    <option name="LAST_COMMIT_MESSAGE" value="9" />
+    <MESSAGE value="10" />
+    <option name="LAST_COMMIT_MESSAGE" value="10" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2059" y="-5" key="CommitChangelistDialog2" timestamp="1624007649694">
+    <state x="2059" y="-5" key="CommitChangelistDialog2" timestamp="1624251478464">
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
-    <state x="2059" y="-5" key="CommitChangelistDialog2/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1624007649694" />
+    <state x="2059" y="-5" key="CommitChangelistDialog2/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1624251478464" />
     <state x="2023" y="108" key="DiffContextDialog" timestamp="1624007639905">
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
@@ -580,28 +573,24 @@
     <state width="1894" height="199" key="GridCell.Tab.0.bottom" timestamp="1624010669024">
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
-    <state width="1894" height="19" key="GridCell.Tab.0.bottom/0.23.1440.877/-1920.58.1920.1057@-1920.58.1920.1057" timestamp="1615540134582" />
     <state width="1894" height="238" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.-59.1920.1057@0.23.1440.877" timestamp="1621314910269" />
     <state width="1894" height="199" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1624010669024" />
     <state width="1414" height="3" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1622110608873" />
     <state width="1894" height="199" key="GridCell.Tab.0.center" timestamp="1624010669023">
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
-    <state width="1894" height="19" key="GridCell.Tab.0.center/0.23.1440.877/-1920.58.1920.1057@-1920.58.1920.1057" timestamp="1615540134581" />
     <state width="1894" height="238" key="GridCell.Tab.0.center/0.23.1440.877/1440.-59.1920.1057@0.23.1440.877" timestamp="1621314910268" />
     <state width="1894" height="199" key="GridCell.Tab.0.center/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1624010669023" />
     <state width="1414" height="3" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1622110608871" />
     <state width="1894" height="199" key="GridCell.Tab.0.left" timestamp="1624010669021">
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
-    <state width="1894" height="19" key="GridCell.Tab.0.left/0.23.1440.877/-1920.58.1920.1057@-1920.58.1920.1057" timestamp="1615540134581" />
     <state width="1894" height="238" key="GridCell.Tab.0.left/0.23.1440.877/1440.-59.1920.1057@0.23.1440.877" timestamp="1621314910267" />
     <state width="1894" height="199" key="GridCell.Tab.0.left/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1624010669021" />
     <state width="1414" height="3" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1622110608847" />
     <state width="1894" height="199" key="GridCell.Tab.0.right" timestamp="1624010669023">
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
-    <state width="1894" height="19" key="GridCell.Tab.0.right/0.23.1440.877/-1920.58.1920.1057@-1920.58.1920.1057" timestamp="1615540134582" />
     <state width="1894" height="238" key="GridCell.Tab.0.right/0.23.1440.877/1440.-59.1920.1057@0.23.1440.877" timestamp="1621314910268" />
     <state width="1894" height="199" key="GridCell.Tab.0.right/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1624010669023" />
     <state width="1414" height="3" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1622110608872" />
@@ -609,10 +598,10 @@
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
     <state x="1885" y="149" key="IDE.errors.dialog/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1621244270038" />
-    <state x="2112" y="110" key="RollbackChangesDialog" timestamp="1623828033506">
+    <state x="2112" y="110" key="RollbackChangesDialog" timestamp="1624253375328">
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
-    <state x="2112" y="110" key="RollbackChangesDialog/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1623828033506" />
+    <state x="2112" y="110" key="RollbackChangesDialog/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1624253375328" />
     <state x="1620" y="101" key="SettingsEditor" timestamp="1621302378898">
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
