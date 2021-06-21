@@ -21,16 +21,15 @@ function getPayAmount() {
 //修改后
 function getPayAmount() {
     if (isDead) return deadAmount();
-
     if (isSeparated) return separatedAmount();
     if (isRetired) return retiredAmount();
     return normalPayAmount();
 }
 
 
-/*
+/**
 动机
-  根据我的经验，条件表达式通常有两种风格。
+  根据我的经验，条件表达式通常有两种风格。
      第一种风格是：两个条件分支都属于正常行为。
      第二种风格则是：只有一个条件分支是正常行为，另一个分支则是异常的情况。
 
@@ -50,7 +49,7 @@ function getPayAmount() {
  */
 
 
-/*
+/**
 做法
 
  选中最外层需要被替换的条件逻辑，将其替换为卫语句。

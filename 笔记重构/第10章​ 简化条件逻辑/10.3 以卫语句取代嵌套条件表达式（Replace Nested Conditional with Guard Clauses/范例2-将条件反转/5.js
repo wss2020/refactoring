@@ -1,9 +1,7 @@
 //这两行逻辑语句引发的结果一样，所以我可以用合并条件表达式（263）将其合并。
 function adjustedCapital(anInstrument) {
     let result = 0;
-    if (anInstrument.capital <= 0
-        || anInstrument.interestRate <= 0
-        || anInstrument.duration <= 0) return result;
+    if (anInstrument.capital <= 0 || anInstrument.interestRate <= 0 || anInstrument.duration <= 0) return result;
     result = (anInstrument.income / anInstrument.duration) * anInstrument.adjustmentFactor;
     return result;
 }
