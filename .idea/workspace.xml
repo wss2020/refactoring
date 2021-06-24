@@ -2,10 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e110b11-4635-405a-8d50-bf66468894af" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/笔记重构/第10章​ 简化条件逻辑/10.4 以多态取代条件表达式（Replace Conditional with Polymorphism）/范例2/1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/笔记重构/第10章​ 简化条件逻辑/10.4 以多态取代条件表达式（Replace Conditional with Polymorphism）/范例2/2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/笔记重构/第10章​ 简化条件逻辑/10.4 以多态取代条件表达式（Replace Conditional with Polymorphism）/范例2/3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/笔记重构/第10章​ 简化条件逻辑/10.4 以多态取代条件表达式（Replace Conditional with Polymorphism）/范例2/4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/笔记重构/第10章​ 简化条件逻辑/10.4 以多态取代条件表达式（Replace Conditional with Polymorphism）/范例2/5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/笔记重构/第10章​ 简化条件逻辑/10.4 以多态取代条件表达式（Replace Conditional with Polymorphism）/范例2/6.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/笔记重构/第10章​ 简化条件逻辑/10.4 以多态取代条件表达式（Replace Conditional with Polymorphism）/范例2/7.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/笔记重构/第10章​ 简化条件逻辑/10.5 引入特例（Introduce Special Case）/范例1-常见情况/2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/笔记重构/第10章​ 简化条件逻辑/10.5 引入特例（Introduce Special Case）/范例1-常见情况/3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/笔记重构/第10章​ 简化条件逻辑/10.5 引入特例（Introduce Special Case）/范例1-常见情况/4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/笔记重构/第10章​ 简化条件逻辑/10.5 引入特例（Introduce Special Case）/范例1-常见情况/5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/笔记重构/第10章​ 简化条件逻辑/10.5 引入特例（Introduce Special Case）/范例1-常见情况/6.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/笔记重构/第10章​ 简化条件逻辑/10.5 引入特例（Introduce Special Case）/范例1-常见情况/7.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/笔记重构/第11章  重构API/11.1 将查询函数和修改函数分离（Separate Query from Modifier）/简介.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第11章  重构API/11.1 将查询函数和修改函数分离（Separate Query from Modifier）/简介.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/笔记重构/第11章  重构API/11.1 将查询函数和修改函数分离（Separate Query from Modifier）/范例/2.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第11章  重构API/11.1 将查询函数和修改函数分离（Separate Query from Modifier）/范例/2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/笔记重构/第11章  重构API/11.1 将查询函数和修改函数分离（Separate Query from Modifier）/范例/3.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第11章  重构API/11.1 将查询函数和修改函数分离（Separate Query from Modifier）/范例/3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记重构/第10章​ 简化条件逻辑/10.4 以多态取代条件表达式（Replace Conditional with Polymorphism）/范例2-用多态处理变体逻辑.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第10章​ 简化条件逻辑/10.4 以多态取代条件表达式（Replace Conditional with Polymorphism）/范例2/范例2-用多态处理变体逻辑.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记重构/第10章​ 简化条件逻辑/10.4 以多态取代条件表达式（Replace Conditional with Polymorphism）/范例2压缩版.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第10章​ 简化条件逻辑/10.4 以多态取代条件表达式（Replace Conditional with Polymorphism）/范例2/范例2压缩版.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记重构/第10章​ 简化条件逻辑/10.5 引入特例（Introduce Special Case）/范例1-常见情况.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第10章​ 简化条件逻辑/10.5 引入特例（Introduce Special Case）/范例1-常见情况/范例1-常见情况.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记重构/第10章​ 简化条件逻辑/10.5 引入特例（Introduce Special Case）/范例1-常见情况/1.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第10章​ 简化条件逻辑/10.5 引入特例（Introduce Special Case）/范例1-常见情况/1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记重构/第10章​ 简化条件逻辑/10.5 引入特例（Introduce Special Case）/范例1压缩版.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第10章​ 简化条件逻辑/10.5 引入特例（Introduce Special Case）/范例1-常见情况/范例1压缩版.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记重构/第10章​ 简化条件逻辑/10.5 引入特例（Introduce Special Case）/范例2-使用对象字面量.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第10章​ 简化条件逻辑/10.5 引入特例（Introduce Special Case）/范例2-使用对象字面量/范例2-使用对象字面量.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记重构/第10章​ 简化条件逻辑/10.5 引入特例（Introduce Special Case）/范例2-使用对象字面量/1.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第10章​ 简化条件逻辑/10.5 引入特例（Introduce Special Case）/范例2-使用对象字面量/1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记重构/第10章​ 简化条件逻辑/10.5 引入特例（Introduce Special Case）/范例2压缩版.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第10章​ 简化条件逻辑/10.5 引入特例（Introduce Special Case）/范例2-使用对象字面量/范例2压缩版.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记重构/第10章​ 简化条件逻辑/10.5 引入特例（Introduce Special Case）/范例3-使用变换.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第10章​ 简化条件逻辑/10.5 引入特例（Introduce Special Case）/范例3-使用变换/范例3-使用变换.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记重构/第10章​ 简化条件逻辑/10.5 引入特例（Introduce Special Case）/范例3压缩版.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第10章​ 简化条件逻辑/10.5 引入特例（Introduce Special Case）/范例3-使用变换/范例3压缩版.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记重构/第11章  重构API/11.2 函数参数化（Parameterize Function）/范例/2.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第11章  重构API/11.2 函数参数化（Parameterize Function）/范例/2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记重构/第11章  重构API/11.2 函数参数化（Parameterize Function）/范例/3.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第11章  重构API/11.2 函数参数化（Parameterize Function）/范例/3.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +55,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.5 将值对象改为引用对象（Change Value to Reference）/范例" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/笔记重构/第10章​ 简化条件逻辑/10.5 引入特例（Introduce Special Case）" />
     <property name="nodejs.mocha.mocha_node_package_dir" value="$PROJECT_DIR$/笔记重构/第3章 构筑测试体系/mocha-demos/node_modules/mocha" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -43,23 +65,23 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.5 将值对象改为引用对象（Change Value to Reference）/范例" />
-      <recent name="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.4 将引用对象改为值对象（Change Reference to Value）/范例" />
-      <recent name="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.3 以查询取代派生变量（Replace Derived Variable with Query）/范例2" />
-      <recent name="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.3 以查询取代派生变量（Replace Derived Variable with Query）/范例1" />
-      <recent name="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.2 字段改名（Rename Field）/范例" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/笔记重构/第10章​ 简化条件逻辑/10.5 引入特例（Introduce Special Case）" />
+      <recent name="$PROJECT_DIR$/笔记重构/第10章​ 简化条件逻辑/10.4 以多态取代条件表达式（Replace Conditional with Polymorphism）" />
       <recent name="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.5 将值对象改为引用对象（Change Value to Reference）/范例" />
       <recent name="$PROJECT_DIR$/笔记重构/解析 es5.ts" />
       <recent name="$PROJECT_DIR$/笔记重构/第3章 构筑测试体系/mocha-demos" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/笔记重构/第10章​ 简化条件逻辑/10.5 引入特例（Introduce Special Case）/范例1-常见情况" />
+      <recent name="$PROJECT_DIR$/笔记重构/第10章​ 简化条件逻辑/10.4 以多态取代条件表达式（Replace Conditional with Polymorphism）/范例2" />
+      <recent name="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.5 将值对象改为引用对象（Change Value to Reference）/范例" />
       <recent name="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.4 将引用对象改为值对象（Change Reference to Value）/范例" />
       <recent name="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.3 以查询取代派生变量（Replace Derived Variable with Query）/范例2" />
     </key>
   </component>
   <component name="RunManager" selected="Node.js.范例2压缩版.js">
-    <configuration name="范例2压缩版.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/笔记重构/第10章​ 简化条件逻辑/10.4 以多态取代条件表达式（Replace Conditional with Polymorphism）/范例2压缩版.js" working-dir="$PROJECT_DIR$/笔记重构/第10章​ 简化条件逻辑/10.4 以多态取代条件表达式（Replace Conditional with Polymorphism）">
+    <configuration name="范例2压缩版.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/笔记重构/第10章​ 简化条件逻辑/10.4 以多态取代条件表达式（Replace Conditional with Polymorphism）/范例2/范例2压缩版.js" working-dir="$PROJECT_DIR$/笔记重构/第10章​ 简化条件逻辑/10.4 以多态取代条件表达式（Replace Conditional with Polymorphism）">
       <method v="2" />
     </configuration>
     <configuration name="类对象相等测试：" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
@@ -182,14 +204,11 @@
       <workItem from="1623748392204" duration="1757000" />
       <workItem from="1623812954590" duration="9818000" />
       <workItem from="1624001447260" duration="8391000" />
-      <workItem from="1624241180098" duration="3351000" />
-    </task>
-    <task id="LOCAL-00034" summary="6">
-      <created>1605768019858</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1605768019858</updated>
+      <workItem from="1624241180098" duration="5148000" />
+      <workItem from="1624328307427" duration="153000" />
+      <workItem from="1624328493399" duration="3332000" />
+      <workItem from="1624498585774" duration="4000" />
+      <workItem from="1624524414553" duration="590000" />
     </task>
     <task id="LOCAL-00035" summary="6.8  引入参数对象">
       <created>1607568896728</created>
@@ -527,14 +546,20 @@
       <option name="project" value="LOCAL" />
       <updated>1624251478916</updated>
     </task>
-    <option name="localTasksCounter" value="83" />
+    <task id="LOCAL-00083" summary="11.1">
+      <created>1624261008246</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1624261008246</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="k" />
     <MESSAGE value="6" />
     <MESSAGE value="6.8  引入参数对象" />
     <MESSAGE value="6.9 函数组合成类" />
@@ -559,13 +584,14 @@
     <MESSAGE value="9.3" />
     <MESSAGE value="9" />
     <MESSAGE value="10" />
-    <option name="LAST_COMMIT_MESSAGE" value="10" />
+    <MESSAGE value="11.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="11.1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2059" y="-5" key="CommitChangelistDialog2" timestamp="1624251478464">
+    <state x="2059" y="-5" key="CommitChangelistDialog2" timestamp="1624261008044">
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
-    <state x="2059" y="-5" key="CommitChangelistDialog2/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1624251478464" />
+    <state x="2059" y="-5" key="CommitChangelistDialog2/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1624261008044" />
     <state x="2023" y="108" key="DiffContextDialog" timestamp="1624007639905">
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>

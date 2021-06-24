@@ -10,7 +10,7 @@ let data = {
     customer: {
         name: "Acme Industries",
         billingPlan: "plan-451",
-        paymentHistory: { weeksDelinquentInLastYear: 7},
+        paymentHistory: { weeksDelinquentInLastYear: 7 },
     }
 };
 
