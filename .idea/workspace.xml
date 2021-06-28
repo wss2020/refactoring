@@ -3,7 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="0e110b11-4635-405a-8d50-bf66468894af" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/笔记重构/第11章  重构API/11.3 移除标记参数（Remove Flag Argument）/简介.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第11章  重构API/11.3 移除标记参数（Remove Flag Argument）/简介.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记重构/第11章  重构API/11.10 以函数取代命令（Replace Command with Function）  /简介.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第11章  重构API/11.10 以函数取代命令（Replace Command with Function）  /简介.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记重构/第11章  重构API/11.4 保持对象完整（Preserve Whole Object）/简介.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第11章  重构API/11.4 保持对象完整（Preserve Whole Object）/简介.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记重构/第11章  重构API/11.7 移除设值函数（Remove Setting Method）/简介.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第11章  重构API/11.7 移除设值函数（Remove Setting Method）/简介.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记重构/第11章  重构API/11.9 以命令取代函数（Replace Function with Command）/简介.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第11章  重构API/11.9 以命令取代函数（Replace Function with Command）/简介.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记重构/第11章  重构API/11.9 以命令取代函数（Replace Function with Command）/范例/第一步：以命令取代函数/1.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第11章  重构API/11.9 以命令取代函数（Replace Function with Command）/范例/第一步：以命令取代函数/1.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +35,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/笔记重构/第10章​ 简化条件逻辑/10.5 引入特例（Introduce Special Case）" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/笔记重构/第11章  重构API/11.4 保持对象完整（Preserve Whole Object）/范例2--范例：换个方式创建新函数" />
     <property name="nodejs.mocha.mocha_node_package_dir" value="$PROJECT_DIR$/笔记重构/第3章 构筑测试体系/mocha-demos/node_modules/mocha" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -41,13 +45,6 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/笔记重构/第10章​ 简化条件逻辑/10.5 引入特例（Introduce Special Case）" />
-      <recent name="$PROJECT_DIR$/笔记重构/第10章​ 简化条件逻辑/10.4 以多态取代条件表达式（Replace Conditional with Polymorphism）" />
-      <recent name="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.5 将值对象改为引用对象（Change Value to Reference）/范例" />
-      <recent name="$PROJECT_DIR$/笔记重构/解析 es5.ts" />
-      <recent name="$PROJECT_DIR$/笔记重构/第3章 构筑测试体系/mocha-demos" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/笔记重构/第10章​ 简化条件逻辑/10.5 引入特例（Introduce Special Case）/范例1-常见情况" />
       <recent name="$PROJECT_DIR$/笔记重构/第10章​ 简化条件逻辑/10.4 以多态取代条件表达式（Replace Conditional with Polymorphism）/范例2" />
@@ -55,9 +52,19 @@
       <recent name="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.4 将引用对象改为值对象（Change Reference to Value）/范例" />
       <recent name="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.3 以查询取代派生变量（Replace Derived Variable with Query）/范例2" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/笔记重构/第11章  重构API/11.4 保持对象完整（Preserve Whole Object）/范例2--范例：换个方式创建新函数" />
+      <recent name="$PROJECT_DIR$/笔记重构/第10章​ 简化条件逻辑/10.5 引入特例（Introduce Special Case）" />
+      <recent name="$PROJECT_DIR$/笔记重构/第10章​ 简化条件逻辑/10.4 以多态取代条件表达式（Replace Conditional with Polymorphism）" />
+      <recent name="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.5 将值对象改为引用对象（Change Value to Reference）/范例" />
+      <recent name="$PROJECT_DIR$/笔记重构/解析 es5.ts" />
+    </key>
   </component>
-  <component name="RunManager" selected="Node.js.范例2压缩版.js">
+  <component name="RunManager" selected="Node.js.3.js">
     <configuration name="范例2压缩版.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/笔记重构/第10章​ 简化条件逻辑/10.4 以多态取代条件表达式（Replace Conditional with Polymorphism）/范例2/范例2压缩版.js" working-dir="$PROJECT_DIR$/笔记重构/第10章​ 简化条件逻辑/10.4 以多态取代条件表达式（Replace Conditional with Polymorphism）">
+      <method v="2" />
+    </configuration>
+    <configuration name="3.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/笔记重构/第11章  重构API/11.7 移除设值函数（Remove Setting Method）/范例/3.js" working-dir="$PROJECT_DIR$/笔记重构/第11章  重构API/11.7 移除设值函数（Remove Setting Method）/范例">
       <method v="2" />
     </configuration>
     <configuration name="类对象相等测试：" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
@@ -99,28 +106,13 @@
       <test-file>$PROJECT_DIR$/笔记重构/第3章 构筑测试体系/mocha-demos/demo01/add.test.js</test-file>
       <method v="2" />
     </configuration>
-    <configuration name="telephone equals" type="mocha-javascript-test-runner" temporary="true" nameIsGenerated="true">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <mocha-package>$PROJECT_DIR$/笔记重构/第3章 构筑测试体系/mocha-demos/node_modules/mocha</mocha-package>
-      <working-directory>$PROJECT_DIR$/笔记重构/第3章 构筑测试体系/mocha-demos</working-directory>
-      <pass-parent-env>true</pass-parent-env>
-      <ui>bdd</ui>
-      <extra-mocha-options />
-      <test-kind>TEST</test-kind>
-      <test-file>$PROJECT_DIR$/笔记重构/第3章 构筑测试体系/mocha-demos/demo01/add.test.js</test-file>
-      <test-names>
-        <name value="telephone equals" />
-      </test-names>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.3.js" />
         <item itemvalue="Node.js.范例2压缩版.js" />
         <item itemvalue="Mocha.笔记重构/第3章 构筑测试体系/mocha-demos/9.4/test.js" />
         <item itemvalue="Mocha.类对象相等测试：" />
         <item itemvalue="Mocha.笔记重构/第3章 构筑测试体系/mocha-demos/demo01/add.test.js" />
-        <item itemvalue="Mocha.telephone equals" />
       </list>
     </recent_temporary>
   </component>
@@ -186,14 +178,8 @@
       <workItem from="1624498585774" duration="4000" />
       <workItem from="1624524414553" duration="3101000" />
       <workItem from="1624586792768" duration="3068000" />
-      <workItem from="1624625170362" duration="1648000" />
-    </task>
-    <task id="LOCAL-00036" summary="6.9 函数组合成类">
-      <created>1607577899255</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1607577899255</updated>
+      <workItem from="1624625170362" duration="5419000" />
+      <workItem from="1624864094632" duration="5371000" />
     </task>
     <task id="LOCAL-00037" summary="6.9 函数组合成类">
       <created>1607586771788</created>
@@ -531,14 +517,20 @@
       <option name="project" value="LOCAL" />
       <updated>1624525015489</updated>
     </task>
-    <option name="localTasksCounter" value="85" />
+    <task id="LOCAL-00085" summary="11.3">
+      <created>1624757888397</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1624757888397</updated>
+    </task>
+    <option name="localTasksCounter" value="86" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="6" />
     <MESSAGE value="6.8  引入参数对象" />
     <MESSAGE value="6.9 函数组合成类" />
     <MESSAGE value="6.10 函数组合成变换" />
@@ -563,40 +555,42 @@
     <MESSAGE value="9" />
     <MESSAGE value="10" />
     <MESSAGE value="11.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="11.1" />
+    <MESSAGE value="11.3" />
+    <option name="LAST_COMMIT_MESSAGE" value="11.3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2059" y="-5" key="CommitChangelistDialog2" timestamp="1624525014955">
-      <screen x="1440" y="-59" width="1920" height="1057" />
+    <state x="297" y="23" key="CommitChangelistDialog2" timestamp="1624757887941">
+      <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="2059" y="-5" key="CommitChangelistDialog2/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1624525014955" />
+    <state x="297" y="23" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1624757887941" />
     <state x="2023" y="108" key="DiffContextDialog" timestamp="1624007639905">
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
     <state x="2023" y="108" key="DiffContextDialog/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1624007639905" />
-    <state width="1894" height="199" key="GridCell.Tab.0.bottom" timestamp="1624010669024">
+    <state width="1894" height="199" key="GridCell.Tab.0.bottom" timestamp="1624864297254">
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
     <state width="1894" height="238" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.-59.1920.1057@0.23.1440.877" timestamp="1621314910269" />
-    <state width="1894" height="199" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1624010669024" />
+    <state width="1894" height="199" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1624864297254" />
     <state width="1414" height="3" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1622110608873" />
-    <state width="1894" height="199" key="GridCell.Tab.0.center" timestamp="1624010669023">
+    <state width="1894" height="199" key="GridCell.Tab.0.center" timestamp="1624864297252">
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
     <state width="1894" height="238" key="GridCell.Tab.0.center/0.23.1440.877/1440.-59.1920.1057@0.23.1440.877" timestamp="1621314910268" />
-    <state width="1894" height="199" key="GridCell.Tab.0.center/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1624010669023" />
+    <state width="1894" height="199" key="GridCell.Tab.0.center/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1624864297252" />
     <state width="1414" height="3" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1622110608871" />
-    <state width="1894" height="199" key="GridCell.Tab.0.left" timestamp="1624010669021">
+    <state width="1894" height="199" key="GridCell.Tab.0.left" timestamp="1624864297251">
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
     <state width="1894" height="238" key="GridCell.Tab.0.left/0.23.1440.877/1440.-59.1920.1057@0.23.1440.877" timestamp="1621314910267" />
-    <state width="1894" height="199" key="GridCell.Tab.0.left/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1624010669021" />
+    <state width="1894" height="199" key="GridCell.Tab.0.left/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1624864297251" />
     <state width="1414" height="3" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1622110608847" />
-    <state width="1894" height="199" key="GridCell.Tab.0.right" timestamp="1624010669023">
+    <state width="1894" height="199" key="GridCell.Tab.0.right" timestamp="1624864297253">
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
     <state width="1894" height="238" key="GridCell.Tab.0.right/0.23.1440.877/1440.-59.1920.1057@0.23.1440.877" timestamp="1621314910268" />
-    <state width="1894" height="199" key="GridCell.Tab.0.right/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1624010669023" />
+    <state width="1894" height="199" key="GridCell.Tab.0.right/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1624864297253" />
     <state width="1414" height="3" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1622110608872" />
     <state x="1885" y="149" key="IDE.errors.dialog" timestamp="1621244270038">
       <screen x="1440" y="-59" width="1920" height="1057" />
