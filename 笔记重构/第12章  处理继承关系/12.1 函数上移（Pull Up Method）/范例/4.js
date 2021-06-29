@@ -13,16 +13,23 @@ class SubclassResponsibilityError{
 }
 class Party{
     constructor(monthlyCost) {
-        this.monthlyCost = monthlyCost;
+        this._monthlyCost = monthlyCost;
     }
     get annualCost() {
-        return this.monthlyCost * 12;
+        return this._monthlyCost * 12;
     }
     get monthlyCost() {
         throw new SubclassResponsibilityError();
     }
 }
-class Employee extends Party{}
-class Department extends Party{}
+class Employee extends Party{
+    get monthlyCost() {
+        return this._monthlyCost;
+    }
+}
+
+const employee = new Employee(123);
+console.log(employee.monthlyCost);
+console.log(employee.annualCost);
 
 
