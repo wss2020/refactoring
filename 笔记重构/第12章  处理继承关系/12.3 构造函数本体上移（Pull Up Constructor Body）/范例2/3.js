@@ -6,7 +6,9 @@ class Employee {
 
     }
     get isPrivileged() {}
-    assignCar() {}
+    assignCar() {
+        console.log('sssss')
+    }
     finishConstruction(){
         if (this.isPrivileged)  this.assignCar();
     }
@@ -25,6 +27,10 @@ class Manager  extends Employee {
 
 }
 
+
+new Manager('wss',1);
+new Manager('wss',10);
+new Manager('wss',12);
 
 
 

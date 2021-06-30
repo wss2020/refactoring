@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e110b11-4635-405a-8d50-bf66468894af" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.1 函数上移（Pull Up Method）/范例/补充知识1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.1 函数上移（Pull Up Method）/范例/补充知识2.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.1 函数上移（Pull Up Method）/范例/4.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.1 函数上移（Pull Up Method）/范例/4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.2 字段上移（Pull Up Field）/简介.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.2 字段上移（Pull Up Field）/简介.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.3 构造函数本体上移（Pull Up Constructor Body）/范例2/1.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.3 构造函数本体上移（Pull Up Constructor Body）/范例2/1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.3 构造函数本体上移（Pull Up Constructor Body）/范例2/2.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.3 构造函数本体上移（Pull Up Constructor Body）/范例2/2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.3 构造函数本体上移（Pull Up Constructor Body）/范例2/3.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.3 构造函数本体上移（Pull Up Constructor Body）/范例2/3.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,14 +59,14 @@
       <recent name="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.3 以查询取代派生变量（Replace Derived Variable with Query）/范例2" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.补充知识1.js">
+  <component name="RunManager" selected="Node.js.3.js (1)">
     <configuration name="补充知识1.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.1 函数上移（Pull Up Method）/范例/补充知识1.js" working-dir="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.1 函数上移（Pull Up Method）/范例">
       <method v="2" />
     </configuration>
-    <configuration name="范例2压缩版.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/笔记重构/第10章​ 简化条件逻辑/10.4 以多态取代条件表达式（Replace Conditional with Polymorphism）/范例2/范例2压缩版.js" working-dir="$PROJECT_DIR$/笔记重构/第10章​ 简化条件逻辑/10.4 以多态取代条件表达式（Replace Conditional with Polymorphism）">
+    <configuration name="补充知识2.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.1 函数上移（Pull Up Method）/范例/补充知识2.js" working-dir="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.1 函数上移（Pull Up Method）/范例">
       <method v="2" />
     </configuration>
-    <configuration name="补充知识2.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.1 函数上移（Pull Up Method）/范例/补充知识2.js" working-dir="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.1 函数上移（Pull Up Method）/范例">
+    <configuration name="3.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.3 构造函数本体上移（Pull Up Constructor Body）/范例2/3.js" working-dir="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.3 构造函数本体上移（Pull Up Constructor Body）/范例2">
       <method v="2" />
     </configuration>
     <configuration name="3.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/笔记重构/第11章  重构API/11.7 移除设值函数（Remove Setting Method）/范例/3.js" working-dir="$PROJECT_DIR$/笔记重构/第11章  重构API/11.7 移除设值函数（Remove Setting Method）/范例">
@@ -76,11 +77,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.3.js (1)" />
         <item itemvalue="Node.js.补充知识1.js" />
         <item itemvalue="Node.js.补充知识2.js" />
         <item itemvalue="Node.js.4.js" />
         <item itemvalue="Node.js.3.js" />
-        <item itemvalue="Node.js.范例2压缩版.js" />
       </list>
     </recent_temporary>
   </component>
@@ -149,14 +150,7 @@
       <workItem from="1624625170362" duration="5419000" />
       <workItem from="1624864094632" duration="7025000" />
       <workItem from="1624956885009" duration="2832000" />
-      <workItem from="1625041665830" duration="525000" />
-    </task>
-    <task id="LOCAL-00039" summary="6.9 函数组合成类">
-      <created>1607587392546</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1607587392546</updated>
+      <workItem from="1625041665830" duration="1993000" />
     </task>
     <task id="LOCAL-00040" summary="6.9 函数组合成类">
       <created>1607587512169</created>
@@ -494,7 +488,14 @@
       <option name="project" value="LOCAL" />
       <updated>1624959802382</updated>
     </task>
-    <option name="localTasksCounter" value="88" />
+    <task id="LOCAL-00088" summary="12.1">
+      <created>1625042222987</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1625042222988</updated>
+    </task>
+    <option name="localTasksCounter" value="89" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -529,38 +530,38 @@
     <option name="LAST_COMMIT_MESSAGE" value="12.1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2059" y="-5" key="CommitChangelistDialog2" timestamp="1624959801996">
+    <state x="2059" y="-5" key="CommitChangelistDialog2" timestamp="1625042222812">
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
-    <state x="2059" y="-5" key="CommitChangelistDialog2/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1624959801995" />
+    <state x="2059" y="-5" key="CommitChangelistDialog2/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1625042222812" />
     <state x="297" y="23" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1624757887941" />
     <state x="2023" y="108" key="DiffContextDialog" timestamp="1624007639905">
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
     <state x="2023" y="108" key="DiffContextDialog/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1624007639905" />
-    <state width="1894" height="154" key="GridCell.Tab.0.bottom" timestamp="1625042171810">
+    <state width="1894" height="203" key="GridCell.Tab.0.bottom" timestamp="1625043703317">
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
     <state width="1894" height="238" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.-59.1920.1057@0.23.1440.877" timestamp="1621314910269" />
-    <state width="1894" height="154" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1625042171810" />
+    <state width="1894" height="203" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1625043703317" />
     <state width="1414" height="3" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1622110608873" />
-    <state width="1894" height="154" key="GridCell.Tab.0.center" timestamp="1625042171808">
+    <state width="1894" height="203" key="GridCell.Tab.0.center" timestamp="1625043703313">
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
     <state width="1894" height="238" key="GridCell.Tab.0.center/0.23.1440.877/1440.-59.1920.1057@0.23.1440.877" timestamp="1621314910268" />
-    <state width="1894" height="154" key="GridCell.Tab.0.center/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1625042171808" />
+    <state width="1894" height="203" key="GridCell.Tab.0.center/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1625043703313" />
     <state width="1414" height="3" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1622110608871" />
-    <state width="1894" height="154" key="GridCell.Tab.0.left" timestamp="1625042171806">
+    <state width="1894" height="203" key="GridCell.Tab.0.left" timestamp="1625043703312">
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
     <state width="1894" height="238" key="GridCell.Tab.0.left/0.23.1440.877/1440.-59.1920.1057@0.23.1440.877" timestamp="1621314910267" />
-    <state width="1894" height="154" key="GridCell.Tab.0.left/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1625042171806" />
+    <state width="1894" height="203" key="GridCell.Tab.0.left/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1625043703312" />
     <state width="1414" height="3" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1622110608847" />
-    <state width="1894" height="154" key="GridCell.Tab.0.right" timestamp="1625042171809">
+    <state width="1894" height="203" key="GridCell.Tab.0.right" timestamp="1625043703317">
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
     <state width="1894" height="238" key="GridCell.Tab.0.right/0.23.1440.877/1440.-59.1920.1057@0.23.1440.877" timestamp="1621314910268" />
-    <state width="1894" height="154" key="GridCell.Tab.0.right/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1625042171809" />
+    <state width="1894" height="203" key="GridCell.Tab.0.right/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1625043703317" />
     <state width="1414" height="3" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1622110608872" />
     <state x="1885" y="149" key="IDE.errors.dialog" timestamp="1621244270038">
       <screen x="1440" y="-59" width="1920" height="1057" />
