@@ -22,16 +22,16 @@ class Party{
         throw new SubclassResponsibilityError();
     }
 }
+class Employee extends Party{}
 class Employee extends Party{
     get monthlyCost() {
         return this._monthlyCost;
     }
 }
 
-class Department extends Party{}
-
 const employee = new Employee(123);
 console.log(employee.monthlyCost);
 console.log(employee.annualCost);
+
 
 
