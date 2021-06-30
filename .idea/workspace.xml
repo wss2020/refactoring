@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0e110b11-4635-405a-8d50-bf66468894af" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.5 字段下移（Push Down Field）/简介.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.5 字段下移（Push Down Field）/简介.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.6 以子类取代类型码（Replace Type Code with Subclasses）/简介.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.6 以子类取代类型码（Replace Type Code with Subclasses）/简介.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,8 +56,14 @@
       <recent name="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.3 以查询取代派生变量（Replace Derived Variable with Query）/范例2" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.3.js (1)">
+  <component name="RunManager" selected="Node.js.2.js">
     <configuration name="补充知识1.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.1 函数上移（Pull Up Method）/范例/补充知识1.js" working-dir="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.1 函数上移（Pull Up Method）/范例">
+      <method v="2" />
+    </configuration>
+    <configuration name="1.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.6 以子类取代类型码（Replace Type Code with Subclasses）/范例1/1.js" working-dir="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.6 以子类取代类型码（Replace Type Code with Subclasses）/范例1">
+      <method v="2" />
+    </configuration>
+    <configuration name="2.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.6 以子类取代类型码（Replace Type Code with Subclasses）/范例1/2.js" working-dir="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.6 以子类取代类型码（Replace Type Code with Subclasses）/范例1">
       <method v="2" />
     </configuration>
     <configuration name="补充知识2.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.1 函数上移（Pull Up Method）/范例/补充知识2.js" working-dir="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.1 函数上移（Pull Up Method）/范例">
@@ -66,19 +72,13 @@
     <configuration name="3.js (1)" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.3 构造函数本体上移（Pull Up Constructor Body）/范例2/3.js" working-dir="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.3 构造函数本体上移（Pull Up Constructor Body）/范例2">
       <method v="2" />
     </configuration>
-    <configuration name="3.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/笔记重构/第11章  重构API/11.7 移除设值函数（Remove Setting Method）/范例/3.js" working-dir="$PROJECT_DIR$/笔记重构/第11章  重构API/11.7 移除设值函数（Remove Setting Method）/范例">
-      <method v="2" />
-    </configuration>
-    <configuration name="4.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.1 函数上移（Pull Up Method）/范例/4.js" working-dir="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.1 函数上移（Pull Up Method）/范例">
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.2.js" />
+        <item itemvalue="Node.js.1.js" />
         <item itemvalue="Node.js.3.js (1)" />
         <item itemvalue="Node.js.补充知识1.js" />
         <item itemvalue="Node.js.补充知识2.js" />
-        <item itemvalue="Node.js.4.js" />
-        <item itemvalue="Node.js.3.js" />
       </list>
     </recent_temporary>
   </component>
@@ -147,14 +147,7 @@
       <workItem from="1624625170362" duration="5419000" />
       <workItem from="1624864094632" duration="7025000" />
       <workItem from="1624956885009" duration="2832000" />
-      <workItem from="1625041665830" duration="3053000" />
-    </task>
-    <task id="LOCAL-00041" summary="6.10 函数组合成变换">
-      <created>1607657367041</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1607657367041</updated>
+      <workItem from="1625041665830" duration="4506000" />
     </task>
     <task id="LOCAL-00042" summary="6.10 函数组合成变换">
       <created>1609228984814</created>
@@ -492,7 +485,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625043718799</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="12">
+      <created>1625046083534</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1625046083534</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -500,7 +500,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="6.10 函数组合成变换" />
-    <MESSAGE value="12" />
     <MESSAGE value="add test" />
     <MESSAGE value="6.7" />
     <MESSAGE value="6.8" />
@@ -524,41 +523,42 @@
     <MESSAGE value="11.3" />
     <MESSAGE value="11" />
     <MESSAGE value="12.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="12.1" />
+    <MESSAGE value="12" />
+    <option name="LAST_COMMIT_MESSAGE" value="12" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2059" y="-5" key="CommitChangelistDialog2" timestamp="1625043718383">
+    <state x="2059" y="-5" key="CommitChangelistDialog2" timestamp="1625046083330">
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
-    <state x="2059" y="-5" key="CommitChangelistDialog2/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1625043718383" />
+    <state x="2059" y="-5" key="CommitChangelistDialog2/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1625046083330" />
     <state x="297" y="23" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1624757887941" />
     <state x="2023" y="108" key="DiffContextDialog" timestamp="1624007639905">
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
     <state x="2023" y="108" key="DiffContextDialog/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1624007639905" />
-    <state width="1894" height="71" key="GridCell.Tab.0.bottom" timestamp="1625043731989">
+    <state width="1894" height="3" key="GridCell.Tab.0.bottom" timestamp="1625047135715">
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
     <state width="1894" height="238" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.-59.1920.1057@0.23.1440.877" timestamp="1621314910269" />
-    <state width="1894" height="71" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1625043731989" />
+    <state width="1894" height="3" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1625047135715" />
     <state width="1414" height="3" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1622110608873" />
-    <state width="1894" height="71" key="GridCell.Tab.0.center" timestamp="1625043731987">
+    <state width="1894" height="3" key="GridCell.Tab.0.center" timestamp="1625047135714">
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
     <state width="1894" height="238" key="GridCell.Tab.0.center/0.23.1440.877/1440.-59.1920.1057@0.23.1440.877" timestamp="1621314910268" />
-    <state width="1894" height="71" key="GridCell.Tab.0.center/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1625043731987" />
+    <state width="1894" height="3" key="GridCell.Tab.0.center/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1625047135714" />
     <state width="1414" height="3" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1622110608871" />
-    <state width="1894" height="71" key="GridCell.Tab.0.left" timestamp="1625043731987">
+    <state width="1894" height="3" key="GridCell.Tab.0.left" timestamp="1625047135714">
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
     <state width="1894" height="238" key="GridCell.Tab.0.left/0.23.1440.877/1440.-59.1920.1057@0.23.1440.877" timestamp="1621314910267" />
-    <state width="1894" height="71" key="GridCell.Tab.0.left/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1625043731987" />
+    <state width="1894" height="3" key="GridCell.Tab.0.left/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1625047135714" />
     <state width="1414" height="3" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1622110608847" />
-    <state width="1894" height="71" key="GridCell.Tab.0.right" timestamp="1625043731988">
+    <state width="1894" height="3" key="GridCell.Tab.0.right" timestamp="1625047135715">
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
     <state width="1894" height="238" key="GridCell.Tab.0.right/0.23.1440.877/1440.-59.1920.1057@0.23.1440.877" timestamp="1621314910268" />
-    <state width="1894" height="71" key="GridCell.Tab.0.right/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1625043731988" />
+    <state width="1894" height="3" key="GridCell.Tab.0.right/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1625047135715" />
     <state width="1414" height="3" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1622110608872" />
     <state x="1885" y="149" key="IDE.errors.dialog" timestamp="1621244270038">
       <screen x="1440" y="-59" width="1920" height="1057" />
