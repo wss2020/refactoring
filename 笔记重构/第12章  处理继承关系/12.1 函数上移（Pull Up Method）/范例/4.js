@@ -28,6 +28,8 @@ class Employee extends Party{
     }
 }
 
+class Department extends Party{}
+
 const employee = new Employee(123);
 console.log(employee.monthlyCost);
 console.log(employee.annualCost);

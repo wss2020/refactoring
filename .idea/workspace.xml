@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0e110b11-4635-405a-8d50-bf66468894af" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.1 函数上移（Pull Up Method）/简介.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.1 函数上移（Pull Up Method）/简介.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.1 函数上移（Pull Up Method）/范例/4.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.1 函数上移（Pull Up Method）/范例/4.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -168,14 +167,8 @@
       <workItem from="1624586792768" duration="3068000" />
       <workItem from="1624625170362" duration="5419000" />
       <workItem from="1624864094632" duration="7025000" />
-      <workItem from="1624956885009" duration="2247000" />
-    </task>
-    <task id="LOCAL-00038" summary="6.9 函数组合成类">
-      <created>1607586847884</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1607586847884</updated>
+      <workItem from="1624956885009" duration="2832000" />
+      <workItem from="1625041665830" duration="34000" />
     </task>
     <task id="LOCAL-00039" summary="6.9 函数组合成类">
       <created>1607587392546</created>
@@ -513,14 +506,20 @@
       <option name="project" value="LOCAL" />
       <updated>1624872992519</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="12.1">
+      <created>1624959802382</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1624959802382</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="6.9 函数组合成类" />
     <MESSAGE value="6.10 函数组合成变换" />
     <MESSAGE value="12" />
     <MESSAGE value="add test" />
@@ -545,41 +544,42 @@
     <MESSAGE value="11.1" />
     <MESSAGE value="11.3" />
     <MESSAGE value="11" />
-    <option name="LAST_COMMIT_MESSAGE" value="11" />
+    <MESSAGE value="12.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="12.1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2059" y="-5" key="CommitChangelistDialog2" timestamp="1624872992110">
+    <state x="2059" y="-5" key="CommitChangelistDialog2" timestamp="1624959801996">
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
-    <state x="2059" y="-5" key="CommitChangelistDialog2/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1624872992110" />
+    <state x="2059" y="-5" key="CommitChangelistDialog2/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1624959801995" />
     <state x="297" y="23" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1624757887941" />
     <state x="2023" y="108" key="DiffContextDialog" timestamp="1624007639905">
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
     <state x="2023" y="108" key="DiffContextDialog/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1624007639905" />
-    <state width="1894" height="274" key="GridCell.Tab.0.bottom" timestamp="1624959762831">
+    <state width="1894" height="274" key="GridCell.Tab.0.bottom" timestamp="1624961197547">
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
     <state width="1894" height="238" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.-59.1920.1057@0.23.1440.877" timestamp="1621314910269" />
-    <state width="1894" height="274" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1624959762831" />
+    <state width="1894" height="274" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1624961197547" />
     <state width="1414" height="3" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1622110608873" />
-    <state width="1894" height="274" key="GridCell.Tab.0.center" timestamp="1624959762829">
+    <state width="1894" height="274" key="GridCell.Tab.0.center" timestamp="1624961197546">
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
     <state width="1894" height="238" key="GridCell.Tab.0.center/0.23.1440.877/1440.-59.1920.1057@0.23.1440.877" timestamp="1621314910268" />
-    <state width="1894" height="274" key="GridCell.Tab.0.center/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1624959762829" />
+    <state width="1894" height="274" key="GridCell.Tab.0.center/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1624961197546" />
     <state width="1414" height="3" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1622110608871" />
-    <state width="1894" height="274" key="GridCell.Tab.0.left" timestamp="1624959762824">
+    <state width="1894" height="274" key="GridCell.Tab.0.left" timestamp="1624961197545">
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
     <state width="1894" height="238" key="GridCell.Tab.0.left/0.23.1440.877/1440.-59.1920.1057@0.23.1440.877" timestamp="1621314910267" />
-    <state width="1894" height="274" key="GridCell.Tab.0.left/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1624959762824" />
+    <state width="1894" height="274" key="GridCell.Tab.0.left/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1624961197545" />
     <state width="1414" height="3" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1622110608847" />
-    <state width="1894" height="274" key="GridCell.Tab.0.right" timestamp="1624959762830">
+    <state width="1894" height="274" key="GridCell.Tab.0.right" timestamp="1624961197546">
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
     <state width="1894" height="238" key="GridCell.Tab.0.right/0.23.1440.877/1440.-59.1920.1057@0.23.1440.877" timestamp="1621314910268" />
-    <state width="1894" height="274" key="GridCell.Tab.0.right/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1624959762830" />
+    <state width="1894" height="274" key="GridCell.Tab.0.right/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1624961197546" />
     <state width="1414" height="3" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1622110608872" />
     <state x="1885" y="149" key="IDE.errors.dialog" timestamp="1621244270038">
       <screen x="1440" y="-59" width="1920" height="1057" />
