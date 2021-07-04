@@ -1,7 +1,5 @@
 //曾用名：以委托取代继承（Replace Inheritance with Delegation）
 
-
-
 // 重构前
 class List {}
 class Stack extends List {}
@@ -14,11 +12,6 @@ class Stack {
         this._storage = new List();
     }
 }
-
-
-
-
-
 
 /**
  动机

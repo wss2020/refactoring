@@ -1,29 +1,46 @@
 /**
-    最后去除Scroll与CatalogItem之间的继承关系。
+ 最后去除Scroll与CatalogItem之间的继承关系。
  */
 
 
-class CatalogItem{
+class CatalogItem {
     constructor(id, title, tags) {
         this._id = id;
-        this._title = title; this._tags = tags;
+        this._title = title;
+        this._tags = tags;
     }
 
-    get id() {return this._id;}
-    get title() {return this._title;}
-    hasTag(arg) {return this._tags.includes(arg);}
+    get id() {
+        return this._id;
+    }
+
+    get title() {
+        return this._title;
+    }
+
+    hasTag(arg) {
+        return this._tags.includes(arg);
+    }
 }
 
 
-
-class Scroll{
+class Scroll {
     constructor(id, title, tags, dateLastCleaned) {
         this._lastCleaned = dateLastCleaned;
         this._catalogItem = new CatalogItem(id, title, tags);
     }
-    get id() {return this._catalogItem.id;}
-    get title() {return this._catalogItem.title;}
-    hasTag(aString) {return this._catalogItem.hasTag(aString);}
+
+    get id() {
+        return this._catalogItem.id;
+    }
+
+    get title() {
+        return this._catalogItem.title;
+    }
+
+    hasTag(aString) {
+        return this._catalogItem.hasTag(aString);
+    }
 
     needsCleaning(targetDate) {
         const threshold = this.hasTag("revered") ? 700 : 1500;
@@ -36,9 +53,9 @@ class Scroll{
 }
 
 /**
-    基本的以委托取代超类重构到这里就完成了，不过在这个例子中，我还有一点收尾工作要做。
+ 基本的以委托取代超类重构到这里就完成了，不过在这个例子中，我还有一点收尾工作要做。
 
-    前面的重构把CatalogItem变成了Scroll的一个组件：每个Scroll对象包含一个独一无二的CatalogItem对象。在使用本重构的很多情况下，这样处理就够了。
+ 前面的重构把CatalogItem变成了Scroll的一个组件：每个Scroll对象包含一个独一无二的CatalogItem对象。在使用本重构的很多情况下，这样处理就够了。
  但在这个例子中，更好的建模方式应该是：关于灰鳞病的一个目录项，对应于图书馆中的6份卷轴，因为这6份卷轴都是同一个标题。这实际上是要运用将值对象改为引用
  对象（256）。
 

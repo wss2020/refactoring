@@ -1,18 +1,26 @@
 /**
-    我首先在Scroll类中创建一个属性，令其指向一个新建的CatalogItem实例。
+ 我首先在Scroll类中创建一个属性，令其指向一个新建的CatalogItem实例。
  */
 
-class CatalogItem{
+class CatalogItem {
     constructor(id, title, tags) {
         this._id = id;
-        this._title = title; this._tags = tags;
+        this._title = title;
+        this._tags = tags;
     }
 
-    get id() {return this._id;}
-    get title() {return this._title;}
-    hasTag(arg) {return this._tags.includes(arg);}
-}
+    get id() {
+        return this._id;
+    }
 
+    get title() {
+        return this._title;
+    }
+
+    hasTag(arg) {
+        return this._tags.includes(arg);
+    }
+}
 
 
 class Scroll extends CatalogItem {
