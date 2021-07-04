@@ -1,11 +1,9 @@
-/*
-* 曾用名：提炼函数（Extract Method）
+/**
+ *
+ 曾用名：提炼函数（Extract Method）
 
-反向重构：内联函数（115）
-
-*
-*
-* */
+ 反向重构：内联函数（115）
+ * */
 
 //修改前
 function printOwing(invoice) {
@@ -16,7 +14,6 @@ function printOwing(invoice) {
     console.log(`name: ${invoice.customer}`);
     console.log(`amount: ${outstanding}`);
 }
-
 
 
 //修改后

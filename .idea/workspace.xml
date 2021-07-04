@@ -3,15 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="0e110b11-4635-405a-8d50-bf66468894af" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.11 以委托取代超类（Replace Superclass with Delegate） /简介.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.11 以委托取代超类（Replace Superclass with Delegate） /简介.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.11 以委托取代超类（Replace Superclass with Delegate） /范例/1.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.11 以委托取代超类（Replace Superclass with Delegate） /范例/1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.11 以委托取代超类（Replace Superclass with Delegate） /范例/2.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.11 以委托取代超类（Replace Superclass with Delegate） /范例/2.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.11 以委托取代超类（Replace Superclass with Delegate） /范例/3.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.11 以委托取代超类（Replace Superclass with Delegate） /范例/3.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.11 以委托取代超类（Replace Superclass with Delegate） /范例/4.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.11 以委托取代超类（Replace Superclass with Delegate） /范例/4.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.11 以委托取代超类（Replace Superclass with Delegate） /范例/5.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.11 以委托取代超类（Replace Superclass with Delegate） /范例/5.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.11 以委托取代超类（Replace Superclass with Delegate） /范例/6.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.11 以委托取代超类（Replace Superclass with Delegate） /范例/6.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.11 以委托取代超类（Replace Superclass with Delegate） /范例/7.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.11 以委托取代超类（Replace Superclass with Delegate） /范例/7.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.11 以委托取代超类（Replace Superclass with Delegate） /范例/8.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第12章  处理继承关系/12.11 以委托取代超类（Replace Superclass with Delegate） /范例/8.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.1 提炼函数（Extract Function）/介绍.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第6章第一组重构/6.1 提炼函数（Extract Function）/介绍.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.2 字段改名（Rename Field）/范例/3.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.2 字段改名（Rename Field）/范例/3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.2 字段改名（Rename Field）/范例/4.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.2 字段改名（Rename Field）/范例/4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.2 字段改名（Rename Field）/范例/5.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第9章​ 重新组织数据/9.2 字段改名（Rename Field）/范例/5.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -155,14 +150,7 @@
       <workItem from="1624956885009" duration="2832000" />
       <workItem from="1625041665830" duration="4608000" />
       <workItem from="1625105861476" duration="5969000" />
-      <workItem from="1625269837372" duration="10443000" />
-    </task>
-    <task id="LOCAL-00047" summary="12">
-      <created>1609235542690</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1609235542690</updated>
+      <workItem from="1625269837372" duration="11538000" />
     </task>
     <task id="LOCAL-00048" summary="12">
       <created>1609235721619</created>
@@ -500,7 +488,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625376188064</updated>
     </task>
-    <option name="localTasksCounter" value="96" />
+    <task id="LOCAL-00096" summary="12">
+      <created>1625390467598</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1625390467598</updated>
+    </task>
+    <option name="localTasksCounter" value="97" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -535,11 +530,11 @@
     <option name="LAST_COMMIT_MESSAGE" value="12" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="0" y="23" key="CommitChangelistDialog2" timestamp="1625376187610">
+    <state x="0" y="23" key="CommitChangelistDialog2" timestamp="1625390467400">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="1885" y="-5" key="CommitChangelistDialog2/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1625120540746" />
-    <state x="0" y="23" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1625376187610" />
+    <state x="0" y="23" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1625390467400" />
     <state x="2023" y="108" key="DiffContextDialog" timestamp="1624007639905">
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
@@ -580,11 +575,11 @@
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
     <state x="1620" y="101" key="SettingsEditor/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1621302378898" />
-    <state x="345" y="193" key="Vcs.Push.Dialog.v2" timestamp="1625376194251">
+    <state x="345" y="193" key="Vcs.Push.Dialog.v2" timestamp="1625390469070">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="1900" y="146" key="Vcs.Push.Dialog.v2/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1623144342142" />
-    <state x="345" y="193" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1625376194251" />
+    <state x="345" y="193" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1625390469070" />
     <state x="2027" y="161" width="822" height="652" key="find.popup" timestamp="1623828150270">
       <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
