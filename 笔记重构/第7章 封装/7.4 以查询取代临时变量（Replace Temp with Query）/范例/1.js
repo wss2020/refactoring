@@ -14,7 +14,7 @@ class Order {
 }
 
 /**
-    我希望把basePrice和discountFactor两个临时变量变成函数。
-    先从basePrice开始，我先把它声明成const并运行测试。这可以很好地防止我遗漏了对变量的
+ 我希望把basePrice和discountFactor两个临时变量变成函数。
+ 先从basePrice开始，我先把它声明成const并运行测试。这可以很好地防止我遗漏了对变量的
  其他赋值点——对于这么个小函数是不太可能的，但当我处理更大的函数时就不一定了。
  */
