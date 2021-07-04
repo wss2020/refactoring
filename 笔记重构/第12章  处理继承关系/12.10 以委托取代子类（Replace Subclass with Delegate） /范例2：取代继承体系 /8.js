@@ -1,6 +1,5 @@
-
 /**
-    同样用搬移函数（198）把airSpeedVelocity搬到委托类中。
+ 同样用搬移函数（198）把airSpeedVelocity搬到委托类中。
  */
 
 function createBird(data) {
@@ -20,6 +19,7 @@ class Bird {
         this._plumage = data.plumage;
         this._speciesDelegate = this.selectSpeciesDelegate(data);
     }
+
     selectSpeciesDelegate(data) {
         switch (data.type) {
             case 'EuropeanSwallow':
@@ -31,10 +31,14 @@ class Bird {
         }
     }
 
-    get name() { return this._name;}
+    get name() {
+        return this._name;
+    }
+
     get plumage() {
         return this._plumage || "average";
     }
+
     get airSpeedVelocity() {
         return this._speciesDelegate ? this._speciesDelegate.airSpeedVelocity : null;
     }
@@ -61,29 +65,27 @@ class NorwegianBlueParrot extends Bird {
     get plumage() {
         if (this._voltage > 100) return "scorched"; else return this._plumage || "beautiful";
     }
+
     get airSpeedVelocity() {
         return (this._isNailed) ? 0 : 10 + this._voltage / 10;
     }
 }
 
+class EuropeanSwallowDelegate {
+    get airSpeedVelocity() {
+        return 35;
+    }
+}
 
-
-
-class AfricanSwallowDelegate{
+class AfricanSwallowDelegate {
     constructor(data) {
         this._numberOfCoconuts = data.numberOfCoconuts;
     }
+
     get airSpeedVelocity() {
         return 40 - 2 * this._numberOfCoconuts;
     }
 }
-
-class EuropeanSwallowDelegate {
-    get airSpeedVelocity() {
-        return this._speciesDelegate.airSpeedVelocity;
-    }
-}
-
 
 /**
  再删掉AfricanSwallow子类。
