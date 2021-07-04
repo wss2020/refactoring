@@ -1,8 +1,8 @@
 /**
-    最后一个例子是一个只存在于子类中的函数。
+ 最后一个例子是一个只存在于子类中的函数。
 
-    先把 hasDinner 从子类 PremiumBooking 移动到委托类 PremiumBookingDelegate。
-    然后在Booking类中添加分发逻辑 hasDinner。
+ 先把 hasDinner 从子类 PremiumBooking 移动到委托类 PremiumBookingDelegate。
+ 然后在Booking类中添加分发逻辑 hasDinner。
  */
 class Booking {
     constructor(show, date) {
@@ -10,24 +10,20 @@ class Booking {
         this._date = date;
     }
 
-    get hasTalkback(){
+    get hasTalkback() {
         return (this._premiumDelegate)
             ? this._premiumDelegate.hasTalkback
             : this._show.hasOwnProperty('talkback') && !this.isPeakDay;
     }
 
     get basePrice() {
-        let result = this._show.price;
-        if (this.isPeakDay)
-            result += Math.round(result * 0.15); return (this._premiumDelegate)
-            ? this._premiumDelegate.extendBasePrice(result)
-            : result;
+        return (this._premiumDelegate) ? this._premiumDelegate.basePrice : this._privateBasePrice;
     }
 
-    get hasDinner() {
-        return (this._premiumDelegate)
-            ? this._premiumDelegate.hasDinner
-            : undefined;
+    get _privateBasePrice() {
+        let result = this._show.price;
+        if (this.isPeakDay) result += Math.round(result * 0.15);
+        return result;
     }
 
     _bePremium(extras) {
@@ -41,10 +37,6 @@ class PremiumBooking extends Booking {
         this._extras = extras;
     }
 
-    extendBasePrice(base){
-        return Math.round(base + this._extras.premiumFee);
-    }
-
     // get hasDinner() {
     //     return this._extras.hasOwnProperty('dinner') && !this.isPeakDay;
     // }
@@ -52,24 +44,28 @@ class PremiumBooking extends Booking {
 }
 
 
-class PremiumBookingDelegate{
+class PremiumBookingDelegate {
     constructor(hostBooking, extras) {
         this._host = hostBooking;
         this._extras = extras;
     }
+
     get hasTalkback() {
         return this._host._show.hasOwnProperty('talkback');
     }
+
     get hasDinner() {
         return this._extras.hasOwnProperty('dinner') && !this._host.isPeakDay;
     }
 
 }
+
 function createBooking(show, date) {
     return new Booking(show, date);
 }
+
 function createPremiumBooking(show, date, extras) {
-    const result = new PremiumBooking (show, date, extras);
+    const result = new PremiumBooking(show, date, extras);
     result._bePremium(extras);
     return result;
 }
@@ -81,12 +77,11 @@ let aBooking = createBooking(show, date);
 let aBooking = createPremiumBooking(show, date, extras);
 
 
-
 /**
-    在JavaScript中，如果尝试访问一个没有定义的属性，就会得到undefined，所以我在这个函数中也这样做。（尽管我直觉认为应该抛出错误，我所熟悉的
+ 在JavaScript中，如果尝试访问一个没有定义的属性，就会得到undefined，所以我在这个函数中也这样做。（尽管我直觉认为应该抛出错误，我所熟悉的
  其他面向对象动态语言就是这样做的。）
 
-    所有的行为都从子类中搬移出去之后，我就可以修改工厂函数，令其返回超类的实例。再次运行测试，确保一切都运转良好，然后我就可以删除子类。
+ 所有的行为都从子类中搬移出去之后，我就可以修改工厂函数，令其返回超类的实例。再次运行测试，确保一切都运转良好，然后我就可以删除子类。
  */
 
 

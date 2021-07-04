@@ -1,5 +1,5 @@
 /**
-    另一种办法是，可以重新定义委托对象中的函数，使其成为基础函数的扩展。
+ 另一种办法是，可以重新定义委托对象中的函数，使其成为基础函数的扩展。
  */
 class Booking {
     constructor(show, date) {
@@ -7,12 +7,11 @@ class Booking {
         this._date = date;
     }
 
-    get hasTalkback(){
+    get hasTalkback() {
         return (this._premiumDelegate)
             ? this._premiumDelegate.hasTalkback
             : this._show.hasOwnProperty('talkback') && !this.isPeakDay;
     }
-
 
     //get basePrice() {
     //    let result = this._show.price;
@@ -21,12 +20,9 @@ class Booking {
     // }
     get basePrice() {
         let result = this._show.price;
-        if (this.isPeakDay)
-            result += Math.round(result * 0.15); return (this._premiumDelegate)
-            ? this._premiumDelegate.extendBasePrice(result)
-            : result;
+        if (this.isPeakDay) result += Math.round(result * 0.15);
+        return (this._premiumDelegate) ? this._premiumDelegate.extendBasePrice(result) : result;
     }
-
 
     _bePremium(extras) {
         this._premiumDelegate = new PremiumBookingDelegate(this, extras);
@@ -42,9 +38,6 @@ class PremiumBooking extends Booking {
     // get basePrice() {
     //     return Math.round(super.basePrice + this._extras.premiumFee);
     // }
-    extendBasePrice(base){
-        return Math.round(base + this._extras.premiumFee);
-    }
 
     get hasDinner() {
         return this._extras.hasOwnProperty('dinner') && !this.isPeakDay;
@@ -53,20 +46,27 @@ class PremiumBooking extends Booking {
 }
 
 
-class PremiumBookingDelegate{
+class PremiumBookingDelegate {
     constructor(hostBooking, extras) {
         this._host = hostBooking;
         this._extras = extras;
     }
+
     get hasTalkback() {
         return this._host._show.hasOwnProperty('talkback');
     }
+
+    extendBasePrice(base) {
+        return Math.round(base + this._extras.premiumFee);
+    }
 }
+
 function createBooking(show, date) {
     return new Booking(show, date);
 }
+
 function createPremiumBooking(show, date, extras) {
-    const result = new PremiumBooking (show, date, extras);
+    const result = new PremiumBooking(show, date, extras);
     result._bePremium(extras);
     return result;
 }
@@ -78,9 +78,8 @@ let aBooking = createBooking(show, date);
 let aBooking = createPremiumBooking(show, date, extras);
 
 
-
 /**
-    两种办法都可行，我更偏爱后者一点儿，因为需要的代码较少。最后一个例子是一个只存在于子类中的函数。
+ 两种办法都可行，我更偏爱后者一点儿，因为需要的代码较少。最后一个例子是一个只存在于子类中的函数。
  */
 
 

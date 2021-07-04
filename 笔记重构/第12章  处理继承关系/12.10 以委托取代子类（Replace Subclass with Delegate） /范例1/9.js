@@ -49,11 +49,6 @@ class PremiumBooking extends Booking {
     // get basePrice() {
     //     return Math.round(super.basePrice + this._extras.premiumFee);
     // }
-    get basePrice() {
-        return Math.round(this._host._privateBasePrice + this._extras.premiumFee);
-    }
-
-
 
     get hasDinner() {
         return this._extras.hasOwnProperty('dinner') && !this.isPeakDay;
@@ -69,6 +64,9 @@ class PremiumBookingDelegate{
     }
     get hasTalkback() {
         return this._host._show.hasOwnProperty('talkback');
+    }
+    get basePrice() {
+        return Math.round(this._host._privateBasePrice + this._extras.premiumFee);
     }
 }
 function createBooking(show, date) {
