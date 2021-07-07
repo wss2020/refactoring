@@ -1,7 +1,7 @@
 // 无论何时，当我与一个数据值打交道时，第一件事一定是对它使用封装变量（132）。
 class Order {
     constructor(data) {
-        this.priority = data.priority;
+        this._priority = data.priority;
         // ...
     }
     get priority(){
