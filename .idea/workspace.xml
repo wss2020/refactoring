@@ -7,7 +7,7 @@
       <change beforePath="$PROJECT_DIR$/笔记重构/第7章 封装/7.3&#9;以对象取代基本类型（Replace Primitive with Object）/范例/2.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第7章 封装/7.3&#9;以对象取代基本类型（Replace Primitive with Object）/范例/2.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/笔记重构/第7章 封装/7.3&#9;以对象取代基本类型（Replace Primitive with Object）/范例/3.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第7章 封装/7.3&#9;以对象取代基本类型（Replace Primitive with Object）/范例/3.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/笔记重构/第7章 封装/7.3&#9;以对象取代基本类型（Replace Primitive with Object）/范例/4.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第7章 封装/7.3&#9;以对象取代基本类型（Replace Primitive with Object）/范例/4.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.1 搬移函数（Move Function）/范例2/1.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第8章 ​搬移特性/8.1 搬移函数（Move Function）/范例2/1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/笔记重构/第7章 封装/7.3&#9;以对象取代基本类型（Replace Primitive with Object）/范例/5.js" beforeDir="false" afterPath="$PROJECT_DIR$/笔记重构/第7章 封装/7.3&#9;以对象取代基本类型（Replace Primitive with Object）/范例/5.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,13 +154,7 @@
       <workItem from="1625269837372" duration="16746000" />
       <workItem from="1625447502653" duration="6199000" />
       <workItem from="1625535048440" duration="3041000" />
-    </task>
-    <task id="LOCAL-00050" summary="12">
-      <created>1609726490523</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1609726490523</updated>
+      <workItem from="1625621543609" duration="5177000" />
     </task>
     <task id="LOCAL-00051" summary="12">
       <created>1609729655121</created>
@@ -498,7 +492,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625394979214</updated>
     </task>
-    <option name="localTasksCounter" value="99" />
+    <task id="LOCAL-00099" summary="format code">
+      <created>1625621557126</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1625621557129</updated>
+    </task>
+    <option name="localTasksCounter" value="100" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -533,10 +534,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="format code" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="0" y="23" key="CommitChangelistDialog2" timestamp="1625394979017">
-      <screen x="0" y="23" width="1440" height="877" />
+    <state x="1885" y="-5" key="CommitChangelistDialog2" timestamp="1625621556534">
+      <screen x="1440" y="-59" width="1920" height="1057" />
     </state>
-    <state x="1885" y="-5" key="CommitChangelistDialog2/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1625120540746" />
+    <state x="1885" y="-5" key="CommitChangelistDialog2/0.23.1440.877/1440.-59.1920.1057@1440.-59.1920.1057" timestamp="1625621556534" />
     <state x="0" y="23" key="CommitChangelistDialog2/0.23.1440.877@0.23.1440.877" timestamp="1625394979017" />
     <state x="2023" y="108" key="DiffContextDialog" timestamp="1624007639905">
       <screen x="1440" y="-59" width="1920" height="1057" />

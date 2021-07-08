@@ -5,7 +5,7 @@
  */
 class Order {
     constructor(data) {
-        this._priority = data.priority;
+        this.priority = data.priority;
         // ...
     }
 }
